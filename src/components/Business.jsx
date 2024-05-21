@@ -27,19 +27,24 @@ const Business = () => (
                     Event Casino Schweiz?
                 </span>
             </h2>
-            <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+            <p className={`${styles.paragraph} max-w-[470px] mt-5 text-gradient`}>
                 Genießen Sie Casino-Unterhaltung auf höchstem Niveau für Ihre nächste Feier in der ganzen Schweiz.
             </p>
+            <div className="ss:flex hidden md:mr-4 mr-0">
 
-            {/* <Button styles={`mt-10`} className="sm:hidden" /> */}
+
+                <Button styles={`mt-10`} />
+            </div>
         </div>
 
         <div className={`${layout.sectionImg} flex-col`}>
             {features.map((feature, index) => (
                 <FeatureCard key={feature.id} {...feature} index={index} />
             ))}
-            {/* <Button styles={`mt-10`} /> */}
+            <div className={`ss:hidden ${styles.flexCenter}`}>
 
+                <Button styles={`mt-10`} />
+            </div>
         </div>
     </section>
 );

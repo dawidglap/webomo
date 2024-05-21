@@ -151,3 +151,7 @@
   object-fit: cover; /* Riempi completamente il contenitore senza distorcere l'immagine, potrebbe non essere supportato su tutti i browser */
 }
 
+#features{
+  /* min-height: 100vh; */
+}
+

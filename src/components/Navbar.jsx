@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../assets";
+import { close, logo, ecsLogo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -8,9 +8,9 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <nav className="w-full flex py-6 justify-between items-center navbar">
-            {/* <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" /> */}
-            <h3 className="text-gradient text-lg">ECS</h3>
+        <nav className="w-full flex  justify-between items-center navbar">
+            <img src={ecsLogo} alt="hoobank" className="w-[48px] xs:w-[60px] ss:w-[72px] sm:w-[84px] md:w-[96px] mt-2 md:pt-3 pt-3" />
+            {/* <h3 className="text-gradient text-lg">ECS</h3> */}
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">
                 {navLinks.map((nav, index) => (
                     <li

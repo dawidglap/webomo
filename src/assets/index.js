@@ -25,6 +25,8 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import play from "./play.jpeg";
 import gaming from "./gaming.png";
+import ecsLogo from "./ecsLogo.png";
+import fullLogo from "./fullLogo.png"
 
 export {
   airbnb,
@@ -54,4 +56,6 @@ export {
   people03,
   play,
   gaming,
+  ecsLogo,
+  fullLogo,
 };

@@ -11,28 +11,30 @@ const Hero = () => {
                 <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
                     <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
                     <p className={`${styles.paragraph} ml-2`}>
-                        <span className="text-white">20%</span> di sconto fino a{" "}
-                        <span className="text-white">Luglio</span> 2024
+                        <span className="text-white">20%</span> Rabatt bis{" "}
+                        <span className="text-white">Juli</span> 2024
                     </p>
                 </div>
 
                 <div className="flex flex-row justify-between items-center w-full">
                     <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[75px]">
-                        Creiamo momenti    <br className="sm:block hidden" />{" "}
-                        <span className="text-gradient">indimenticabili</span>{" "}
+                        Wir schaffen <br className="sm:block hidden" />{" "}
+                        <span className="text-gradient">unvergessliche</span>{" "}
                     </h1>
-                    {/* <div className="ss:flex hidden md:mr-4 mr-0">
+                    <div className="ss:flex hidden md:mr-4 mr-0 ps-8">
                         <GetStarted />
-                    </div> */}
+                    </div>
                 </div>
 
                 <h1 className="font-poppins font-semibold ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-                    per il tuo evento
+                    Momente für Ihr Event.
                 </h1>
                 <p className={`${styles.paragraph} text-gradient max-w-[470px] mt-5`}>
-                    Intrattenimento di classe che supera ogni aspettativa
+                    Unterhaltung der Spitzenklasse, die alle Erwartungen übertrifft.
                 </p>
-                <Button className="" />
+                <div className={`ss:hidden ${styles.flexCenter}`}>
+                    <Button />
+                </div>
             </div>
 
             <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
@@ -45,9 +47,9 @@ const Hero = () => {
                 {/* gradient end */}
             </div>
 
-            <div className={`ss:hidden ${styles.flexCenter}`}>
-                {/* <GetStarted /> */}
-            </div>
+            {/* <div className={`ss:hidden ${styles.flexCenter}`}>
+                <GetStarted />
+            </div> */}
         </section>
     );
 };

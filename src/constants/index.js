@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Step 1: Wähle dein bevorzugtes Format",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Klicken Sie hier und entdecken Sie eine Vielzahl einzigartiger Casino-Formate für Ihr Event.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Step 2: Einfach und unkompliziert dein Event buchen",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Wählen Sie den Tag und senden Sie Ihre Buchungsanfrage für Ihr unvergessliches Event.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Step 3: Feiere mit Stil und erlebe eine unvergessliche Nacht",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Die ultimative Casino-Party: Lass die Würfel rollen und die Chips fliegen",
   },
 ];
 
