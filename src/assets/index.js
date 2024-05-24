@@ -27,8 +27,10 @@ import play from "./play.jpeg";
 import gaming from "./gaming.png";
 import ecsLogo from "./ecsLogo.png";
 import fullLogo from "./fullLogo.png"
+import vid from "./vid.mp4"
 
 export {
+  vid,
   airbnb,
   bill,
   binance,

@@ -1,9 +1,12 @@
+/* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
+/* Tailwind CSS utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Root variables */
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -14,10 +17,12 @@
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
+/* Global styles */
 * {
   scroll-behavior: smooth;
 }
 
+/* Text gradient effect */
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -34,6 +39,7 @@
   text-fill-color: transparent;
 }
 
+/* Background gradients */
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -76,15 +82,18 @@
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
 }
 
+/* Box shadow */
 .box-shadow {
   box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
+/* Sidebar animation */
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+/* Slide top animation keyframes */
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
@@ -107,51 +116,61 @@
   }
 }
 
+/* Hover effect for feature cards */
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
 
+/* Remove margin for the last feedback card */
 .feedback-container .feedback-card:last-child {
   margin-right: 0px;
 }
 
+/* Feedback card styles */
 .feedback-card {
   background: transparent;
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
 }
 
-.feedback-card:hover {
-  background: var(--black-gradient);
+/* Hover effect for feedback cards */
+.feedback-card:hover,
+.feedback-card-hover {
+  background: var(--black-gradient); /* Apply your hover effect background color */
 }
 
+/* Blue gradient effect */
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
   filter: blur(123px);
 }
 
+/* Pink gradient effect */
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
   filter: blur(900px);
 }
 
+/* White gradient effect */
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
 
-#home{
+/* Section specific styles */
+#home {
   min-height: 90vh;
 }
 
+/* Responsive image styles */
 #hero-img {
-  width: 100%; /* Larghezza dell'immagine al 100% del suo contenitore */
-  height: auto; /* Altezza automatica per mantenere le proporzioni originali */
-  max-width: 100%; /* L'immagine non supererà mai la larghezza del suo contenitore */
-  display: block; /* Assicura che l'immagine sia un blocco per occupare tutto lo spazio disponibile */
-  object-fit: cover; /* Riempi completamente il contenitore senza distorcere l'immagine, potrebbe non essere supportato su tutti i browser */
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
 }
 
-#features{
+#features {
   /* min-height: 100vh; */
 }
-

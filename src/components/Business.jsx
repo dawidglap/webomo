@@ -27,7 +27,7 @@ const Business = () => (
                     Event Casino Schweiz?
                 </span>
             </h2>
-            <p className={`${styles.paragraph} max-w-[470px] mt-5 text-gradient`}>
+            <p className={`${styles.paragraph} max-w-[470px] mt-5 text-white`}>
                 Genießen Sie Casino-Unterhaltung auf höchstem Niveau für Ihre nächste Feier in der ganzen Schweiz.
             </p>
             <div className="ss:flex hidden md:mr-4 mr-0">
