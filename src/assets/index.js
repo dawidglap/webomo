@@ -26,12 +26,19 @@ import people03 from "./people03.png";
 import play from "./play.jpeg";
 import gaming from "./gaming.png";
 import ecsLogo from "./ecsLogo.png";
-import fullLogo from "./fullLogo.png"
-import vid from "./vid.mp4"
+import fullLogo from "./fullLogo.png";
+import vid from "./vid.mp4";
+import canon from "./canon.svg";
+import versace from "./versace.svg";
+import yamaha from "./yamaha.svg";
+import loreal from "./loreal.svg";
+import mercedes from "./mercedes.svg";
+import video2 from "./video2.mp4";
+
 
 export {
   vid,
-  airbnb,
+  canon,
   bill,
   binance,
   card,
@@ -60,4 +67,9 @@ export {
   gaming,
   ecsLogo,
   fullLogo,
+  versace,
+  yamaha,
+  loreal,
+  mercedes,
+  video2,
 };

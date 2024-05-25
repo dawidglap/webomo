@@ -13,12 +13,14 @@ import GetStarted from "./GetStarted";
 import Hero from "./Hero";
 import Stats from "./Stats";
 import QuickContact from "./QuickContact";
+import Brand from "./Brand";
 
 export {
     Navbar,
     About,
     Button,
     Business,
+    Brand,
     Packages,
     PackageCard,
     NotEnough,

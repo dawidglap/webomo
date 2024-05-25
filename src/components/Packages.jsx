@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { apple, bill, google, vid } from "../assets";
+import { vid } from "../assets";
 import styles, { layout } from "../style";
 import PackageCard from "./PackageCard";
 import { feedback } from "../constants";
