@@ -22,10 +22,7 @@ const App = () => (
         <Packages />
         <NotEnough />
         <Brand />
-        <About />
-        <Contacts />
         <CTA />
-        {/* <GetStarted /> */}
         <Footer />
       </div>
     </div>
