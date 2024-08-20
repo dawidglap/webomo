@@ -46,7 +46,7 @@ const Hero = () => {
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">20%</span> Rabatt bis{" "}
-            <span className="text-white">Juli</span> 2024
+            <span className="text-white">September</span> 2024
           </p>
         </motion.div>
 
