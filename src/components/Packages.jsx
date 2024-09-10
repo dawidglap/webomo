@@ -82,7 +82,7 @@ const Packages = () => {
         </motion.div>
       </motion.section>
       <motion.div
-        className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]"
+        className="flex flex-wrap  justify-center w-full feedback-container relative z-[1]"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         variants={sectionVariants}
