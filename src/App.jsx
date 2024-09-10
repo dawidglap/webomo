@@ -1,9 +1,25 @@
-import React from 'react'
-import styles from './style';
-import { Navbar, About, Button, Brand, NotEnough, Contacts, CTA, Events, Footer, GetStarted, Hero, Stats, Business, Packages, PackageCard } from './components';
+import React from "react";
+import styles from "./style";
+import {
+  Navbar,
+  About,
+  Button,
+  Brand,
+  NotEnough,
+  Contacts,
+  CTA,
+  Events,
+  Footer,
+  GetStarted,
+  Hero,
+  Stats,
+  Business,
+  Packages,
+  PackageCard,
+} from "./components";
 
 const App = () => (
-  <div className='bg-primary w-full overflow-hidden'>
+  <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
@@ -26,9 +42,7 @@ const App = () => (
         <Footer />
       </div>
     </div>
-
-  </div >
+  </div>
 );
 
-
-export default App
+export default App;

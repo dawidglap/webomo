@@ -74,7 +74,7 @@ const Business = () => {
               transition: { duration: 0.8, ease: "easeOut" },
             },
           }}
-          className={`${styles.paragraph} max-w-[470px] mt-5 text-white`}
+          className={`${styles.paragraph} max-w-[470px] mt-5 text-white `}
         >
           Genießen Sie Casino-Unterhaltung auf höchstem Niveau für Ihre nächste
           Feier in der ganzen Schweiz.
@@ -88,7 +88,7 @@ const Business = () => {
               transition: { duration: 0.8, ease: "easeOut" },
             },
           }}
-          className="ss:flex hidden md:mr-4 mr-0"
+          className="ss:flex hidden md:mr-4 mr-0 "
         >
           <Button styles={`mt-10`} />
         </motion.div>

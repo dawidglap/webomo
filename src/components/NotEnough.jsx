@@ -40,39 +40,39 @@ const NotEnough = () => {
 
       <motion.div
         variants={sectionVariants}
-        className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]"
+        className="w-full flex flex-col md:flex-row justify-between items-center sm:mb-16 mb-6 relative z-[1]"
       >
-        <motion.h2 variants={textVariants} className={styles.heading2}>
-          Möchten Sie mehr? <br className="sm:block hidden" />
-        </motion.h2>
+        <motion.div variants={textVariants} className="md:w-1/2 w-full">
+          <h2 className={styles.heading2}>
+            Möchten Sie mehr? <br className="sm:block hidden" />
+          </h2>
 
-        <motion.div variants={textVariants} className="w-full md:mt-0 mt-6">
-          <p className={`${styles.paragraph} md:ps-8 text-left max-w-[450px]`}>
-            <span className="text-gradient">Dein Casino, deine Wahl!</span>{" "}
-            <br />
-            Mit unseren individuellen Paketen kannst du deine Veranstaltung zu
-            etwas Besonderem machen. Entdecke jetzt die Vielfalt unserer
-            Angebote und gestalte dein eigenes, einzigartiges Casino-Event!
-          </p>
-          <QuickContact />
+          <div className="w-full md:mt-6 mt-6">
+            <p className={`${styles.paragraph} text-left max-w-[450px]`}>
+              <span className="text-gradient">Dein Casino, deine Wahl!</span>{" "}
+              <br />
+              Mit unseren individuellen Paketen kannst du deine Veranstaltung zu
+              etwas Besonderem machen. Entdecke jetzt die Vielfalt unserer
+              Angebote und gestalte dein eigenes, einzigartiges Casino-Event!
+            </p>
+            <QuickContact />
+          </div>
         </motion.div>
-      </motion.div>
 
-      <motion.div
-        variants={videoVariants}
-        className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]"
-      >
-        <div className={layout.sectionImgReverse}>
+        <motion.div
+          variants={videoVariants}
+          className="md:w-1/2 w-full mt-6 md:mt-0 flex justify-center"
+        >
           <video
             src={video2}
-            className={`video-container w-[100%] h-[100%] relative z-[5] rounded-lg shadow-lg ${layout.sectionImgReverse}`}
+            className={`video-container w-full h-auto md:w-[80%] lg:w-[60%] relative z-[5] rounded-lg shadow-lg`}
             autoPlay
             loop
             muted
           />
           <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
           <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
-        </div>
+        </motion.div>
       </motion.div>
     </motion.section>
   );

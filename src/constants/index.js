@@ -1,4 +1,20 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, canon, versace,loreal, mercedes, yamaha, send, shield, star,  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  canon,
+  versace,
+  loreal,
+  mercedes,
+  yamaha,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -46,40 +62,63 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
-    bestDeal:'',
-    content: '1 x Black Jack inkl Croupier ',
-    content2: '1 x American Roulette inkl. Croupier',  
-    content3: '3 Stunden Spielbetrieb',  
-    content4: 'Logistikaufwand: Lieferung, Auf & Abbau der Spieltische', 
-    price:'Ab CHF 2.190. - + MwSt.', 
-    name: "Basic Casino Blitz:",
-    title: " Das Einsteigerpaket",
+    bestDeal: "",
+    content: "1 x Black Jack, inkl. Croupier",
+    content2: "3 Stunden Spielzeit",
+    content3: "Logistik inklusive: Lieferung, Auf- und Abbau des Spieltisches",
+    content4: "VIP-Empfang auf Anfrage*",
+    content5: "Hochwertige Tische für ein authentisches Erlebnis",
+    price: "Ab CHF 1.490. - + MwSt.",
+    additional: "Zusätzliche Stunde: + CHF 290",
+    name: "Essential Casino Chic:",
+    title: "Ein Hauch von Klasse",
     img: people01,
   },
   {
     id: "feedback-2",
-    bestDeal:'die beliebteste Wahl',
-    content:
-      "1 x Black Jack inkl. Croupier",
-    content2: '1 x American Roulette inkl. Croupier',  
-    content2_5: "1 x Ultimate Texas Hold'em inkl. Croupier",
-    content3: '3 Stunden Spielbetrieb',  
-    content4: 'Logistikaufwand: Lieferung, Auf & Abbau der Spieltische', 
-    price:'Ab CHF 2.990. - + MwSt.', 
-    name: "Premium-Erlebnis:",
-    title: "Das Goldpaket des Casinos",
+    bestDeal: "beliebteste Wahl",
+    content: "1 x Black Jack oder Ultimate Texas Hold'em, inkl. Croupier",
+    content2: "1 x American Roulette, inkl. Croupier",
+    content3: "3 Stunden Spielzeit",
+    content4: "Logistik inklusive: Lieferung, Auf- und Abbau der Spieltische",
+    content5: "VIP-Empfang auf Anfrage*",
+    content6: "Elegantes Design und makellose Croupiers",
+    price: "Ab CHF 2.190. - + MwSt.",
+    additional: "Zusätzliche Stunde: + CHF 390",
+    name: "Basic Casino Blitz:",
+    title: "Luxus für Einsteiger",
     img: people02,
   },
   {
     id: "feedback-3",
-    content: "2 x Black Jack inkl. Croupier",
-    content2: '1 x American Roulette inkl. Croupier',  
-    content2_5: "1 x Ultimate Texas Hold'em inkl. Croupier",
-    content3: '3 Stunden Spielbetrieb',  
-    content4: 'Logistikaufwand: Lieferung, Auf & Abbau der Spieltische', 
-    price:'Ab CHF 3.790. - + MwSt.',
-      name: "Royal Casino Extravaganz:",
-    title: " Das Deluxe-Paket",
+    bestDeal: "",
+    content: "1 x Black Jack, inkl. Croupier",
+    content2: "1 x American Roulette, inkl. Croupier",
+    content3: "1 x Ultimate Texas Hold'em, inkl. Croupier",
+    content4: "3 Stunden Spielzeit",
+    content5:
+      "VIP-Empfang inklusive: Roter Teppich, Willkommensgetränk, elegante Musik",
+    content6: "Logistik inklusive: Lieferung, Auf- und Abbau der Spieltische",
+    content7: "Luxuriöse Tische, höchste Detailgenauigkeit",
+    price: "Ab CHF 3.290. - + MwSt.",
+    additional: "Zusätzliche Stunde: + CHF 490",
+    name: "Premium-Erlebnis:",
+    title: "Unvergessliches Goldpaket",
+    img: people03,
+  },
+  {
+    id: "feedback-4",
+    bestDeal: "",
+    content:
+      "Tische nach Wahl: Black Jack, American Roulette, Ultimate Texas Hold'em, inkl. Croupiers",
+    content2: "3 Stunden Spielzeit",
+    content3: "VIP-Empfang inklusive: James Bond-Stil",
+    content4: "Zusätzliche Optionen: Musik, Dekoration, Fotoservice, Catering",
+    content5: "Logistik inklusive",
+    price: "Preis auf Anfrage",
+    additional: "Zusätzliche Stunde: Preis je nach Konfiguration",
+    name: "Royal Casino Extravaganz:",
+    title: "Maßgeschneidertes Luxuspaket",
     img: people03,
   },
 ];
@@ -204,7 +243,7 @@ export const clients = [
     id: "client-3",
     logo: yamaha,
   },
-  
+
   {
     id: "client-5",
     logo: loreal,
@@ -213,7 +252,4 @@ export const clients = [
     id: "client-6",
     logo: mercedes,
   },
- 
-
- 
 ];

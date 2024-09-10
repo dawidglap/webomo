@@ -42,7 +42,7 @@ const Packages = () => {
     <>
       <motion.section
         id="product"
-        className={layout.sectionReverse}
+        className={`${layout.section} flex-col lg:flex-row`} // Replaced sectionReverse with a more neutral layout
         ref={ref}
         variants={sectionVariants}
         initial="hidden"
@@ -50,19 +50,22 @@ const Packages = () => {
       >
         <motion.div
           variants={videoVariants}
-          className={layout.sectionImgReverse}
+          className={`flex-1 flex justify-center items-center relative md:pr-4 pr-0`} // Adjusted the layout of the video
         >
           <video
             src={vid}
-            className={`video-container w-[100%] h-[100%] relative z-[5] rounded-lg shadow-lg ${layout.sectionImgReverse}`}
+            className={`w-full h-auto max-w-[600px] relative z-[5] rounded-lg shadow-lg`} // Adjusted video sizing to avoid it being too left-aligned
             autoPlay
             loop
             muted
           />
-          <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
-          <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
+          <div className="absolute z-[3] w-[50%] h-[50%] left-1/2 transform -translate-x-1/2 top-0 rounded-full white__gradient" />
+          <div className="absolute z-[0] w-[50%] h-[50%] left-1/2 transform -translate-x-1/2 bottom-0 rounded-full pink__gradient" />
         </motion.div>
-        <motion.div variants={textVariants} className={layout.sectionInfo}>
+        <motion.div
+          variants={textVariants}
+          className={`${layout.sectionInfo} flex-1`} // Aligning the text properly in relation to the video
+        >
           <h2 className={styles.heading2}>
             <span className="text-gradient">Beeindrucken</span> Sie Ihre Gäste
             mit einem exklusiven
@@ -82,7 +85,7 @@ const Packages = () => {
         </motion.div>
       </motion.section>
       <motion.div
-        className="flex flex-wrap  justify-center w-full feedback-container relative z-[1]"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-x-6 gap-y-10"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         variants={sectionVariants}
