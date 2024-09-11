@@ -1,0 +1,139 @@
+{
+    "navLinks": {
+      "home": "Startseite",
+      "events": "Veranstaltungen",
+      "product": "Produkt",
+      "clients": "Kunden"
+    },
+    "features": {
+      "feature1": {
+        "title": "Step 1: Wähle dein bevorzugtes Format",
+        "content": "Klicken Sie hier und entdecken Sie eine Vielzahl einzigartiger Casino-Formate für Ihr Event."
+      },
+      "feature2": {
+        "title": "Step 2: Einfach und unkompliziert dein Event buchen",
+        "content": "Wählen Sie den Tag und senden Sie Ihre Buchungsanfrage für Ihr unvergessliches Event."
+      },
+      "feature3": {
+        "title": "Step 3: Feiere mit Stil und erlebe eine unvergessliche Nacht",
+        "content": "Die ultimative Casino-Party: Lass die Würfel rollen und die Chips fliegen."
+      }
+    },
+    "feedback": {
+      "feedback1": {
+        "bestDeal": "",
+        "name": "Essential Casino Chic",
+        "title": "Ein Hauch von Klasse",
+        "content": "1 x Black Jack, inkl. Croupier",
+        "content2": "3 Stunden Spielzeit",
+        "content3": "Logistik inklusive: Lieferung, Auf- und Abbau des Spieltisches",
+        "content4": "VIP-Empfang auf Anfrage*",
+        "content5": "Hochwertige Tische für ein authentisches Erlebnis",
+        "price": "Ab CHF 1.490. - + MwSt.",
+        "additional": "Zusätzliche Stunde: + CHF 290"
+      },
+      "feedback2": {
+        "bestDeal": "beliebteste Wahl",
+        "name": "Basic Casino Blitz",
+        "title": "Luxus für Einsteiger",
+        "content": "1 x Black Jack oder Ultimate Texas Hold'em, inkl. Croupier",
+        "content2": "1 x American Roulette, inkl. Croupier",
+        "content3": "3 Stunden Spielzeit",
+        "content4": "Logistik inklusive: Lieferung, Auf- und Abbau der Spieltische",
+        "content5": "VIP-Empfang auf Anfrage*",
+        "content6": "Elegantes Design und makellose Croupiers",
+        "price": "Ab CHF 2.190. - + MwSt.",
+        "additional": "Zusätzliche Stunde: + CHF 390"
+      },
+      "feedback3": {
+        "bestDeal": "",
+        "name": "Premium-Erlebnis",
+        "title": "Unvergessliches Goldpaket",
+        "content": "1 x Black Jack, inkl. Croupier",
+        "content2": "1 x American Roulette, inkl. Croupier",
+        "content3": "1 x Ultimate Texas Hold'em, inkl. Croupier",
+        "content4": "3 Stunden Spielzeit",
+        "content5": "VIP-Empfang inklusive: Roter Teppich, Willkommensgetränk, elegante Musik",
+        "content6": "Logistik inklusive: Lieferung, Auf- und Abbau der Spieltische",
+        "content7": "Luxuriöse Tische, höchste Detailgenauigkeit",
+        "price": "Ab CHF 3.290. - + MwSt.",
+        "additional": "Zusätzliche Stunde: + CHF 490"
+      },
+      "feedback4": {
+        "bestDeal": "",
+        "name": "Royal Casino Extravaganz",
+        "title": "Maßgeschneidertes Luxuspaket",
+        "content": "Tische nach Wahl: Black Jack, American Roulette, Ultimate Texas Hold'em, inkl. Croupiers",
+        "content2": "3 Stunden Spielzeit",
+        "content3": "VIP-Empfang inklusive: James Bond-Stil",
+        "content4": "Zusätzliche Optionen: Musik, Dekoration, Fotoservice, Catering",
+        "content5": "Logistik inklusive",
+        "price": "Preis auf Anfrage",
+        "additional": "Zusätzliche Stunde: Preis je nach Konfiguration"
+      }
+    },
+    "hero": {
+      "discountAmount": "20%",
+      "discountText": "Rabatt bis",
+      "discountDate": "September 2024",
+      "mainTextPart1": "Wir schaffen",
+      "mainTextPart2": "unvergessliche",
+      "mainTextPart3": "Momente für Ihr Event.",
+      "description": "Unterhaltung der Spitzenklasse, die alle Erwartungen übertrifft."
+    },
+    "stats": {
+      "privateEvents": "Private Feiern",
+      "corporateEvents": "Firmenveranstaltungen",
+      "themeWeddings": "Themenhochzeiten"
+    },
+    "cta": {
+      "title": "Hol dir jetzt die perfekte Casino-Nacht nach Hause!",
+      "description": "Genieße den Glanz und Glamour des Casinos und erlebe eine Nacht voller Spaß, Spannung und unvergesslicher Erlebnisse"
+    },
+    "getStarted": {
+      "reserve": "Reservieren",
+      "now":""
+
+    },
+    "notEnough": {
+      "heading": "Möchten Sie mehr?",
+      "highlight": "Dein Casino, deine Wahl!",
+      "description": "Mit unseren individuellen Paketen kannst du deine Veranstaltung zu etwas Besonderem machen. Entdecke jetzt die Vielfalt unserer Angebote und gestalte dein eigenes, einzigartiges Casino-Event!"
+    },
+    "quickContact": {
+      "buttonText": "JETZT ANFRAGEN!"
+    },
+    "business": {
+      "heading": "Wie funktioniert",
+      "subheading": "Event Casino Schweiz?",
+      "description": "Genießen Sie Casino-Unterhaltung auf höchstem Niveau für Ihre nächste Feier in der ganzen Schweiz."
+    },
+    "packages": {
+      "heading": "Beeindrucken",
+      "subheading": "Sie Ihre Gäste mit einem exklusiven Casino-Erlebnis",
+      "description": "Wähle aus einer vielfältigen Auswahl an Casinotischen für deine Veranstaltung. Verwandle jeden Ort in dein persönliches Casino.",
+      "importantNote": "*Wichtiger Hinweis: Gespielt wird ohne Geldeinsatz und Auszahlungen. Dies ist gesetzlich nicht erlaubt!"
+    },
+    "button": {
+      "reserve": "Reservieren"
+    },
+    "footer": {
+      "usefulLinks": "Nützliche Links",
+      "content": "Inhalt",
+      "howItWorks": "Wie es funktioniert",
+      "create": "Erstellen",
+      "explore": "Erkunden",
+      "termsServices": "AGB",
+      "community": "Gemeinschaft",
+      "helpCenter": "Hilfezentrum",
+      "partners": "Partner",
+      "suggestions": "Vorschläge",
+      "blog": "Blog",
+      "newsletters": "Newsletter",
+      "partner": "Partner",
+      "ourPartner": "Unser Partner",
+      "becomePartner": "Partner werden",
+      "allRightsReserved": "Alle Rechte vorbehalten"
+    }
+  }
+  

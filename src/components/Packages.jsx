@@ -2,11 +2,12 @@ import { useState, useRef } from "react";
 import { vid } from "../assets";
 import styles, { layout } from "../style";
 import PackageCard from "./PackageCard";
-import { feedback } from "../constants";
 import { motion, useInView } from "framer-motion";
+import { useTranslation } from "react-i18next"; // Import useTranslation hook
 
 const Packages = () => {
   const [isHovering, setIsHovering] = useState(false);
+  const { t } = useTranslation(); // Use useTranslation for translation
 
   const handleMouseEnter = () => {
     setIsHovering(true);
@@ -38,6 +39,64 @@ const Packages = () => {
     },
   };
 
+  // Feedback data moved here and translated using t() for each key
+  const feedback = [
+    {
+      id: "feedback-1",
+      name: t("feedback.feedback1.name"),
+      title: t("feedback.feedback1.title"),
+      content: t("feedback.feedback1.content"),
+      content2: t("feedback.feedback1.content2"),
+      content3: t("feedback.feedback1.content3"),
+      content4: t("feedback.feedback1.content4"),
+      content5: t("feedback.feedback1.content5"),
+      price: t("feedback.feedback1.price"),
+      additional: t("feedback.feedback1.additional"),
+      bestDeal: t("feedback.feedback1.bestDeal"),
+    },
+    {
+      id: "feedback-2",
+      name: t("feedback.feedback2.name"),
+      title: t("feedback.feedback2.title"),
+      content: t("feedback.feedback2.content"),
+      content2: t("feedback.feedback2.content2"),
+      content3: t("feedback.feedback2.content3"),
+      content4: t("feedback.feedback2.content4"),
+      content5: t("feedback.feedback2.content5"),
+      content6: t("feedback.feedback2.content6"),
+      price: t("feedback.feedback2.price"),
+      additional: t("feedback.feedback2.additional"),
+      bestDeal: t("feedback.feedback2.bestDeal"),
+    },
+    {
+      id: "feedback-3",
+      name: t("feedback.feedback3.name"),
+      title: t("feedback.feedback3.title"),
+      content: t("feedback.feedback3.content"),
+      content2: t("feedback.feedback3.content2"),
+      content3: t("feedback.feedback3.content3"),
+      content4: t("feedback.feedback3.content4"),
+      content5: t("feedback.feedback3.content5"),
+      content6: t("feedback.feedback3.content6"),
+      content7: t("feedback.feedback3.content7"),
+      price: t("feedback.feedback3.price"),
+      additional: t("feedback.feedback3.additional"),
+      bestDeal: t("feedback.feedback3.bestDeal"),
+    },
+    {
+      id: "feedback-4",
+      name: t("feedback.feedback4.name"),
+      title: t("feedback.feedback4.title"),
+      content: t("feedback.feedback4.content"),
+      content2: t("feedback.feedback4.content2"),
+      content3: t("feedback.feedback4.content3"),
+      content4: t("feedback.feedback4.content4"),
+      content5: t("feedback.feedback4.content5"),
+      price: t("feedback.feedback4.price"),
+      additional: t("feedback.feedback4.additional"),
+    },
+  ];
+
   return (
     <>
       <motion.section
@@ -67,19 +126,15 @@ const Packages = () => {
           className={`${layout.sectionInfo} flex-1`} // Aligning the text properly in relation to the video
         >
           <h2 className={styles.heading2}>
-            <span className="text-gradient">Beeindrucken</span> Sie Ihre Gäste
-            mit einem exklusiven
-            <br className="sm:block hidden" /> Casino-Erlebnis
+            <span className="text-gradient">{t("packages.heading")}</span>{" "}
+            {t("packages.subheading")}
+            <br className="sm:block hidden" />
           </h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5 text-white`}>
-            Wähle aus einer vielfältigen Auswahl an Casinotischen für deine
-            Veranstaltung. Verwandle jeden Ort in dein persönliches Casino
-            <br className="" />
+            {t("packages.description")}
             <br />
             <small className="text-dimWhite">
-              *Wichtiger Hinweis: <br></br>
-              Gespielt wird ohne Geldeinsatz und Auszahlungen. Dies ist
-              gesetzlich nicht erlaubt!
+              {t("packages.importantNote")}
             </small>
           </p>
         </motion.div>

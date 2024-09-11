@@ -1,12 +1,12 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import styles from "../style";
 import { motion, useInView } from "framer-motion";
+import { useTranslation } from "react-i18next"; // Import useTranslation
 
 const PackageCard = ({
-  content,
   name,
   title,
-  img,
+  content,
   content2,
   content2_5,
   content3,
@@ -23,6 +23,7 @@ const PackageCard = ({
 }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
+  const { t } = useTranslation(); // Use useTranslation hook
 
   const cardVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -44,52 +45,51 @@ const PackageCard = ({
       <div className="flex flex-row pt-6 sm:pt-8 md:pt-10">
         <div className="flex flex-col ml-4">
           <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white text-gradient">
-            {name}
+            {t(name)}
           </h4>
           <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite ">
-            {title}
+            {t(title)}
           </p>
           <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white mt-6 sm:mt-8 md:mt-10">
-            {content}
+            {t(content)}
           </p>
           <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white">
-            {content2}
+            {t(content2)}
           </p>
           {content2_5 && (
             <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white">
-              {content2_5}
+              {t(content2_5)}
             </p>
           )}
           <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white">
-            {content3}
+            {t(content3)}
           </p>
           <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-dimWhite mt-4">
-            {content4}
+            {t(content4)}
           </p>
           {content5 && (
             <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white mt-4">
-              {content5}
+              {t(content5)}
             </p>
           )}
           {content6 && (
             <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-dimWhite mt-4">
-              {content6}
+              {t(content6)}
             </p>
           )}
           <p className="font-poppins font-bold text-[18px] leading-[32.4px] text-white mt-4">
-            {price}
+            {t(price)}
           </p>
           {additional && (
             <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white mt-4">
-              {additional}
+              {t(additional)}
             </p>
           )}
-          {/* Show bestDeal for any package that has it */}
           <div className="flex flex-row items-center py-[6px] rounded-[10px] mb-2">
             {bestDeal && (
               <p className={`${styles.paragraph} mt-6`}>
                 <span className="text-black bg-blue-gradient pr-3 pl-3 rounded-xl">
-                  {bestDeal}
+                  {t(bestDeal)}
                 </span>
               </p>
             )}

@@ -3,10 +3,12 @@ import styles, { layout } from "../style";
 import QuickContact from "./QuickContact";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next"; // Import useTranslation
 
 const NotEnough = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
+  const { t } = useTranslation(); // Use useTranslation hook
 
   const sectionVariants = {
     hidden: { opacity: 0 },
@@ -44,16 +46,14 @@ const NotEnough = () => {
       >
         <motion.div variants={textVariants} className="md:w-1/2 w-full">
           <h2 className={styles.heading2}>
-            Möchten Sie mehr? <br className="sm:block hidden" />
+            {t("notEnough.heading")} <br className="sm:block hidden" />
           </h2>
 
           <div className="w-full md:mt-6 mt-6">
             <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-              <span className="text-gradient">Dein Casino, deine Wahl!</span>{" "}
+              <span className="text-gradient">{t("notEnough.highlight")}</span>{" "}
               <br />
-              Mit unseren individuellen Paketen kannst du deine Veranstaltung zu
-              etwas Besonderem machen. Entdecke jetzt die Vielfalt unserer
-              Angebote und gestalte dein eigenes, einzigartiges Casino-Event!
+              {t("notEnough.description")}
             </p>
             <QuickContact />
           </div>

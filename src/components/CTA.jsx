@@ -2,6 +2,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import styles from "../style";
 import Button from "./Button";
+import { useTranslation } from "react-i18next"; // Import useTranslation
 
 const typewriterVariants = {
   hidden: { opacity: 1 },
@@ -21,6 +22,7 @@ const letterVariants = {
 const CTA = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
+  const { t } = useTranslation(); // Use useTranslation hook
 
   const sectionVariants = {
     hidden: { opacity: 0, scale: 0.8 },
@@ -31,7 +33,7 @@ const CTA = () => {
     },
   };
 
-  const title = "Hol dir jetzt die perfekte Casino-Nacht nach Hause!";
+  const title = t("cta.title");
 
   return (
     <motion.section
@@ -55,8 +57,7 @@ const CTA = () => {
           ))}
         </motion.h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Genieße den Glanz und Glamour des Casinos und erlebe eine Nacht voller
-          Spaß, Spannung und unvergesslicher Erlebnisse
+          {t("cta.description")}
         </p>
       </div>
 

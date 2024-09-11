@@ -3,6 +3,7 @@ import { discount, gaming } from "../assets";
 import GetStarted from "./GetStarted";
 import Button from "./Button";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next"; // Import useTranslation
 
 const heroVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -28,11 +29,10 @@ const imageVariants = {
 };
 
 const Hero = () => {
+  const { t } = useTranslation(); // Use useTranslation hook
+
   return (
-    <section
-      id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
-    >
+    <section id="home" className={`flex md:flex-row flex-col py-10 md:py-1`}>
       <motion.div
         variants={heroVariants}
         initial="hidden"
@@ -45,8 +45,10 @@ const Hero = () => {
         >
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">20%</span> Rabatt bis{" "}
-            <span className="text-white">September</span> 2024
+            <span className="text-white">{t("hero.discountAmount")}</span>{" "}
+            {t("hero.discountText")}
+            {t(" ")}
+            <span className="text-white">{t("hero.discountDate")}</span>
           </p>
         </motion.div>
 
@@ -55,8 +57,8 @@ const Hero = () => {
           className="flex flex-row justify-between items-center w-full"
         >
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[75px]">
-            Wir schaffen <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">unvergessliche</span>{" "}
+            {t("hero.mainTextPart1")} <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">{t("hero.mainTextPart2")}</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0 ps-8">
             <GetStarted />
@@ -67,13 +69,13 @@ const Hero = () => {
           variants={textVariants}
           className="font-poppins font-semibold ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[75px] w-full"
         >
-          Momente für Ihr Event.
+          {t("hero.mainTextPart3")}
         </motion.h1>
         <motion.p
           variants={textVariants}
           className={`${styles.paragraph} text-gradient max-w-[470px] mt-5`}
         >
-          Unterhaltung der Spitzenklasse, die alle Erwartungen übertrifft.
+          {t("hero.description")}
         </motion.p>
         <motion.div
           variants={textVariants}

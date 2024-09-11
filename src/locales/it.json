@@ -1,0 +1,134 @@
+{
+    "navLinks": {
+      "home": "Home",
+      "events": "Eventi",
+      "product": "Prodotto",
+      "clients": "Clienti"
+    },
+    "features": {
+      "feature1": {
+        "title": "Passo 1: Scegli il tuo formato preferito",
+        "content": "Clicca qui e scopri una varietà di formati di casinò unici per il tuo evento."
+      },
+      "feature2": {
+        "title": "Passo 2: Prenota facilmente il tuo evento",
+        "content": "Seleziona la data e invia la tua richiesta di prenotazione per un evento indimenticabile."
+      },
+      "feature3": {
+        "title": "Passo 3: Festeggia con stile",
+        "content": "La festa di casinò definitiva: lascia che i dadi rotolino e le fiches volino."
+      }
+    },
+    "feedback": {
+      "feedback1": {
+        "name": "Essential Casino Chic",
+        "title": "Un tocco di classe",
+        "content": "1 x Blackjack, incluso croupier",
+        "content2": "3 ore di gioco",
+        "content3": "Logistica inclusa: consegna, montaggio e smontaggio del tavolo da gioco",
+        "content4": "Accoglienza VIP su richiesta*",
+        "content5": "Tavoli di alta qualità per un'esperienza autentica",
+        "price": "A partire da CHF 1.490. - IVA esclusa",
+        "additional": "Ora aggiuntiva: + CHF 290"
+      },
+      "feedback2": {
+        "bestDeal": "scelta più popolare",
+        "name": "Basic Casino Blitz",
+        "title": "Lusso per principianti",
+        "content": "1 x Blackjack o Ultimate Texas Hold'em, incluso croupier",
+        "content2": "1 x American Roulette, incluso croupier",
+        "content3": "3 ore di gioco",
+        "content4": "Logistica inclusa: consegna, montaggio e smontaggio dei tavoli da gioco",
+        "content5": "Accoglienza VIP su richiesta*",
+        "content6": "Design elegante e croupier impeccabili",
+        "price": "A partire da CHF 2.190. - IVA esclusa",
+        "additional": "Ora aggiuntiva: + CHF 390"
+      },
+      "feedback3": {
+        "name": "Esperienza Premium",
+        "title": "Pacchetto Oro indimenticabile",
+        "content": "1 x Blackjack, incluso croupier",
+        "content2": "1 x American Roulette, incluso croupier",
+        "content3": "1 x Ultimate Texas Hold'em, incluso croupier",
+        "content4": "3 ore di gioco",
+        "content5": "Accoglienza VIP inclusa: tappeto rosso, drink di benvenuto, musica elegante",
+        "content6": "Logistica inclusa: consegna, montaggio e smontaggio dei tavoli da gioco",
+        "content7": "Tavoli di lusso, massima attenzione ai dettagli",
+        "price": "A partire da CHF 3.290. - IVA esclusa",
+        "additional": "Ora aggiuntiva: + CHF 490"
+      },
+      "feedback4": {
+        "name": "Royal Casino Extravaganza",
+        "title": "Pacchetto di lusso su misura",
+        "content": "Tavoli a scelta: Blackjack, American Roulette, Ultimate Texas Hold'em, incluso croupier",
+        "content2": "3 ore di gioco",
+        "content3": "Accoglienza VIP inclusa: stile James Bond",
+        "content4": "Opzioni aggiuntive: musica, decorazioni, servizio fotografico, catering",
+        "content5": "Logistica inclusa",
+        "price": "Prezzo su richiesta",
+        "additional": "Ora aggiuntiva: prezzo in base alla configurazione"
+      }
+    },
+    "hero": {
+      "discountAmount": "20%",
+      "discountText": "Sconto fino a",
+      "discountDate": "Settembre 2024",
+      "mainTextPart1": "Creiamo",
+      "mainTextPart2": "momenti indimenticabili",
+      "mainTextPart3": "per il tuo evento.",
+      "description": "Intrattenimento di altissimo livello che supera ogni aspettativa."
+    },
+    "stats": {
+      "privateEvents": "Feste private",
+      "corporateEvents": "Eventi aziendali",
+      "themeWeddings": "Matrimoni a tema"
+    },
+    "cta": {
+      "title": "Porta a casa tua la perfetta notte da casinò!",
+      "description": "Goditi il fascino e il glamour del casinò e vivi una notte piena di divertimento, emozioni e ricordi indimenticabili."
+    },
+    "getStarted": {
+      "reserve": "Prenota ora"
+    },
+    "notEnough": {
+      "heading": "Vuoi di più?",
+      "highlight": "Il tuo casinò, la tua scelta!",
+      "description": "Con i nostri pacchetti personalizzabili, puoi rendere il tuo evento davvero speciale. Scopri ora la varietà delle nostre offerte e crea il tuo casinò su misura!"
+    },
+    "quickContact": {
+      "buttonText": "CHIEDI ORA!"
+    },
+    "business": {
+      "heading": "Come funziona",
+      "subheading": "Event Casino Svizzera?",
+      "description": "Goditi l'intrattenimento di casinò di alto livello per il tuo prossimo evento in tutta la Svizzera."
+    },
+    "packages": {
+      "heading": "Impressiona",
+      "subheading": "i tuoi ospiti con un'esperienza di casinò esclusiva",
+      "description": "Scegli da un'ampia selezione di tavoli da casinò per il tuo evento. Trasforma qualsiasi location nel tuo casinò personale.",
+      "importantNote": "*Nota importante: Il gioco si svolge senza denaro e senza vincite. Questo non è legalmente consentito!"
+    },
+    "button": {
+      "reserve": "Prenota ora"
+    },
+    "footer": {
+      "usefulLinks": "Link utili",
+      "content": "Contenuto",
+      "howItWorks": "Come funziona",
+      "create": "Crea",
+      "explore": "Esplora",
+      "termsServices": "Termini e condizioni",
+      "community": "Comunità",
+      "helpCenter": "Centro assistenza",
+      "partners": "Partner",
+      "suggestions": "Suggerimenti",
+      "blog": "Blog",
+      "newsletters": "Newsletter",
+      "partner": "Partner",
+      "ourPartner": "I nostri partner",
+      "becomePartner": "Diventa partner",
+      "allRightsReserved": "Tutti i diritti riservati"
+    }
+  }
+  

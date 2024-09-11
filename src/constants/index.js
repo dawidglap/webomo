@@ -16,113 +16,36 @@ import {
   star,
 } from "../assets";
 
+export const clients = [
+  {
+    id: "client-1",
+    logo: canon, // Make sure these logos are correctly imported from your assets
+  },
+  {
+    id: "client-2",
+    logo: versace,
+  },
+  {
+    id: "client-3",
+    logo: yamaha,
+  },
+  {
+    id: "client-4",
+    logo: loreal,
+  },
+  {
+    id: "client-5",
+    logo: mercedes,
+  },
+];
+
+// Navigation Links
 export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
-  {
-    id: "Events",
-    title: "Events",
-  },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
-  },
+  { id: "home", title: "navLinks.home" },
+  { id: "events", title: "navLinks.events" },
+  { id: "product", title: "navLinks.product" },
+  { id: "clients", title: "navLinks.clients" },
 ];
-
-export const features = [
-  {
-    id: "feature-1",
-    icon: star,
-    title: "Step 1: Wähle dein bevorzugtes Format",
-    content:
-      "Klicken Sie hier und entdecken Sie eine Vielzahl einzigartiger Casino-Formate für Ihr Event.",
-  },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "Step 2: Einfach und unkompliziert dein Event buchen",
-    content:
-      "Wählen Sie den Tag und senden Sie Ihre Buchungsanfrage für Ihr unvergessliches Event.",
-  },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Step 3: Feiere mit Stil und erlebe eine unvergessliche Nacht",
-    content:
-      "Die ultimative Casino-Party: Lass die Würfel rollen und die Chips fliegen",
-  },
-];
-
-export const feedback = [
-  {
-    id: "feedback-1",
-    bestDeal: "",
-    content: "1 x Black Jack, inkl. Croupier",
-    content2: "3 Stunden Spielzeit",
-    content3: "Logistik inklusive: Lieferung, Auf- und Abbau des Spieltisches",
-    content4: "VIP-Empfang auf Anfrage*",
-    content5: "Hochwertige Tische für ein authentisches Erlebnis",
-    price: "Ab CHF 1.490. - + MwSt.",
-    additional: "Zusätzliche Stunde: + CHF 290",
-    name: "Essential Casino Chic:",
-    title: "Ein Hauch von Klasse",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    bestDeal: "beliebteste Wahl",
-    content: "1 x Black Jack oder Ultimate Texas Hold'em, inkl. Croupier",
-    content2: "1 x American Roulette, inkl. Croupier",
-    content3: "3 Stunden Spielzeit",
-    content4: "Logistik inklusive: Lieferung, Auf- und Abbau der Spieltische",
-    content5: "VIP-Empfang auf Anfrage*",
-    content6: "Elegantes Design und makellose Croupiers",
-    price: "Ab CHF 2.190. - + MwSt.",
-    additional: "Zusätzliche Stunde: + CHF 390",
-    name: "Basic Casino Blitz:",
-    title: "Luxus für Einsteiger",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    bestDeal: "",
-    content: "1 x Black Jack, inkl. Croupier",
-    content2: "1 x American Roulette, inkl. Croupier",
-    content3: "1 x Ultimate Texas Hold'em, inkl. Croupier",
-    content4: "3 Stunden Spielzeit",
-    content5:
-      "VIP-Empfang inklusive: Roter Teppich, Willkommensgetränk, elegante Musik",
-    content6: "Logistik inklusive: Lieferung, Auf- und Abbau der Spieltische",
-    content7: "Luxuriöse Tische, höchste Detailgenauigkeit",
-    price: "Ab CHF 3.290. - + MwSt.",
-    additional: "Zusätzliche Stunde: + CHF 490",
-    name: "Premium-Erlebnis:",
-    title: "Unvergessliches Goldpaket",
-    img: people03,
-  },
-  {
-    id: "feedback-4",
-    bestDeal: "",
-    content:
-      "Tische nach Wahl: Black Jack, American Roulette, Ultimate Texas Hold'em, inkl. Croupiers",
-    content2: "3 Stunden Spielzeit",
-    content3: "VIP-Empfang inklusive: James Bond-Stil",
-    content4: "Zusätzliche Optionen: Musik, Dekoration, Fotoservice, Catering",
-    content5: "Logistik inklusive",
-    price: "Preis auf Anfrage",
-    additional: "Zusätzliche Stunde: Preis je nach Konfiguration",
-    name: "Royal Casino Extravaganz:",
-    title: "Maßgeschneidertes Luxuspaket",
-    img: people03,
-  },
-];
-
 export const stats = [
   {
     id: "stats-1",
@@ -141,26 +64,100 @@ export const stats = [
   },
 ];
 
+// Features
+export const features = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "features.feature1.title",
+    content: "features.feature1.content",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "features.feature2.title",
+    content: "features.feature2.content",
+  },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "features.feature3.title",
+    content: "features.feature3.content",
+  },
+];
+
+// Feedback (Testimonials or Service Descriptions)
+export const feedback = [
+  {
+    id: "feedback-1",
+    bestDeal: "",
+    name: "feedback.feedback1.name",
+    title: "feedback.feedback1.title",
+    content: "feedback.feedback1.content",
+    content2: "feedback.feedback1.content2",
+    content3: "feedback.feedback1.content3",
+    content4: "feedback.feedback1.content4",
+    content5: "feedback.feedback1.content5",
+    price: "feedback.feedback1.price",
+    additional: "feedback.feedback1.additional",
+    img: people01,
+  },
+  {
+    id: "feedback-2",
+    bestDeal: "feedback.feedback2.bestDeal",
+    name: "feedback.feedback2.name",
+    title: "feedback.feedback2.title",
+    content: "feedback.feedback2.content",
+    content2: "feedback.feedback2.content2",
+    content3: "feedback.feedback2.content3",
+    content4: "feedback.feedback2.content4",
+    content5: "feedback.feedback2.content5",
+    content6: "feedback.feedback2.content6",
+    price: "feedback.feedback2.price",
+    additional: "feedback.feedback2.additional",
+    img: people02,
+  },
+  {
+    id: "feedback-3",
+    bestDeal: "",
+    name: "feedback.feedback3.name",
+    title: "feedback.feedback3.title",
+    content: "feedback.feedback3.content",
+    content2: "feedback.feedback3.content2",
+    content3: "feedback.feedback3.content3",
+    content4: "feedback.feedback3.content4",
+    content5: "feedback.feedback3.content5",
+    content6: "feedback.feedback3.content6",
+    content7: "feedback.feedback3.content7",
+    price: "feedback.feedback3.price",
+    additional: "feedback.feedback3.additional",
+    img: people03,
+  },
+  {
+    id: "feedback-4",
+    bestDeal: "",
+    name: "feedback.feedback4.name",
+    title: "feedback.feedback4.title",
+    content: "feedback.feedback4.content",
+    content2: "feedback.feedback4.content2",
+    content3: "feedback.feedback4.content3",
+    content4: "feedback.feedback4.content4",
+    content5: "feedback.feedback4.content5",
+    price: "feedback.feedback4.price",
+    additional: "feedback.feedback4.additional",
+    img: people03,
+  },
+];
+
+// Footer Links
 export const footerLinks = [
   {
     title: "Useful Links",
     links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
+      { name: "Content", link: "https://www.hoobank.com/content/" },
+      { name: "How it Works", link: "https://www.hoobank.com/how-it-works/" },
+      { name: "Create", link: "https://www.hoobank.com/create/" },
+      { name: "Explore", link: "https://www.hoobank.com/explore/" },
       {
         name: "Terms & Services",
         link: "https://www.hoobank.com/terms-and-services/",
@@ -170,35 +167,17 @@ export const footerLinks = [
   {
     title: "Community",
     links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+      { name: "Help Center", link: "https://www.hoobank.com/help-center/" },
+      { name: "Partners", link: "https://www.hoobank.com/partners/" },
+      { name: "Suggestions", link: "https://www.hoobank.com/suggestions/" },
+      { name: "Blog", link: "https://www.hoobank.com/blog/" },
+      { name: "Newsletters", link: "https://www.hoobank.com/newsletters/" },
     ],
   },
   {
     title: "Partner",
     links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
+      { name: "Our Partner", link: "https://www.hoobank.com/our-partner/" },
       {
         name: "Become a Partner",
         link: "https://www.hoobank.com/become-a-partner/",
@@ -207,6 +186,7 @@ export const footerLinks = [
   },
 ];
 
+// Social Media Links
 export const socialMedia = [
   {
     id: "social-media-1",
@@ -227,29 +207,5 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: canon,
-  },
-  {
-    id: "client-2",
-    logo: versace,
-  },
-  {
-    id: "client-3",
-    logo: yamaha,
-  },
-
-  {
-    id: "client-5",
-    logo: loreal,
-  },
-  {
-    id: "client-6",
-    logo: mercedes,
   },
 ];

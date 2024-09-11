@@ -1,6 +1,30 @@
-import { clients } from "../constants";
 import styles from "../style";
 import { motion } from "framer-motion";
+import { canon, versace, yamaha, loreal, mercedes } from "../assets"; // Import the logos
+
+// Move the clients array directly into the component
+const clients = [
+  {
+    id: "client-1",
+    logo: canon,
+  },
+  {
+    id: "client-2",
+    logo: versace,
+  },
+  {
+    id: "client-3",
+    logo: yamaha,
+  },
+  {
+    id: "client-4",
+    logo: loreal,
+  },
+  {
+    id: "client-5",
+    logo: mercedes,
+  },
+];
 
 const Brand = () => {
   const marqueeVariants = {
@@ -24,26 +48,26 @@ const Brand = () => {
         variants={marqueeVariants}
         animate="animate"
       >
-        {clients.map((client, index) => (
+        {clients.map((client) => (
           <div
-            key={index}
+            key={client.id} // Use client.id as a unique key
             className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-[120px] m-5`}
           >
             <img
               src={client.logo}
-              alt="client_logo"
+              alt={`client-logo-${client.id}`}
               className="sm:w-[192px] w-[100px] object-contain"
             />
           </div>
         ))}
         {clients.map((client, index) => (
           <div
-            key={index + clients.length}
+            key={`${client.id}-${index}`} // Ensure the key is unique for the second loop
             className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-[120px] m-5`}
           >
             <img
               src={client.logo}
-              alt="client_logo"
+              alt={`client-logo-${client.id}`}
               className="sm:w-[192px] w-[100px] object-contain"
             />
           </div>
