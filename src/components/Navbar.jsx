@@ -17,6 +17,7 @@ const Navbar = () => {
     { id: "events", title: "navLinks.events" },
     { id: "product", title: "navLinks.product" },
     { id: "clients", title: "navLinks.clients" },
+    { id: "team", title: "navLinks.team" }, // Add new link for Team page
   ];
 
   return (

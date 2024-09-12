@@ -1,21 +1,13 @@
-import React from "react";
 import styles from "./style";
 import {
   Navbar,
-  About,
-  Button,
   Brand,
   NotEnough,
-  Contacts,
   CTA,
-  Events,
   Footer,
-  GetStarted,
   Hero,
-  Stats,
   Business,
   Packages,
-  PackageCard,
 } from "./components";
 
 const App = () => (

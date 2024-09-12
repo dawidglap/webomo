@@ -14,22 +14,24 @@ import Hero from "./Hero";
 import Stats from "./Stats";
 import QuickContact from "./QuickContact";
 import Brand from "./Brand";
+import Team from "./Team";
 
 export {
-    Navbar,
-    About,
-    Button,
-    Business,
-    Brand,
-    Packages,
-    PackageCard,
-    NotEnough,
-    Contacts,
-    CTA,
-    Events,
-    Footer,
-    GetStarted,
-    Hero,
-    Stats,
-    QuickContact
+  Navbar,
+  About,
+  Button,
+  Business,
+  Brand,
+  Packages,
+  PackageCard,
+  NotEnough,
+  Contacts,
+  CTA,
+  Events,
+  Footer,
+  GetStarted,
+  Hero,
+  Stats,
+  QuickContact,
+  Team,
 };
