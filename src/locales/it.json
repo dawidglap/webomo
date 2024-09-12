@@ -130,6 +130,31 @@
       "ourPartner": "I nostri partner",
       "becomePartner": "Diventa partner",
       "allRightsReserved": "Tutti i diritti riservati"
-    }
+    },
+    
+        "team": {
+          "heading": "L'élite del Casinò",
+          "member1": {
+            "name": "Agente Sophia Ferrari",
+            "role": "Maestra del Black Jack",
+            "description": "Sophia, una stratega con la mano ferma, domina le carte come nessun'altra. Un solo sguardo al suo volto impenetrabile è sufficiente per far sudare gli avversari. La sua frase preferita: 'Nel mio gioco non c'è spazio per errori.'"
+          },
+          "member2": {
+            "name": "Luca 'Il Re della Roulette' Verdi",
+            "role": "Il mago della ruota",
+            "description": "Luca è l'incarnazione dell'eleganza e della precisione. Il suo talento alla roulette è leggendario. Conosce le leggi del caso, ma vince sempre. La sua arma segreta? Un sorriso che illumina la sala."
+          },
+          "member3": {
+            "name": "Maximilian Schmidt",
+            "role": "Lo squalo del poker",
+            "description": "Maximilian sembra calmo e riflessivo, ma sotto la superficie si nasconde un avversario formidabile. Le sue abilità nel Texas Hold'em sono famose in tutto il mondo e non lascia mai spazio ai dubbi sul suo prossimo passo."
+          },
+          "member4": {
+            "name": "Marco 'Lo Spione' Rossi",
+            "role": "Maestro della roulette e agente segreto",
+            "description": "Con fascino, stile e un tocco di mistero, Marco cattura l'attenzione di tutti. La sua passione per il gioco è superata solo dalla sua missione segreta: offrire l'esperienza di casinò perfetta."
+          }
+        }      
+      
   }
   

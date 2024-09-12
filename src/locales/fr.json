@@ -131,6 +131,34 @@
       "ourPartner": "Nos partenaires",
       "becomePartner": "Devenir partenaire",
       "allRightsReserved": "Tous droits réservés"
+    },
+    "notFound": {
+        "title": "Oops! 404",
+        "subtitle": "Oups, on dirait que tu as fait tapis sur la mauvaise page... Allons plutôt à la bonne!",
+        "backHome": "Back to Home"
+    },
+    "team": {
+    "heading": "L'élite du Casino",
+    "member1": {
+      "name": "Agent Sophia Ferrari",
+      "role": "Maîtresse du Black Jack",
+      "description": "Sophia, une stratège avec une main sûre, maîtrise les cartes comme personne. Un simple regard sur son visage impassible suffit à faire transpirer ses adversaires. Sa phrase fétiche : 'Dans mon jeu, il n'y a pas de place pour l'erreur.'"
+    },
+    "member2": {
+      "name": "Luca 'Le Roi de la Roulette' Verdi",
+      "role": "Le magicien de la roue",
+      "description": "Luca est l'incarnation de l'élégance et de la précision. Son talent à la roulette est légendaire. Il connaît les lois du hasard, mais il gagne toujours. Son arme secrète ? Un sourire qui illumine la pièce."
+    },
+    "member3": {
+      "name": "Maximilian Schmidt",
+      "role": "Le requin du poker",
+      "description": "Maximilian semble calme et réfléchi, mais sous la surface se cache un adversaire redoutable. Ses compétences au Texas Hold'em sont mondialement reconnues, et il ne laisse jamais de doute quant à son prochain coup."
+    },
+    "member4": {
+      "name": "Marc 'L'Espion' Rossi",
+      "role": "Maître de la roulette et espion",
+      "description": "Avec charme, style et une touche de mystère, Marc capte l'attention de tous. Sa passion pour le jeu n'est surpassée que par sa mission secrète : offrir l'expérience de casino parfaite."
     }
+  }
   }
   

@@ -133,6 +133,37 @@
       "ourPartner": "Our Partner",
       "becomePartner": "Become a Partner",
       "allRightsReserved": "All Rights Reserved"
-    }
+    },
+    "notFound": {
+        "title": "Oops! 404",
+        "subtitle": "Looks like you rolled a losing hand, let's get you back on track!",
+        "backHome": "Back to Home"
+    },
+    
+        "team": {
+          "heading": "The Casino Elite",
+          "member1": {
+            "name": "Agent Sophia Ferrari",
+            "role": "Black Jack Master",
+            "description": "Sophia, a strategist with a steady hand, masters the cards like no one else. One glance at her poker face is enough to make her opponents sweat. Her favorite saying: 'In my game, there's no room for mistakes.'"
+          },
+          "member2": {
+            "name": "Luca 'The King of Roulette' Verdi",
+            "role": "The Magic of the Wheel",
+            "description": "Luca is the embodiment of elegance and precision. His talent at the roulette table is legendary. He knows the laws of chance, yet he always wins. His secret weapon? A smile that lights up the room."
+          },
+          "member3": {
+            "name": "Maximilian Schmidt",
+            "role": "The Poker Shark",
+            "description": "Maximilian may appear calm and composed, but beneath the surface lies a formidable opponent. His Texas Hold'em skills are world-renowned, and he never leaves doubt about his next move."
+          },
+          "member4": {
+            "name": "Marco 'The Spy' Rossi",
+            "role": "Roulette Master and Secret Agent",
+            "description": "With charm, style, and a touch of mystery, Marco captures everyone's attention. His passion for the game is only surpassed by his secret mission: to deliver the perfect casino experience."
+          }
+        }
+      
+      
   }
   

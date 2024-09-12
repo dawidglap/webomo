@@ -1,6 +1,8 @@
 import { useState } from "react";
+import styles from "../style";
 import { useTranslation } from "react-i18next";
-import { close, logo, ecsLogo, menu } from "../assets";
+import { close, ecsLogo, menu } from "../assets";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -13,15 +15,15 @@ const Navbar = () => {
 
   // Define the navLinks array directly in the component
   const navLinks = [
-    { id: "home", title: "navLinks.home" }, // Use translation keys
-    { id: "events", title: "navLinks.events" },
-    { id: "product", title: "navLinks.product" },
-    { id: "clients", title: "navLinks.clients" },
-    { id: "team", title: "navLinks.team" }, // Add new link for Team page
+    { id: "home", title: "navLinks.home", path: "/" }, // Updated to use path
+    { id: "events", title: "navLinks.events", path: "/events" },
+    { id: "product", title: "navLinks.product", path: "/product" },
+    { id: "clients", title: "navLinks.clients", path: "/clients" },
+    { id: "team", title: "navLinks.team", path: "/team" }, // Add path for Team page
   ];
 
   return (
-    <nav className="w-full flex justify-between items-center navbar">
+    <nav className="w-full flex justify-between items-center navbar ">
       <img
         src={ecsLogo}
         alt="ecs-logo"
@@ -38,7 +40,8 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{t(nav.title)}</a> {/* Translate titles */}
+            <Link to={nav.path}>{t(nav.title)}</Link>{" "}
+            {/* Use Link for routing */}
           </li>
         ))}
 
@@ -138,8 +141,8 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{t(nav.title)}</a>{" "}
-                {/* Translate titles */}
+                <Link to={nav.path}>{t(nav.title)}</Link>{" "}
+                {/* Use Link for routing */}
               </li>
             ))}
           </ul>

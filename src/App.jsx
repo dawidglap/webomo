@@ -1,4 +1,5 @@
 import styles from "./style";
+
 import {
   Navbar,
   Brand,
@@ -9,14 +10,17 @@ import {
   Business,
   Packages,
 } from "./components";
+import Team from "./components/Team"; // Import your Team component
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import React Router
+import NotFound from "./components/NotFound";
 
-const App = () => (
+const Home = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+    {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
-    </div>
+    </div> */}
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
@@ -31,10 +35,36 @@ const App = () => (
         <NotEnough />
         <Brand />
         <CTA />
-        <Footer />
       </div>
     </div>
   </div>
+);
+
+const App = () => (
+  <Router>
+    <div className="bg-primary w-full overflow-hidden">
+      {/* Navbar will be rendered on every page */}
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
+
+      {/* Define Routes for different pages */}
+      <Routes>
+        <Route path="/" element={<Home />} /> {/* Home page */}
+        <Route path="/team" element={<Team />} /> {/* Team page */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+
+      {/* Footer will be rendered on every page */}
+      <div className={`${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Footer />
+        </div>
+      </div>
+    </div>
+  </Router>
 );
 
 export default App;
