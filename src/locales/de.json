@@ -163,6 +163,36 @@
           "role": "Roulette-Meister und Geheimagent",
           "description": "Mit Charme, Stil und einem Hauch von Geheimnis zieht Marco die Aufmerksamkeit aller auf sich. Seine Leidenschaft für das Spiel wird nur von seiner geheimen Mission übertroffen: die perfekte Casino-Erfahrung zu bieten."
         }
-      }
+      },
+      
+        "events": {
+          "heading": "Entdecke unsere Casino Themen Events",
+          "birthday": {
+            "title": "Casino Royale: Feiere stilvoll deinen Geburtstag",
+            "description": "Ein glamouröser Geburtstag voller Spannung und Unterhaltung. Mit professionellen Croupiers, eleganten Spieltischen und exklusiven Überraschungen wird dein Geburtstag unvergesslich!"
+          },
+          "corporate": {
+            "title": "Blackjack & Business: Unvergessliche Firmenevents",
+            "description": "Verwandeln Sie Ihre Firmenveranstaltung in ein elegantes Casino-Erlebnis. Fördern Sie Teambuilding und Networking mit einer spannenden Casino-Nacht!"
+          },
+          "gala": {
+            "title": "Gala-Abend: Elegante Casino-Nacht",
+            "description": "Eine Nacht voller Eleganz, bei der das Spiel im Mittelpunkt steht. Genießen Sie eine glamouröse Casino-Erfahrung!"
+          },
+          "wedding": {
+            "title": "Casino-Hochzeit: Für unvergessliche Erinnerungen",
+            "description": "Feiern Sie den schönsten Tag Ihres Lebens mit einem Hauch von Las Vegas. Maßgeschneiderte Casino-Tische für Ihre Traumhochzeit!"
+          },
+          "bachelor_party": {
+            "title": "Die letzte Nacht der Freiheit: Casino-Style",
+            "description": "Feiern Sie Ihren Junggesellenabschied stilvoll in einem luxuriösen Casino-Setting. Unvergessliche Spiele und Momente!"
+          },
+          "private_event": {
+            "title": "Exklusive private Casino-Events",
+            "description": "Ihr maßgeschneidertes Casino-Erlebnis, ob kleine private Feier oder großes Event. Individualität steht bei uns an erster Stelle!"
+          }
+        }
+
+      
   }
   

@@ -1,4 +1,5 @@
 "use client";
+
 import React, {
   useEffect,
   useRef,
@@ -13,8 +14,8 @@ import {
 } from "@tabler/icons-react";
 import { cn } from "../../lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-// import Image from "next/image";
 import { useOutsideClick } from "../../hooks/use-outside-click";
+import { Link } from "react-router-dom"; // Assuming you're using react-router for navigation
 
 export const CarouselContext = createContext({
   onCardClose: () => {},
@@ -23,8 +24,8 @@ export const CarouselContext = createContext({
 
 export const Carousel = ({ items, initialScroll = 0 }) => {
   const carouselRef = React.useRef(null);
-  const [canScrollLeft, setCanScrollLeft] = React.useState(false);
-  const [canScrollRight, setCanScrollRight] = React.useState(true);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -75,7 +76,7 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
     <CarouselContext.Provider
       value={{ onCardClose: handleCardClose, currentIndex }}
     >
-      <div className="relative w-full mt-[-60px]">
+      <div className="relative w-full mt-[-60px] md:mt-[-100px]">
         <div
           className="flex w-full overflow-x-scroll overscroll-x-auto py-10 md:py-20 scroll-smooth [scrollbar-width:none]"
           ref={carouselRef}
@@ -83,23 +84,19 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
         >
           <div
             className={cn(
-              "absolute right-0  z-[1000] h-auto  w-[5%] overflow-hidden bg-gradient-to-l"
+              "absolute right-0 z-[1000] h-auto w-[5%] overflow-hidden bg-gradient-to-l"
             )}
           ></div>
 
           <div
             className={cn(
               "flex flex-row justify-start gap-4 pl-4",
-              // remove max-w-4xl if you want the carousel to span the full width of its container
               "max-w-7xl mx-auto"
             )}
           >
             {items.map((item, index) => (
               <motion.div
-                initial={{
-                  opacity: 0,
-                  y: 20,
-                }}
+                initial={{ opacity: 0, y: 20 }}
                 animate={{
                   opacity: 1,
                   y: 0,
@@ -118,7 +115,7 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
             ))}
           </div>
         </div>
-        <div className="flex justify-end gap-2 mr-10">
+        {/* <div className="flex justify-end gap-2 mr-10">
           <button
             className="relative z-40 h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
             onClick={scrollLeft}
@@ -133,7 +130,7 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
           >
             <IconArrowNarrowRight className="h-6 w-6 text-gray-500" />
           </button>
-        </div>
+        </div> */}
       </div>
     </CarouselContext.Provider>
   );
@@ -189,7 +186,7 @@ export const Card = ({ card, index, layout = false }) => {
               exit={{ opacity: 0 }}
               ref={containerRef}
               layoutId={layout ? `card-${card.title}` : undefined}
-              className="md:max-w-3xl max-w-[92vw]  mx-auto bg-white dark:bg-neutral-900 h-fit  z-[60] my-10 p-4 md:p-10 rounded-3xl font-sans relative"
+              className="md:max-w-3xl max-w-[92vw]  mx-auto feature-card dark:bg-neutral-900 h-fit  z-[60] my-10 p-4 md:p-10 rounded-3xl font-sans relative"
             >
               <button
                 className="sticky top-4 h-8 w-8 right-0 ml-auto bg-black dark:bg-white rounded-full flex items-center justify-center"
@@ -199,17 +196,31 @@ export const Card = ({ card, index, layout = false }) => {
               </button>
               <motion.p
                 layoutId={layout ? `category-${card.title}` : undefined}
-                className="text-base font-medium text-black dark:text-white"
+                className="text-base font-medium text-gradient dark:text-white"
               >
                 {card.category}
               </motion.p>
               <motion.p
                 layoutId={layout ? `title-${card.title}` : undefined}
-                className="text-2xl md:text-5xl font-semibold text-neutral-700 mt-4 dark:text-white"
+                className="font-poppins font-semibold bg-gradient-to-r from-gray-300 via-white to-gray-300 py-4 bg-clip-text text-left text-2xl tracking-tight text-transparent md:text-4xl"
               >
                 {card.title}
               </motion.p>
-              <div className="py-10">{card.content}</div>
+              {/* Display a smaller Image in Expanded View */}
+              <img
+                src={card.src}
+                alt={card.title}
+                className="w-full h-auto max-h-60 rounded-2xl object-contain mt-6 mx-auto"
+              />
+
+              <div className="py-6">{card.content}</div>
+
+              {/* Button to redirect to Contact Page */}
+              <Link to="/contact">
+                <button className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-2 rounded-full font-medium transition-all hover:scale-105">
+                  More Info & Contact
+                </button>
+              </Link>
             </motion.div>
           </div>
         )}
@@ -223,7 +234,7 @@ export const Card = ({ card, index, layout = false }) => {
         <div className="relative z-40 p-8">
           <motion.p
             layoutId={layout ? `category-${card.category}` : undefined}
-            className="text-white text-sm md:text-base font-medium font-sans text-left"
+            className="text-gradient text-sm md:text-base font-medium font-sans text-left"
           >
             {card.category}
           </motion.p>
