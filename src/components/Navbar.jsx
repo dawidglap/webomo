@@ -23,7 +23,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full flex justify-between items-center navbar ">
+    <nav className="w-full flex justify-between items-center navbar">
       <img
         src={ecsLogo}
         alt="ecs-logo"

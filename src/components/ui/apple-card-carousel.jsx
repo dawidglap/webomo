@@ -16,6 +16,7 @@ import { cn } from "../../lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "../../hooks/use-outside-click";
 import { Link } from "react-router-dom"; // Assuming you're using react-router for navigation
+import Button from "../Button";
 
 export const CarouselContext = createContext({
   onCardClose: () => {},
@@ -101,8 +102,8 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
                   opacity: 1,
                   y: 0,
                   transition: {
-                    duration: 0.5,
-                    delay: 0.2 * index,
+                    duration: 0.6,
+                    delay: 0.3 * index,
                     ease: "easeOut",
                     once: true,
                   },
@@ -115,22 +116,6 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
             ))}
           </div>
         </div>
-        {/* <div className="flex justify-end gap-2 mr-10">
-          <button
-            className="relative z-40 h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
-            onClick={scrollLeft}
-            disabled={!canScrollLeft}
-          >
-            <IconArrowNarrowLeft className="h-6 w-6 text-gray-500" />
-          </button>
-          <button
-            className="relative z-40 h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
-            onClick={scrollRight}
-            disabled={!canScrollRight}
-          >
-            <IconArrowNarrowRight className="h-6 w-6 text-gray-500" />
-          </button>
-        </div> */}
       </div>
     </CarouselContext.Provider>
   );
@@ -186,7 +171,7 @@ export const Card = ({ card, index, layout = false }) => {
               exit={{ opacity: 0 }}
               ref={containerRef}
               layoutId={layout ? `card-${card.title}` : undefined}
-              className="md:max-w-3xl max-w-[92vw]  mx-auto feature-card dark:bg-neutral-900 h-fit  z-[60] my-10 p-4 md:p-10 rounded-3xl font-sans relative"
+              className="md:max-w-3xl max-w-[92vw] mx-auto bg-black-glass backdrop-blur-glass dark:bg-neutral-900 h-fit z-[60] my-10 p-4 md:p-10 rounded-3xl font-sans relative flex flex-col items-center"
             >
               <button
                 className="sticky top-4 h-8 w-8 right-0 ml-auto bg-black dark:bg-white rounded-full flex items-center justify-center"
@@ -194,44 +179,51 @@ export const Card = ({ card, index, layout = false }) => {
               >
                 <IconX className="h-6 w-6 text-neutral-100 dark:text-neutral-900" />
               </button>
+              {/* Center-aligned category */}
               <motion.p
                 layoutId={layout ? `category-${card.title}` : undefined}
-                className="text-base font-medium text-gradient dark:text-white"
+                className="text-base font-semibold text-white uppercase dark:text-white mr-auto"
               >
                 {card.category}
               </motion.p>
+              {/* Center-aligned title */}
               <motion.p
                 layoutId={layout ? `title-${card.title}` : undefined}
-                className="font-poppins font-semibold bg-gradient-to-r from-gray-300 via-white to-gray-300 py-4 bg-clip-text text-left text-2xl tracking-tight text-transparent md:text-4xl"
+                className="font-poppins font-semibold text-gradient py-4 bg-clip-text mr-auto text-2xl tracking-tight text-transparent md:text-4xl"
               >
                 {card.title}
               </motion.p>
-              {/* Display a smaller Image in Expanded View */}
-              <img
-                src={card.src}
-                alt={card.title}
-                className="w-full h-auto max-h-60 rounded-2xl object-contain mt-6 mx-auto"
-              />
 
-              <div className="py-6">{card.content}</div>
+              <div className="py-6 r">{card.content}</div>
 
-              {/* Button to redirect to Contact Page */}
-              <Link to="/contact">
-                <button className="bg-gradient-to-r from-blue-500 to-blue-700 text-white px-6 py-2 rounded-full font-medium transition-all hover:scale-105">
-                  More Info & Contact
-                </button>
+              {/* Center-aligned Button */}
+              <Link to="/contact" className="flex justify-center">
+                <Button />
               </Link>
             </motion.div>
           </div>
         )}
       </AnimatePresence>
+
       <motion.button
         layoutId={layout ? `card-${card.title}` : undefined}
         onClick={handleOpen}
-        className="rounded-3xl bg-gray-100 dark:bg-neutral-900 h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10"
+        className="relative rounded-3xl bg-gray-100 dark:bg-neutral-900 h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start z-10"
       >
-        <div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black/50 via-transparent to-transparent z-30 pointer-events-none" />
-        <div className="relative z-40 p-8">
+        {/* Overlay with 50% black opacity */}
+        <div className="absolute inset-0 bg-black opacity-50 z-20 pointer-events-none" />
+
+        {/* Image as background with overlay */}
+        <div className="absolute inset-0 z-10">
+          <BlurImage
+            src={card.src}
+            alt={card.title}
+            fill
+            className="object-cover absolute z-10 inset-0"
+          />
+        </div>
+
+        <div className="relative z-30 p-8">
           <motion.p
             layoutId={layout ? `category-${card.category}` : undefined}
             className="text-gradient text-sm md:text-base font-medium font-sans text-left"
@@ -245,12 +237,6 @@ export const Card = ({ card, index, layout = false }) => {
             {card.title}
           </motion.p>
         </div>
-        <BlurImage
-          src={card.src}
-          alt={card.title}
-          fill
-          className="object-cover absolute z-10 inset-0"
-        />
       </motion.button>
     </>
   );
@@ -261,7 +247,7 @@ export const BlurImage = ({ height, width, src, className, alt, ...rest }) => {
   return (
     <img
       className={cn(
-        "transition duration-300",
+        "transition duration-300 ",
         isLoading ? "blur-sm" : "blur-0",
         className
       )}
