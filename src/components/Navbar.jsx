@@ -83,7 +83,7 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile Menu */}
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="sm:hidden flex flex-1 justify-end items-center z-[10000]">
         {/* Language Switcher for Mobile */}
         <div className="flex space-x-4 mr-4">
           <button
