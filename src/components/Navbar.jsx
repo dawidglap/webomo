@@ -15,11 +15,11 @@ const Navbar = () => {
 
   // Define the navLinks array directly in the component
   const navLinks = [
-    { id: "home", title: "navLinks.home", path: "/" }, // Updated to use path
+    { id: "home", title: "navLinks.home", path: "/" },
     { id: "events", title: "navLinks.events", path: "/events" },
     { id: "product", title: "navLinks.product", path: "/product" },
     { id: "clients", title: "navLinks.clients", path: "/clients" },
-    { id: "team", title: "navLinks.team", path: "/team" }, // Add path for Team page
+    { id: "team", title: "navLinks.team", path: "/team" },
   ];
 
   return (
@@ -41,7 +41,6 @@ const Navbar = () => {
             onClick={() => setActive(nav.title)}
           >
             <Link to={nav.path}>{t(nav.title)}</Link>{" "}
-            {/* Use Link for routing */}
           </li>
         ))}
 
@@ -139,10 +138,12 @@ const Navbar = () => {
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => setActive(nav.title)}
+                onClick={() => {
+                  setActive(nav.title);
+                  setToggle(false); // Close the menu after clicking a link
+                }}
               >
                 <Link to={nav.path}>{t(nav.title)}</Link>{" "}
-                {/* Use Link for routing */}
               </li>
             ))}
           </ul>

@@ -1,7 +1,13 @@
 "use client";
 
 import { Carousel, Card } from "./ui/apple-card-carousel";
-import test from "../assets/test.png";
+import gala from "../assets/gala.png";
+import party from "../assets/party.png";
+import corporate from "../assets/corporate.png";
+import wedding from "../assets/wedding.png";
+import bday from "../assets/bday.png";
+import partyprivate from "../assets/private.png";
+
 import { motion } from "framer-motion";
 import { LampContainer } from "./ui/lamp";
 export function AppleCardsCarouselDemo() {
@@ -16,7 +22,7 @@ export function AppleCardsCarouselDemo() {
       <LampContainer>
         <motion.h2
           initial={{ opacity: 0.5, y: 270 }}
-          whileInView={{ opacity: 1, y: 100 }}
+          whileInView={{ opacity: 1, y: 140 }}
           transition={{
             delay: 0.3,
             duration: 0.8,
@@ -68,37 +74,37 @@ const data = [
   {
     category: "Feste di Compleanno",
     title: "Casino Royale: Festeggia in grande stile.",
-    src: test,
+    src: bday,
     content: <DummyContent />,
   },
   {
     category: "Eventi Aziendali",
     title: "Blackjack e Business: Eventi aziendali indimenticabili.",
-    src: "https://images.unsplash.com/photo-1531554694128-c4c6665f59c2?q=80&w=3387&auto=format&fit=crop",
+    src: corporate,
     content: <DummyContent />,
   },
   {
     category: "Serate di Gala",
     title: "Una notte al Casinò: Serate eleganti e raffinate.",
-    src: "https://images.unsplash.com/photo-1713869791518-a770879e60dc?q=80&w=2333&auto=format&fit=crop",
+    src: gala,
     content: <DummyContent />,
   },
   {
     category: "Matrimoni",
     title: "Casinò Wedding: Per un matrimonio fuori dal comune.",
-    src: "https://images.unsplash.com/photo-1599202860130-f600f4948364?q=80&w=2515&auto=format&fit=crop",
+    src: wedding,
     content: <DummyContent />,
   },
   {
     category: "Addio al celibato/nubilato",
     title: "L'ultima notte di libertà con un tocco di classe.",
-    src: "https://images.unsplash.com/photo-1602081957921-9137a5d6eaee?q=80&w=2793&auto=format&fit=crop",
+    src: party,
     content: <DummyContent />,
   },
   {
     category: "Eventi privati",
     title: "Il tuo evento privato in stile Casinò.",
-    src: "https://images.unsplash.com/photo-1511984804822-e16ba72f5848?q=80&w=2048&auto=format&fit=crop",
+    src: partyprivate,
     content: <DummyContent />,
   },
 ];
