@@ -1,5 +1,4 @@
 import { useState } from "react";
-import styles from "../style";
 import { useTranslation } from "react-i18next";
 import { close, ecsLogo, menu } from "../assets";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
@@ -17,7 +16,7 @@ const Navbar = () => {
   const navLinks = [
     { id: "home", title: "navLinks.home", path: "/" },
     { id: "events", title: "navLinks.events", path: "/events" },
-    { id: "product", title: "navLinks.product", path: "/product" },
+    { id: "casino101", title: "navLinks.casino101", path: "/casino101" },
     { id: "training", title: "navLinks.training", path: "/training" },
     { id: "team", title: "navLinks.team", path: "/team" },
   ];

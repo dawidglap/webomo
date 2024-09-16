@@ -71,7 +71,7 @@ const Training = () => {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="font-poppins font-semibold bg-gradient-to-r from-gray-500 via-white to-gray-500 py-4 bg-clip-text text-center text-4xl tracking-tight text-transparent md:text-7xl"
+          className=" font-poppins font-semibold bg-gradient-to-r from-gray-500 via-white to-gray-500 py-4 bg-clip-text text-center text-4xl tracking-tight text-transparent md:text-7xl"
         >
           {t("training.heading")}
         </motion.h2>

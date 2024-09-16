@@ -2,7 +2,7 @@
   "navLinks": {
     "home": "Startseite",
     "events": "Veranstaltungen",
-    "product": "Produkt",
+    "casino101": "Casino101",
     "training": "Ausbildung",
     "team": "Team"
   },
@@ -257,5 +257,40 @@
     },
     "callToActionTitle": "Bist du bereit, deine Karriere als Croupier zu starten?",
     "callToActionText": "Kontaktiere uns noch heute für weitere Informationen zu unserem Ausbildungskurs und erfahre, wie wir dir helfen können, in die exklusive Welt der Casinos einzutreten. Die Plätze sind begrenzt!"
+  },
+  "casino101": {
+    "heading": "Casino101: Lerne die Kunst der Casinospiele",
+    "subheading": "Nicht nur Casinopartys, sondern auch Schulungen für ein vollständiges Spielerlebnis",
+    "description": "Neben aufregenden Casino-Events bieten wir Einführungskurse, die für alle geeignet sind, die mit Freunden oder bei Firmenevents Spaß haben möchten. Auch wenn du noch nie in einem Casino warst, kannst du die Regeln und Strategien der beliebtesten Spiele schnell erlernen und sicher und mit Vergnügen spielen.",
+    "events": {
+      "roulette": {
+        "title": "Lerne Roulette",
+        "description": "Entdecke die faszinierende Welt von Roulette, einem der ältesten und aufregendsten Casinospiele. Lerne, wie man Einsätze platziert, das Rad dreht und die besten Chancen nutzt, um den Nervenkitzel des Spiels voll zu erleben."
+      },
+      "blackjack": {
+        "title": "Entdecke Blackjack",
+        "description": "Blackjack ist eines der beliebtesten Casinospiele weltweit. In dieser Schulung lernst du die Grundlagen des Spiels, Strategien, um die Bank zu schlagen, und wie man als Dealer oder Spieler erfolgreich am Tisch agiert."
+      },
+      "texas_holdem": {
+        "title": "Poker Texas Hold'em",
+        "description": "Texas Hold'em ist die bekannteste Poker-Variante. Unsere Schulung führt dich durch die Regeln, Wettstrategien und die Psychologie hinter dem Spiel, damit du bestens vorbereitet bist, wenn du am Tisch sitzt."
+      },
+      "ultimate_texas": {
+        "title": "Ultimate Texas Hold'em",
+        "description": "Ultimate Texas Hold'em ist eine spannende Variante von Poker. In diesem Kurs lernst du, wie man kluge Einsätze tätigt, die Karten liest und die besten Hände erkennt, um gegen die Bank zu spielen."
+      },
+      "three_card_poker": {
+        "title": "3 Card Poker",
+        "description": "Eine der einfacheren Poker-Varianten, die dennoch viel Spannung bietet. 3 Card Poker ist besonders in britischen Casinos und auf Kreuzfahrtschiffen beliebt. Lerne die grundlegenden Strategien und die Handkombinationen."
+      },
+      "group_events": {
+        "title": "Gruppenevents: Gemeinsam lernen",
+        "description": "Teambuilding oder einfach Spaß mit Freunden – unsere Gruppenschulungen sind perfekt, um gemeinsam die Geheimnisse der Casinospiele zu entdecken. Unsere erfahrenen Croupiers zeigen dir und deiner Gruppe die besten Tricks und Kniffe."
+      },
+      "individual_events": {
+        "title": "Individuelle Schulungen: Lerne alleine",
+        "description": "Für diejenigen, die lieber in Ruhe lernen, bieten wir individuelle Casinospiel-Schulungen an. Du kannst dich auf dein bevorzugtes Spiel konzentrieren und in deinem eigenen Tempo lernen."
+      }
+    }
   }
 }

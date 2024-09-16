@@ -77,7 +77,7 @@ export const Carousel = ({ items, initialScroll = 0 }) => {
     <CarouselContext.Provider
       value={{ onCardClose: handleCardClose, currentIndex }}
     >
-      <div className="relative w-full mt-[-60px] md:mt-[-100px]">
+      <div className="relative w-full mt-[20px] md:mt-[20px]">
         <div
           className="flex w-full overflow-x-scroll overscroll-x-auto py-10 md:py-20 scroll-smooth [scrollbar-width:none]"
           ref={carouselRef}
@@ -163,7 +163,7 @@ export const Card = ({ card, index, layout = false }) => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="bg-black/80 backdrop-blur-lg h-full w-full fixed inset-0"
+              className="bg-black/60 backdrop-blur-sm h-full w-full fixed inset-0"
             />
             <motion.div
               initial={{ opacity: 0 }}
@@ -171,7 +171,7 @@ export const Card = ({ card, index, layout = false }) => {
               exit={{ opacity: 0 }}
               ref={containerRef}
               layoutId={layout ? `card-${card.title}` : undefined}
-              className="md:max-w-3xl max-w-[92vw] mx-auto bg-black-glass backdrop-blur-glass dark:bg-neutral-900 h-fit z-[60] my-10 p-4 md:p-10 rounded-3xl font-sans relative flex flex-col items-center"
+              className="md:max-w-3xl max-w-[92vw] mx-auto my-10 bg-black-glass backdrop-blur-glass dark:bg-neutral-900 h-fit z-[60]  p-4 md:p-10 rounded-3xl font-sans relative flex flex-col items-center"
             >
               <button
                 className="sticky top-4 h-8 w-8 right-0 ml-auto bg-black dark:bg-white rounded-full flex items-center justify-center"

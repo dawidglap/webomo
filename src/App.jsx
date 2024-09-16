@@ -16,6 +16,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Im
 import NotFound from "./components/NotFound";
 import { AppleCardsCarouselDemo } from "./components/AppleCardsCarouselDemo";
 import Training from "./components/Training";
+import Casino101 from "./components/Casino101";
 
 const Home = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -59,6 +60,7 @@ const App = () => (
         <Route path="/team" element={<Team />} /> {/* Team page */}
         <Route path="/events" element={<AppleCardsCarouselDemo />} />{" "}
         <Route path="/training" element={<Training />} /> {/* Team page */}
+        <Route path="/casino101" element={<Casino101 />} /> {/* Team page */}
         <Route path="*" element={<NotFound />} />
       </Routes>
 
