@@ -69,13 +69,13 @@ export function AppleCardsCarouselDemo() {
       <LampContainer>
         <motion.h2
           initial={{ opacity: 0.5, y: 270 }}
-          whileInView={{ opacity: 1, y: 140 }}
+          whileInView={{ opacity: 1, y: 220 }}
           transition={{
             delay: 0.3,
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="font-poppins font-semibold bg-gradient-to-r from-gray-300 via-white to-gray-300 mt-[-40px] xs:mt-[-40px] sm:mt-[-1px] md:mt-[-70px] py-4 bg-clip-text text-center text-4xl tracking-tight text-transparent md:text-7xl"
+          className="font-poppins font-semibold bg-gradient-to-r from-gray-500 via-white to-gray-500 mt-[-40px] xs:mt-[-40px] sm:mt-[-1px] md:mt-[-70px] py-4 bg-clip-text text-center text-4xl tracking-tight text-transparent md:text-7xl"
         >
           {t("events.heading")}
         </motion.h2>

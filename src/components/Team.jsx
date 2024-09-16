@@ -94,7 +94,7 @@ const Team = () => {
 
   // Set initial and whileInView values based on screen size
   const initialY = isMobile ? 270 : 270;
-  const whileInViewY = isMobile ? 100 : 140;
+  const whileInViewY = isMobile ? 100 : 160;
 
   return (
     <div className="max-w-[1440px] mx-auto px-4">
@@ -107,7 +107,7 @@ const Team = () => {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="font-poppins font-semibold bg-gradient-to-r from-gray-300 via-white to-gray-300 py-4 bg-clip-text text-center text-4xl tracking-tight text-transparent md:text-7xl"
+          className="font-poppins font-semibold bg-gradient-to-r from-gray-500 via-white to-gray-500 py-4 bg-clip-text text-center text-4xl tracking-tight text-transparent md:text-7xl"
         >
           {t("team.heading")}
         </motion.h2>

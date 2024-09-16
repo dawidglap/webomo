@@ -15,6 +15,7 @@ import Team from "./components/Team"; // Import your Team component
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import React Router
 import NotFound from "./components/NotFound";
 import { AppleCardsCarouselDemo } from "./components/AppleCardsCarouselDemo";
+import Training from "./components/Training";
 
 const Home = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -57,7 +58,7 @@ const App = () => (
         <Route path="/" element={<Home />} /> {/* Home page */}
         <Route path="/team" element={<Team />} /> {/* Team page */}
         <Route path="/events" element={<AppleCardsCarouselDemo />} />{" "}
-        {/* Team page */}
+        <Route path="/training" element={<Training />} /> {/* Team page */}
         <Route path="*" element={<NotFound />} />
       </Routes>
 
