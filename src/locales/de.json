@@ -1,187 +1,185 @@
 {
-    "navLinks": {
-      "home": "Startseite",
-      "events": "Veranstaltungen",
-      "product": "Produkt",
-      "training": "Ausbildung",
-      "team": "Team"
+  "navLinks": {
+    "home": "Startseite",
+    "events": "Veranstaltungen",
+    "product": "Produkt",
+    "training": "Ausbildung",
+    "team": "Team"
+  },
+  "features": {
+    "feature1": {
+      "title": "Schritt 1: Wähle dein bevorzugtes Format",
+      "content": "Klicke hier und entdecke eine Vielzahl einzigartiger Casino-Formate für dein Event."
     },
-    "features": {
-      "feature1": {
-        "title": "Step 1: Wähle dein bevorzugtes Format",
-        "content": "Klicken Sie hier und entdecken Sie eine Vielzahl einzigartiger Casino-Formate für Ihr Event."
-      },
-      "feature2": {
-        "title": "Step 2: Einfach und unkompliziert dein Event buchen",
-        "content": "Wählen Sie den Tag und senden Sie Ihre Buchungsanfrage für Ihr unvergessliches Event."
-      },
-      "feature3": {
-        "title": "Step 3: Feiere mit Stil und erlebe eine unvergessliche Nacht",
-        "content": "Die ultimative Casino-Party: Lass die Würfel rollen und die Chips fliegen."
-      }
+    "feature2": {
+      "title": "Schritt 2: Einfach und unkompliziert dein Event buchen",
+      "content": "Wähle den Tag und sende deine Buchungsanfrage für dein unvergessliches Event."
     },
-    "feedback": {
-      "feedback1": {
-        "bestDeal": "",
-        "name": "Essential Casino Chic",
-        "title": "Ein Hauch von Klasse",
-        "content": "1 x Black Jack, inkl. Croupier",
-        "content2": "3 Stunden Spielzeit",
-        "content3": "Logistik inklusive: Lieferung, Auf- und Abbau des Spieltisches",
-        "content4": "VIP-Empfang auf Anfrage*",
-        "content5": "Hochwertige Tische für ein authentisches Erlebnis",
-        "price": "Ab CHF 1.490. - + MwSt.",
-        "additional": "Zusätzliche Stunde: + CHF 290"
-      },
-      "feedback2": {
-        "bestDeal": "beliebteste Wahl",
-        "name": "Basic Casino Blitz",
-        "title": "Luxus für Einsteiger",
-        "content": "1 x Black Jack oder Ultimate Texas Hold'em, inkl. Croupier",
-        "content2": "1 x American Roulette, inkl. Croupier",
-        "content3": "3 Stunden Spielzeit",
-        "content4": "Logistik inklusive: Lieferung, Auf- und Abbau der Spieltische",
-        "content5": "VIP-Empfang auf Anfrage*",
-        "content6": "Elegantes Design und makellose Croupiers",
-        "price": "Ab CHF 2.190. - + MwSt.",
-        "additional": "Zusätzliche Stunde: + CHF 390"
-      },
-      "feedback3": {
-        "bestDeal": "",
-        "name": "Premium-Erlebnis",
-        "title": "Unvergessliches Goldpaket",
-        "content": "1 x Black Jack, inkl. Croupier",
-        "content2": "1 x American Roulette, inkl. Croupier",
-        "content3": "1 x Ultimate Texas Hold'em, inkl. Croupier",
-        "content4": "3 Stunden Spielzeit",
-        "content5": "VIP-Empfang inklusive: Roter Teppich, Willkommensgetränk, elegante Musik",
-        "content6": "Logistik inklusive: Lieferung, Auf- und Abbau der Spieltische",
-        "content7": "Luxuriöse Tische, höchste Detailgenauigkeit",
-        "price": "Ab CHF 3.290. - + MwSt.",
-        "additional": "Zusätzliche Stunde: + CHF 490"
-      },
-      "feedback4": {
-        "bestDeal": "",
-        "name": "Royal Casino Extravaganz",
-        "title": "Maßgeschneidertes Luxuspaket",
-        "content": "Tische nach Wahl: Black Jack, American Roulette, Ultimate Texas Hold'em, inkl. Croupiers",
-        "content2": "3 Stunden Spielzeit",
-        "content3": "VIP-Empfang inklusive: James Bond-Stil",
-        "content4": "Zusätzliche Optionen: Musik, Dekoration, Fotoservice, Catering",
-        "content5": "Logistik inklusive",
-        "price": "Preis auf Anfrage",
-        "additional": "Zusätzliche Stunde: Preis je nach Konfiguration"
-      }
+    "feature3": {
+      "title": "Schritt 3: Feiere mit Stil und erlebe eine unvergessliche Nacht",
+      "content": "Die ultimative Casino-Party: Lass die Würfel rollen und die Chips fliegen."
+    }
+  },
+  "feedback": {
+    "feedback1": {
+      "bestDeal": "",
+      "name": "Essential Casino Chic",
+      "title": "Ein Hauch von Klasse",
+      "content": "1 x Blackjack, inkl. Croupier",
+      "content2": "3 Stunden Spielzeit",
+      "content3": "Logistik inklusive: Lieferung, Auf- und Abbau des Spieltisches",
+      "content4": "VIP-Empfang auf Anfrage*",
+      "content5": "Hochwertige Tische für ein authentisches Erlebnis",
+      "price": "Ab CHF 1.490.- + MwSt.",
+      "additional": "Zusätzliche Stunde: + CHF 290"
     },
-    "hero": {
-      "discountAmount": "20%",
-      "discountText": "Rabatt bis",
-      "discountDate": "September 2024",
-      "mainTextPart1": "Wir schaffen",
-      "mainTextPart2": "unvergessliche",
-      "mainTextPart3": "Momente für Ihr Event.",
-      "description": "Unterhaltung der Spitzenklasse, die alle Erwartungen übertrifft."
+    "feedback2": {
+      "bestDeal": "Beliebteste Wahl",
+      "name": "Basic Casino Blitz",
+      "title": "Luxus für Einsteiger",
+      "content": "1 x Blackjack oder Ultimate Texas Hold'em, inkl. Croupier",
+      "content2": "1 x American Roulette, inkl. Croupier",
+      "content3": "3 Stunden Spielzeit",
+      "content4": "Logistik inklusive: Lieferung, Auf- und Abbau der Spieltische",
+      "content5": "VIP-Empfang auf Anfrage*",
+      "content6": "Elegantes Design und makellose Croupiers",
+      "price": "Ab CHF 2.190.- + MwSt.",
+      "additional": "Zusätzliche Stunde: + CHF 390"
     },
-    "stats": {
-      "privateEvents": "Private Feiern",
-      "corporateEvents": "Firmenveranstaltungen",
-      "themeWeddings": "Themenhochzeiten"
+    "feedback3": {
+      "bestDeal": "",
+      "name": "Premium-Erlebnis",
+      "title": "Unvergessliches Goldpaket",
+      "content": "1 x Blackjack, inkl. Croupier",
+      "content2": "1 x American Roulette, inkl. Croupier",
+      "content3": "1 x Ultimate Texas Hold'em, inkl. Croupier",
+      "content4": "3 Stunden Spielzeit",
+      "content5": "VIP-Empfang inklusive: Roter Teppich, Willkommensgetränk, elegante Musik",
+      "content6": "Logistik inklusive: Lieferung, Auf- und Abbau der Spieltische",
+      "content7": "Luxuriöse Tische, höchste Detailgenauigkeit",
+      "price": "Ab CHF 3.290.- + MwSt.",
+      "additional": "Zusätzliche Stunde: + CHF 490"
     },
-    "cta": {
-      "title": "Hol dir jetzt die perfekte Casino-Nacht nach Hause!",
-      "description": "Genieße den Glanz und Glamour des Casinos und erlebe eine Nacht voller Spaß, Spannung und unvergesslicher Erlebnisse"
+    "feedback4": {
+      "bestDeal": "",
+      "name": "Royal Casino Extravaganz",
+      "title": "Maßgeschneidertes Luxuspaket",
+      "content": "Tische nach Wahl: Blackjack, American Roulette, Ultimate Texas Hold'em, inkl. Croupiers",
+      "content2": "3 Stunden Spielzeit",
+      "content3": "VIP-Empfang inklusive: James Bond-Stil",
+      "content4": "Zusätzliche Optionen: Musik, Dekoration, Fotoservice, Catering",
+      "content5": "Logistik inklusive",
+      "price": "Preis auf Anfrage",
+      "additional": "Zusätzliche Stunde: Preis je nach Konfiguration"
+    }
+  },
+  "hero": {
+    "discountAmount": "20%",
+    "discountText": "Rabatt bis",
+    "discountDate": "September 2024",
+    "mainTextPart1": "Wir schaffen",
+    "mainTextPart2": "unvergessliche",
+    "mainTextPart3": "Momente für Ihr Event.",
+    "description": "Unterhaltung der Spitzenklasse, die alle Erwartungen übertrifft."
+  },
+  "stats": {
+    "privateEvents": "Private Feiern",
+    "corporateEvents": "Firmenveranstaltungen",
+    "themeWeddings": "Themenhochzeiten"
+  },
+  "cta": {
+    "title": "Hol dir jetzt die perfekte Casino-Nacht nach Hause!",
+    "description": "Genieße den Glanz und Glamour des Casinos und erlebe eine Nacht voller Spaß, Spannung und unvergesslicher Erlebnisse."
+  },
+  "getStarted": {
+    "reserve": "Reservieren",
+    "now": ""
+  },
+  "notEnough": {
+    "heading": "Möchtest du mehr?",
+    "highlight": "Dein Casino, deine Wahl!",
+    "description": "Mit unseren individuellen Paketen kannst du deine Veranstaltung zu etwas Besonderem machen. Entdecke jetzt die Vielfalt unserer Angebote und gestalte dein eigenes, einzigartiges Casino-Event!"
+  },
+  "quickContact": {
+    "buttonText": "JETZT ANFRAGEN!"
+  },
+  "business": {
+    "heading": "Wie funktioniert",
+    "subheading": "Event Casino Schweiz?",
+    "description": "Genieße Casino-Unterhaltung auf höchstem Niveau für deine nächste Feier in der ganzen Schweiz."
+  },
+  "packages": {
+    "heading": "Beeindrucke",
+    "subheading": "deine Gäste mit einem exklusiven Casino-Erlebnis",
+    "description": "Wähle aus einer vielfältigen Auswahl an Casinotischen für deine Veranstaltung. Verwandle jeden Ort in dein persönliches Casino.",
+    "importantNote": "*Wichtiger Hinweis: Gespielt wird ohne Geldeinsatz und Auszahlungen. Dies ist gesetzlich nicht erlaubt!"
+  },
+  "button": {
+    "reserve": "Reservieren"
+  },
+  "footer": {
+    "usefulLinks": "Nützliche Links",
+    "content": "Inhalt",
+    "howItWorks": "Wie es funktioniert",
+    "create": "Erstellen",
+    "explore": "Erkunden",
+    "termsServices": "AGB",
+    "community": "Gemeinschaft",
+    "helpCenter": "Hilfezentrum",
+    "partners": "Partner",
+    "suggestions": "Vorschläge",
+    "blog": "Blog",
+    "newsletters": "Newsletter",
+    "partner": "Partner",
+    "ourPartner": "Unser Partner",
+    "becomePartner": "Partner werden",
+    "allRightsReserved": "Alle Rechte vorbehalten"
+  },
+  "notFound": {
+    "title": "Oops! 404",
+    "subtitle": "Sieht so aus, als hättest du daneben gesetzt! Zeit, das Blatt zu wenden!",
+    "backHome": "Zurück zur Startseite"
+  },
+  "team": {
+    "heading": "Die Elite des Casinos",
+    "member1": {
+      "name": "Agentin Sophia Ferrari",
+      "role": "Meisterin des Blackjack",
+      "description": "Sophia, eine Strategin mit ruhiger Hand, beherrscht die Karten wie keine andere. Ein einziger Blick auf ihr undurchdringliches Gesicht reicht aus, um ihre Gegner ins Schwitzen zu bringen. Ihr Lieblingssatz: 'In meinem Spiel gibt es keinen Platz für Fehler.'"
     },
-    "getStarted": {
-      "reserve": "Reservieren",
-      "now":""
-
+    "member2": {
+      "name": "Luca 'Der König der Roulette' Verdi",
+      "role": "Der Magier des Rades",
+      "description": "Luca ist die Verkörperung von Eleganz und Präzision. Sein Talent am Roulette ist legendär. Er kennt die Gesetze des Zufalls, doch er gewinnt immer. Seine Geheimwaffe? Ein Lächeln, das den Raum erhellt."
     },
-    "notEnough": {
-      "heading": "Möchten Sie mehr?",
-      "highlight": "Dein Casino, deine Wahl!",
-      "description": "Mit unseren individuellen Paketen kannst du deine Veranstaltung zu etwas Besonderem machen. Entdecke jetzt die Vielfalt unserer Angebote und gestalte dein eigenes, einzigartiges Casino-Event!"
+    "member3": {
+      "name": "Maximilian Schmidt",
+      "role": "Der Pokerhai",
+      "description": "Maximilian wirkt ruhig und nachdenklich, doch unter der Oberfläche verbirgt sich ein formidabler Gegner. Seine Fähigkeiten im Texas Hold'em sind weltberühmt, und er lässt nie Zweifel an seinem nächsten Schritt."
     },
-    "quickContact": {
-      "buttonText": "JETZT ANFRAGEN!"
-    },
-    "business": {
-      "heading": "Wie funktioniert",
-      "subheading": "Event Casino Schweiz?",
-      "description": "Genießen Sie Casino-Unterhaltung auf höchstem Niveau für Ihre nächste Feier in der ganzen Schweiz."
-    },
-    "packages": {
-      "heading": "Beeindrucken",
-      "subheading": "Sie Ihre Gäste mit einem exklusiven Casino-Erlebnis",
-      "description": "Wähle aus einer vielfältigen Auswahl an Casinotischen für deine Veranstaltung. Verwandle jeden Ort in dein persönliches Casino.",
-      "importantNote": "*Wichtiger Hinweis: Gespielt wird ohne Geldeinsatz und Auszahlungen. Dies ist gesetzlich nicht erlaubt!"
-    },
-    "button": {
-      "reserve": "Reservieren"
-    },
-    "footer": {
-      "usefulLinks": "Nützliche Links",
-      "content": "Inhalt",
-      "howItWorks": "Wie es funktioniert",
-      "create": "Erstellen",
-      "explore": "Erkunden",
-      "termsServices": "AGB",
-      "community": "Gemeinschaft",
-      "helpCenter": "Hilfezentrum",
-      "partners": "Partner",
-      "suggestions": "Vorschläge",
-      "blog": "Blog",
-      "newsletters": "Newsletter",
-      "partner": "Partner",
-      "ourPartner": "Unser Partner",
-      "becomePartner": "Partner werden",
-      "allRightsReserved": "Alle Rechte vorbehalten"
-    },
-    "notFound": {
-        "title": "Oops! 404",
-        "subtitle": "Sieht so aus, als hättest du daneben gesetzt! Zeit, das Blatt zu wenden!",
-        "backHome": "Zurück zur Startseite"
-    },
-    "team": {
-        "heading": "Die Elite des Casinos",
-        "member1": {
-          "name": "Agentin Sophia Ferrari",
-          "role": "Meisterin des Black Jack",
-          "description": "Sophia, eine Strategin mit ruhiger Hand, beherrscht die Karten wie keine andere. Ein einziger Blick auf ihr undurchdringliches Gesicht reicht aus, um ihre Gegner ins Schwitzen zu bringen. Ihr Lieblingssatz: 'In meinem Spiel gibt es keinen Platz für Fehler.'"
-        },
-        "member2": {
-          "name": "Luca 'Der König der Roulette' Verdi",
-          "role": "Der Magier des Rades",
-          "description": "Luca ist die Verkörperung von Eleganz und Präzision. Sein Talent am Roulette ist legendär. Er kennt die Gesetze des Zufalls, doch er gewinnt immer. Seine Geheimwaffe? Ein Lächeln, das den Raum erhellt."
-        },
-        "member3": {
-          "name": "Maximilian Schmidt",
-          "role": "Der Pokerhai",
-          "description": "Maximilian wirkt ruhig und nachdenklich, doch unter der Oberfläche verbirgt sich ein formidabler Gegner. Seine Fähigkeiten im Texas Hold'em sind weltberühmt, und er lässt nie Zweifel an seinem nächsten Schritt."
-        },
-        "member4": {
-          "name": "Marco 'Der Spion' Rossi",
-          "role": "Roulette-Meister und Geheimagent",
-          "description": "Mit Charme, Stil und einem Hauch von Geheimnis zieht Marco die Aufmerksamkeit aller auf sich. Seine Leidenschaft für das Spiel wird nur von seiner geheimen Mission übertroffen: die perfekte Casino-Erfahrung zu bieten."
-        }
-      },
-      
- "events": {
-    "heading": "Entdecke unsere Casino Themen Events",
+    "member4": {
+      "name": "Marco 'Der Spion' Rossi",
+      "role": "Roulette-Meister und Geheimagent",
+      "description": "Mit Charme, Stil und einem Hauch von Geheimnis zieht Marco die Aufmerksamkeit aller auf sich. Seine Leidenschaft für das Spiel wird nur von seiner geheimen Mission übertroffen: die perfekte Casino-Erfahrung zu bieten."
+    }
+  },
+  "events": {
+    "heading": "Entdecke unsere Casino-Themen-Events",
     "birthday": {
       "title": "Casino Royale: Feiere stilvoll deinen Geburtstag",
       "description": "Erlebe einen unvergesslichen Geburtstag im Stil von James Bond, bei dem Spannung und Eleganz im Mittelpunkt stehen. Professionelle Croupiers führen dich und deine Gäste durch eine Nacht voller Nervenkitzel und exklusiver Unterhaltung. Mit stilvollen Casinotischen, glamouröser Dekoration und besonderen Überraschungen wird jeder Moment deines Geburtstags zu einem Highlight. Lass die Würfel rollen und feiere deinen Ehrentag mit einem Casino-Erlebnis, das deinen Gästen lange in Erinnerung bleiben wird."
     },
     "corporate": {
       "title": "Blackjack & Business: Unvergessliche Firmenevents",
-      "description": "Verleihen Sie Ihrem Firmenevent das gewisse Etwas und fördern Sie das Teambuilding mit einer einzigartigen Casino-Nacht. Lassen Sie Ihre Mitarbeiter und Geschäftspartner in die Welt des Glücksspiels eintauchen, während sie in eleganter Atmosphäre Kontakte knüpfen und sich amüsieren. Mit erstklassigen Croupiers und hochwertigen Spieltischen wird Ihre Firmenveranstaltung zu einem Erlebnis, das Professionalität mit Spaß und Spannung vereint. Machen Sie Ihr Event zu einem echten Highlight!"
+      "description": "Verleihe deinem Firmenevent das gewisse Etwas und fördere das Teambuilding mit einer einzigartigen Casino-Nacht. Lass deine Mitarbeiter und Geschäftspartner in die Welt des Glücksspiels eintauchen, während sie in eleganter Atmosphäre Kontakte knüpfen und sich amüsieren. Mit erstklassigen Croupiers und hochwertigen Spieltischen wird deine Firmenveranstaltung zu einem Erlebnis, das Professionalität mit Spaß und Spannung vereint. Mache dein Event zu einem echten Highlight!"
     },
     "gala": {
       "title": "Gala-Abend: Elegante Casino-Nacht",
-      "description": "Tauchen Sie ein in eine Nacht voller Luxus und Glamour, bei der das Casino zum Herzstück Ihrer Gala wird. Ihre Gäste erwartet ein Abend voller stilvoller Unterhaltung, erstklassiger Spieltische und raffiniertem Ambiente. Ob Roulette, Blackjack oder Poker – jede Drehung und jede Karte bringt einen Hauch von Exklusivität mit sich. Erleben Sie die perfekte Kombination aus Eleganz und Spannung und schaffen Sie eine Veranstaltung, die in jeder Hinsicht beeindruckt. Ein Casino-Erlebnis für anspruchsvolle Gäste."
+      "description": "Tauche ein in eine Nacht voller Luxus und Glamour, bei der das Casino zum Herzstück deiner Gala wird. Deine Gäste erwartet ein Abend voller stilvoller Unterhaltung, erstklassiger Spieltische und raffiniertem Ambiente. Ob Roulette, Blackjack oder Poker – jede Drehung und jede Karte bringt einen Hauch von Exklusivität mit sich. Erlebe die perfekte Kombination aus Eleganz und Spannung und schaffe eine Veranstaltung, die in jeder Hinsicht beeindruckt. Ein Casino-Erlebnis für anspruchsvolle Gäste."
     },
     "wedding": {
       "title": "Casino-Hochzeit: Für unvergessliche Erinnerungen",
-      "description": "Machen Sie Ihre Hochzeit zu einem einmaligen Erlebnis mit einem maßgeschneiderten Casino-Setup. Für einen Tag, an dem alles perfekt sein soll, bieten wir elegante Casinotische und professionelle Croupiers, die für unvergessliche Momente sorgen. Ihre Gäste werden von der Atmosphäre begeistert sein, während sie sich stilvoll unterhalten und in die Welt des Glücksspiels eintauchen. Von der Dekoration bis hin zu den Spieltischen – wir schaffen eine Hochzeit, die so einzigartig ist wie Ihre Liebe."
+      "description": "Mache deine Hochzeit zu einem einmaligen Erlebnis mit einem maßgeschneiderten Casino-Setup. Für einen Tag, an dem alles perfekt sein soll, bieten wir elegante Casinotische und professionelle Croupiers, die für unvergessliche Momente sorgen. Deine Gäste werden von der Atmosphäre begeistert sein, während sie sich stilvoll unterhalten und in die Welt des Glücksspiels eintauchen. Von der Dekoration bis hin zu den Spieltischen – wir schaffen eine Hochzeit, die so einzigartig ist wie eure Liebe."
     },
     "bachelor_party": {
       "title": "Die letzte Nacht der Freiheit: Casino-Style",
@@ -189,13 +187,75 @@
     },
     "private_event": {
       "title": "Exklusive private Casino-Events",
-      "description": "Gestalten Sie Ihr privates Event zu einem unvergesslichen Erlebnis mit unserem maßgeschneiderten Casino-Service. Ob kleine Feier oder großes Event, wir bieten individuelle Lösungen, die auf Ihre Wünsche und die Bedürfnisse Ihrer Gäste abgestimmt sind. Mit exklusiven Casinotischen, professionellen Croupiers und einem Ambiente, das Luxus und Eleganz ausstrahlt, verwandeln wir Ihre Veranstaltung in einen besonderen Anlass. Jedes Detail wird sorgfältig geplant, um Ihnen ein Event zu bieten, das in Erinnerung bleibt."
+      "description": "Gestalte dein privates Event zu einem unvergesslichen Erlebnis mit unserem maßgeschneiderten Casino-Service. Ob kleine Feier oder großes Event, wir bieten individuelle Lösungen, die auf deine Wünsche und die Bedürfnisse deiner Gäste abgestimmt sind. Mit exklusiven Casinotischen, professionellen Croupiers und einem Ambiente, das Luxus und Eleganz ausstrahlt, verwandeln wir deine Veranstaltung in einen besonderen Anlass. Jedes Detail wird sorgfältig geplant, um dir ein Event zu bieten, das in Erinnerung bleibt."
     }
   },
   "training": {
-    "heading": "Croupier-Ausbildungsschule"
+    "heading": "Croupier-Ausbildungsschule",
+    "mainTitle": "Werde der Meister der Spieltische",
+    "introText": "Unser Croupier-Ausbildungskurs bietet dir die Möglichkeit, praktische und theoretische Fähigkeiten zu erwerben, um in den renommiertesten Casinos in der Schweiz und Liechtenstein zu arbeiten. Mit einem flexiblen Programm und erfahrenen Ausbildern wirst du bestens vorbereitet sein, um die gefragtesten Tische zu leiten.",
+    "specialties": {
+      "roulette": {
+        "title": "Roulette",
+        "description": "Lerne, eines der ikonischsten Casinospiele zu leiten. In unserem Kurs erlangst du die Fähigkeiten, das Roulette-Rad professionell zu drehen, die Einsätze zu verwalten und sicher mit den Spielern zu interagieren."
+      },
+      "blackjack": {
+        "title": "Blackjack",
+        "description": "Entdecke alle Geheimnisse des Blackjacks, eines der beliebtesten Casinospiele. Du wirst darin geschult, die Einsätze zu verwalten, mit den Spielern zu kommunizieren und die Kontrolle über den Tisch zu behalten, um ein makelloses Spielerlebnis zu gewährleisten."
+      },
+      "poker": {
+        "title": "Poker",
+        "description": "Werde ein Poker-Experte, indem du Tische für Texas Hold'em, Omaha und andere Varianten leitest. Du lernst die Regeln, die Dynamik der Einsätze und wie du in jeder Hand professionellen Service bieten kannst."
+      },
+      "serviceExcellence": {
+        "title": "Service Excellence",
+        "description": "Ein Croupier ist nicht nur ein Spielleiter, sondern auch ein Botschafter des Kundenservice. Unser Kurs lehrt dich, ein exzellentes Erlebnis für jeden Gast zu garantieren, vom Willkommen am Tisch bis zum letzten Spiel."
+      }
+    },
+    "whyChooseUsTitle": "Warum solltest du unseren Kurs wählen?",
+    "whyChooseUs": {
+      "point1": {
+        "title": "Umfassende Ausbildung",
+        "description": "Erwerbe alle technischen und praktischen Fähigkeiten, die du benötigst, um in den renommiertesten Casinos in der Schweiz und Liechtenstein zu arbeiten."
+      },
+      "point2": {
+        "title": "Flexibilität des Kurses",
+        "description": "Der Kurs dauert 1 bis 3 Monate mit der Möglichkeit, zweimal pro Woche am Unterricht teilzunehmen, um sich deinen Verpflichtungen anzupassen."
+      },
+      "point3": {
+        "title": "Praktisches und theoretisches Lernen",
+        "description": "Lerne die Verwaltung von Blackjack-, Roulette- und Pokertischen mit technischen und mathematischen Fähigkeiten, die du auch von zu Hause aus vertiefen kannst."
+      },
+      "point4": {
+        "title": "Direkte Verbindungen zu Casinos",
+        "description": "Profitiere von unseren direkten Verbindungen zu den wichtigsten Casinos in der Schweiz und Liechtenstein, um sofort zu arbeiten."
+      },
+      "point5": {
+        "title": "Exklusive Lernumgebung",
+        "description": "Werde Teil einer kleinen Gruppe von Studenten für eine personalisierte Betreuung und ein maßgeschneidertes Lernerlebnis."
+      },
+      "point6": {
+        "title": "Erfahrene Lehrer",
+        "description": "Lerne von den besten Fachleuten der Branche mit jahrelanger Erfahrung in der Glücksspielwelt und im Tischmanagement."
+      },
+      "point7": {
+        "title": "Karrieremöglichkeiten",
+        "description": "Nach Abschluss des Kurses bist du bereit, deine Karriere als Croupier zu beginnen, mit Arbeitsmöglichkeiten in den besten Event Casinos."
+      },
+      "point8": {
+        "title": "Ständige Unterstützung",
+        "description": "Wir bieten kontinuierliche Unterstützung auch nach Kursende, um dir beim Einstieg in den Arbeitsmarkt und bei der Entwicklung deiner Karriere zu helfen."
+      }
+    },
+    "requirementsTitle": "Teilnahmevoraussetzungen",
+    "requirementsIntro": "Um an unserem Croupier-Ausbildungskurs teilzunehmen, müssen folgende Voraussetzungen erfüllt sein:",
+    "requirementsList": {
+      "item1": "Mindestens 18 Jahre alt",
+      "item2": "Ein sauberes Führungszeugnis besitzen",
+      "item3": "Keine Einträge im Schuldenregister",
+      "item4": "Keine Farbenblindheit (Störung der Farbwahrnehmung)"
+    },
+    "callToActionTitle": "Bist du bereit, deine Karriere als Croupier zu starten?",
+    "callToActionText": "Kontaktiere uns noch heute für weitere Informationen zu unserem Ausbildungskurs und erfahre, wie wir dir helfen können, in die exklusive Welt der Casinos einzutreten. Die Plätze sind begrenzt!"
   }
-
-      
-  }
-  
+}
