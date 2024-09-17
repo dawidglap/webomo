@@ -52,7 +52,7 @@ const CookiePolicy = () => {
       <AnimatePresence>
         {showPolicy && (
           <motion.div
-            className="fixed bottom-0 left-0 z-50 flex max-w-sm items-center justify-center rounded-lg mx-auto"
+            className="fixed bottom-0 left-0 right-0 md:right-auto z-50 flex max-w-sm items-center justify-center rounded-lg mx-auto"
             initial="hidden"
             animate="visible"
             exit="exit"
