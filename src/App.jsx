@@ -19,6 +19,9 @@ import Casino101 from "./components/Casino101";
 import Contact from "./components/Contact";
 import MessageSuccess from "./components/MessageSuccess";
 import MessageError from "./components/MessageError";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsAndConditions from "./components/TermsAndConditions";
+import CookiePolicy from "./components/CookiePolicy";
 
 const Home = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -66,6 +69,8 @@ const App = () => (
         <Route path="/contact" element={<Contact />} /> {/* Team page */}
         <Route path="/message-success" element={<MessageSuccess />} />
         <Route path="/message-error" element={<MessageError />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 
@@ -73,6 +78,7 @@ const App = () => (
       <div className={`${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
+          <CookiePolicy />
         </div>
       </div>
     </div>

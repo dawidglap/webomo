@@ -1,141 +1,160 @@
-import styles from "../style";
 import {
-  ecsLogo,
-  fullLogo,
-  instagram,
-  facebook,
-  twitter,
-  linkedin,
-} from "../assets";
-import { useTranslation } from "react-i18next"; // Import useTranslation
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaInstagram,
+} from "react-icons/fa";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import fullLogo from "../assets/fullLogo.png"; // Replace with your logo asset
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-  const { t } = useTranslation(); // Use useTranslation for text
-
-  // Move the footerLinks and socialMedia arrays into the component
-  const footerLinks = [
-    {
-      title: t("footer.usefulLinks"), // Translate title
-      links: [
-        { name: t("footer.content"), link: "https://www.hoobank.com/content/" },
-        {
-          name: t("footer.howItWorks"),
-          link: "https://www.hoobank.com/how-it-works/",
-        },
-        { name: t("footer.create"), link: "https://www.hoobank.com/create/" },
-        { name: t("footer.explore"), link: "https://www.hoobank.com/explore/" },
-        {
-          name: t("footer.termsServices"),
-          link: "https://www.hoobank.com/terms-and-services/",
-        },
-      ],
-    },
-    {
-      title: t("footer.community"),
-      links: [
-        {
-          name: t("footer.helpCenter"),
-          link: "https://www.hoobank.com/help-center/",
-        },
-        {
-          name: t("footer.partners"),
-          link: "https://www.hoobank.com/partners/",
-        },
-        {
-          name: t("footer.suggestions"),
-          link: "https://www.hoobank.com/suggestions/",
-        },
-        { name: t("footer.blog"), link: "https://www.hoobank.com/blog/" },
-        {
-          name: t("footer.newsletters"),
-          link: "https://www.hoobank.com/newsletters/",
-        },
-      ],
-    },
-    {
-      title: t("footer.partner"),
-      links: [
-        {
-          name: t("footer.ourPartner"),
-          link: "https://www.hoobank.com/our-partner/",
-        },
-        {
-          name: t("footer.becomePartner"),
-          link: "https://www.hoobank.com/become-a-partner/",
-        },
-      ],
-    },
-  ];
-
-  const socialMedia = [
-    { id: "instagram", icon: instagram, link: "https://www.instagram.com/" },
-    { id: "facebook", icon: facebook, link: "https://www.facebook.com/" },
-    { id: "twitter", icon: twitter, link: "https://www.twitter.com/" },
-    { id: "linkedin", icon: linkedin, link: "https://www.linkedin.com/" },
-  ];
+  const { t } = useTranslation();
 
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
-      <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-        <div className="flex-[1] flex flex-col justify-start items-center md:items-start">
-          <img
-            src={fullLogo}
-            alt="event casino schweiz"
-            className="h-[72.14px] object-contain md:self-start"
-          />
-        </div>
-
-        {/* Footer Links */}
-        <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-          {footerLinks.map((footerlink) => (
-            <div
-              key={footerlink.title}
-              className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
-            >
-              <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
-                {footerlink.title}
-              </h4>
-              <ul className="list-none mt-4">
-                {footerlink.links.map((link, index) => (
-                  <li
-                    key={link.name}
-                    className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-white cursor-pointer ${
-                      index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                    }`}
-                    onClick={() => window.open(link.link, "_blank")}
-                  >
-                    {link.name}
-                  </li>
-                ))}
-              </ul>
+    <footer className="bg-black py-10 text-dimWhite">
+      {/* Logo in the Middle */}
+      <div className="mb-8 flex justify-center">
+        <Link to="/">
+          <div className="flex cursor-pointer flex-row items-center">
+            <div className="mb-2 mt-2 h-16 w-32 md:h-32 md:w-64">
+              <img src={fullLogo} alt="Event Casino Schweiz" />
             </div>
-          ))}
-        </div>
+            <strong className="mx-1 select-none text-4xl md:text-6xl text-white"></strong>
+          </div>
+        </Link>
       </div>
 
-      {/* Copyright and Social Media */}
-      <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-        <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-dimWhite">
-          Copyright Ⓒ {currentYear} Event Casino Schweiz.{" "}
-          {t("footer.allRightsReserved")}
-        </p>
+      <div className="mx-auto max-w-[1440px]">
+        <div className="container mx-auto grid grid-cols-1 gap-8 md:grid-cols-3">
+          {/* Navigation Links */}
+          <div className="text-center md:text-left">
+            <h4 className="mb-4 text-lg font-semibold text-white">
+              {t("footer.navigation")}
+            </h4>
+            <ul className="space-y-2">
+              <li>
+                <Link
+                  to="/"
+                  className="transition-colors duration-200 hover:text-yellow-500 hover:underline"
+                >
+                  {t("navLinks.home")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/events"
+                  className="transition-colors duration-200 hover:text-yellow-500 hover:underline"
+                >
+                  {t("navLinks.events")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/casino101"
+                  className="transition-colors duration-200 hover:text-yellow-500 hover:underline"
+                >
+                  {t("navLinks.casino101")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/training"
+                  className="transition-colors duration-200 hover:text-yellow-500 hover:underline"
+                >
+                  {t("navLinks.training")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  className="transition-colors duration-200 hover:text-yellow-500 hover:underline"
+                >
+                  {t("navLinks.contact")}
+                </Link>
+              </li>
+            </ul>
+          </div>
 
-        <div className="flex flex-row md:mt-0 mt-6">
-          {socialMedia.map((social, index) => (
-            <img
-              key={social.id}
-              src={social.icon}
-              alt={social.id}
-              className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-                index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-              }`}
-              onClick={() => window.open(social.link)}
-            />
-          ))}
+          {/* Social Media Links */}
+          <div className="text-center md:text-center">
+            <h4 className="mb-4 text-lg font-semibold text-white">
+              {t("footer.followUs")}
+            </h4>
+            <div className="flex justify-center space-x-4 md:justify-center">
+              <a
+                href="https://www.instagram.com/webfast.ch/"
+                aria-label="Instagram"
+                className="transition-transform duration-200 hover:scale-110"
+              >
+                <FaInstagram className="text-xl hover:text-yellow-500" />
+              </a>
+              <a
+                href="https://x.com/DawidGlapi40180"
+                aria-label="Twitter"
+                className="transition-transform duration-200 hover:scale-110"
+              >
+                <FaTwitter className="text-xl hover:text-yellow-500" />
+              </a>
+              <a
+                href="https://linkedin.com/dawid-glapiak"
+                aria-label="LinkedIn"
+                className="transition-transform duration-200 hover:scale-110"
+              >
+                <FaLinkedinIn className="text-xl hover:text-yellow-500" />
+              </a>
+            </div>
+          </div>
+
+          {/* Contact Information */}
+          <div className="text-center md:text-right">
+            <h4 className="mb-4 text-lg font-semibold text-white">
+              {t("footer.contactUs")}
+            </h4>
+            <p>
+              Email:{" "}
+              <a
+                href="mailto:hello@eventcasino.ch"
+                className="transition-colors duration-200 hover:text-yellow-500 hover:underline"
+              >
+                hello@eventcasino.ch
+              </a>
+            </p>
+            <a
+              href="https://calendly.com/glapdawid/webbify"
+              className="mt-4 inline-block bg-blue-gradient text-black font-semibold py-2 px-4 rounded-2xl shadow-lg hover:bg-yellow-400 transition-transform duration-200 "
+            >
+              {t("footer.bookACall")}
+            </a>
+          </div>
+        </div>
+
+        {/* Terms & Privacy Policy Links */}
+        <div className="mt-8 text-center">
+          <Link
+            to="/terms-and-conditions"
+            className="transition-colors duration-200 hover:text-yellow-500 hover:underline"
+          >
+            {t("footer.termsConditions")}
+          </Link>{" "}
+          |
+          <Link
+            to="/privacy-policy"
+            className="ml-2 transition-colors duration-200 hover:text-yellow-500 hover:underline"
+          >
+            {t("footer.privacyPolicy")}
+          </Link>
+        </div>
+
+        {/* Copyright */}
+        <div className="mt-8 text-center">
+          <p className="text-xs text-dimWhite">
+            &copy; {new Date().getFullYear()} Event Casino Schweiz.{" "}
+            {t("footer.allRightsReserved")}.
+          </p>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 

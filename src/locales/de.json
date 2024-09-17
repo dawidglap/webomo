@@ -131,21 +131,12 @@
     "reserve": "Reservieren"
   },
   "footer": {
-    "usefulLinks": "Nützliche Links",
-    "content": "Inhalt",
-    "howItWorks": "Wie es funktioniert",
-    "create": "Erstellen",
-    "explore": "Erkunden",
-    "termsServices": "AGB",
-    "community": "Gemeinschaft",
-    "helpCenter": "Hilfezentrum",
-    "partners": "Partner",
-    "suggestions": "Vorschläge",
-    "blog": "Blog",
-    "newsletters": "Newsletter",
-    "partner": "Partner",
-    "ourPartner": "Unser Partner",
-    "becomePartner": "Partner werden",
+    "navigation": "Navigation",
+    "followUs": "Folgen Sie uns",
+    "contactUs": "Kontaktieren Sie uns",
+    "bookACall": "Einen Anruf buchen",
+    "termsConditions": "AGB",
+    "privacyPolicy": "Datenschutzrichtlinie",
     "allRightsReserved": "Alle Rechte vorbehalten"
   },
   "notFound": {
@@ -313,5 +304,87 @@
   "cta_team": {
     "title": "Die Elite des Casinos: Unsere Spielmeister zu Ihren Diensten",
     "description": "Beschreibung: Ob am Pokertisch oder beim rasanten Roulette – unsere professionellen Croupiers bringen Klasse und Spannung in jedes Spiel. Mit jahrzehntelanger Erfahrung in der Casinowelt garantieren wir Ihnen einen Abend voller Nervenkitzel und Stil. Erleben Sie die Perfektion einer exklusiven Nacht, bei der jedes Detail zählt."
+  },
+  
+    "privacyPolicy": {
+      "title": "Datenschutzrichtlinie",
+      "section1": {
+        "title": "Einleitung",
+        "content": "Diese Datenschutzrichtlinie erklärt, wie Event Casino Schweiz Ihre persönlichen Daten sammelt, verwendet und schützt. Wir sind bestrebt, Ihre Privatsphäre zu schützen und sicherzustellen, dass Ihre persönlichen Daten sicher aufbewahrt und nur für die angegebenen Zwecke verwendet werden."
+      },
+      "section2": {
+        "title": "Gesammelte Daten",
+        "content": "Wir sammeln die folgenden persönlichen Daten, wenn Sie unsere Website nutzen oder das Kontaktformular ausfüllen: Name, E-Mail-Adresse, Nachricht und andere Informationen, die Sie freiwillig bereitstellen. Diese Daten werden nur in Übereinstimmung mit dieser Datenschutzrichtlinie verwendet."
+      },
+      "section3": {
+        "title": "Verwendung der Daten",
+        "content": "Die gesammelten Daten werden verwendet, um auf Ihre Anfragen zu antworten, Informationen über unsere Dienstleistungen bereitzustellen, Reservierungen zu verwalten und die Kommunikation bezüglich Ihrer Veranstaltungen zu erleichtern. Zudem nutzen wir die Daten, um die Benutzerfreundlichkeit unserer Website zu verbessern."
+      },
+      "section4": {
+        "title": "Datenspeicherung",
+        "content": "Ihre Daten werden nur so lange gespeichert, wie es für die Erfüllung der Zwecke erforderlich ist, für die sie erhoben wurden, oder wie es gesetzlich vorgeschrieben ist. Nach Ablauf dieser Fristen werden Ihre Daten sicher gelöscht oder anonymisiert."
+      },
+      "section5": {
+        "title": "Weitergabe der Daten",
+        "content": "Wir geben Ihre persönlichen Daten nicht an Dritte weiter, es sei denn, dies ist notwendig, um unsere Dienstleistungen zu erbringen oder gesetzlich vorgeschrieben. In solchen Fällen stellen wir sicher, dass geeignete Maßnahmen ergriffen werden, um Ihre Daten zu schützen."
+      },
+      "section6": {
+        "title": "Ihre Rechte",
+        "content": "Sie haben das Recht auf Zugang zu Ihren Daten sowie auf deren Berichtigung, Löschung oder Einschränkung der Verarbeitung. Wenn Sie eines dieser Rechte ausüben möchten, kontaktieren Sie uns bitte unter hello@eventcasino.ch. Wir werden Ihre Anfrage in Übereinstimmung mit den geltenden Datenschutzgesetzen bearbeiten."
+      },
+      "section7": {
+        "title": "Sicherheit der Daten",
+        "content": "Wir ergreifen geeignete technische und organisatorische Maßnahmen, um die Sicherheit Ihrer persönlichen Daten zu gewährleisten und sie vor unbefugtem Zugriff, Verlust oder Missbrauch zu schützen. Dennoch können wir keine absolute Sicherheit garantieren, da die Übertragung von Daten über das Internet inhärente Risiken birgt."
+      },
+      "section8": {
+        "title": "Änderungen der Datenschutzrichtlinie",
+        "content": "Wir behalten uns das Recht vor, diese Datenschutzrichtlinie jederzeit zu ändern. Änderungen werden auf dieser Seite veröffentlicht. Wir empfehlen Ihnen, diese Seite regelmäßig zu überprüfen, um sicherzustellen, dass Sie mit den aktuellen Richtlinien vertraut sind."
+      },
+      "section9": {
+        "title": "Kontaktinformationen",
+        "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder zum Umgang mit Ihren Daten haben, können Sie uns unter hello@eventcasino.ch kontaktieren."
+      }  
+  },
+  "termsConditions": {
+    "title": "Allgemeine Geschäftsbedingungen (AGB)",
+    "section1": {
+      "title": "Einleitung",
+      "content": "Willkommen bei Event Casino Schweiz! Diese Allgemeinen Geschäftsbedingungen regeln Ihre Nutzung unserer Website, die unter https://eventcasinoschweiz.netlify.app zugänglich ist. Durch den Zugriff auf unsere Website oder die Nutzung unserer Dienstleistungen erklären Sie sich mit diesen Bedingungen einverstanden. Sollten Sie mit einem Teil dieser Bedingungen nicht einverstanden sein, nutzen Sie bitte unsere Website nicht."
+    },
+    "section2": {
+      "title": "Verantwortlichkeiten des Benutzers",
+      "content": "Als Benutzer unserer Website erklären Sie sich damit einverstanden, Event Casino Schweiz verantwortungsvoll zu nutzen. Sie verpflichten sich, die Website nicht für rechtswidrige, illegale, betrügerische oder schädliche Zwecke zu verwenden oder in einer Weise, die die Verfügbarkeit oder den Zugriff auf die Website beeinträchtigen könnte."
+    },
+    "section3": {
+      "title": "Urheberrechte",
+      "content": "Sofern nicht anders angegeben, sind Event Casino Schweiz und seine Lizenzgeber die Inhaber der Urheberrechte an allen Inhalten der Website. Sie dürfen diese Materialien nur für den persönlichen Gebrauch nutzen, ohne sie erneut zu veröffentlichen, zu verkaufen, zu vermieten oder weiterzulizenzieren."
+    },
+    "section4": {
+      "title": "Haftungsbeschränkungen",
+      "content": "Event Casino Schweiz haftet nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, noch für den Verlust von Gewinnen, Einnahmen, Daten oder anderen immateriellen Verlusten, die sich aus der Nutzung unserer Website oder Dienstleistungen ergeben."
+    },
+    "section5": {
+      "title": "Geltendes Recht",
+      "content": "Diese Allgemeinen Geschäftsbedingungen unterliegen den Gesetzen der Schweiz. Alle Streitigkeiten, die sich aus diesen Bedingungen ergeben oder damit in Zusammenhang stehen, unterliegen der ausschließlichen Gerichtsbarkeit der Gerichte in der Schweiz."
+    },
+    "section6": {
+      "title": "Cookies-Richtlinie",
+      "content": "Event Casino Schweiz verwendet Cookies, um das Surferlebnis der Benutzer zu verbessern und personalisierte Dienste bereitzustellen. Durch die Nutzung unserer Website stimmen Sie der Verwendung von Cookies gemäß unserer Cookies-Richtlinie zu."
+    },
+    "section7": {
+      "title": "Änderungen der Allgemeinen Geschäftsbedingungen",
+      "content": "Event Casino Schweiz behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen jederzeit zu ändern. Änderungen werden auf dieser Seite veröffentlicht, und es wird empfohlen, diese Seite regelmäßig zu überprüfen, um auf dem Laufenden zu bleiben."
+    },
+    "section8": {
+      "title": "Kontaktinformationen",
+      "content": "Für weitere Informationen oder Fragen zu diesen Allgemeinen Geschäftsbedingungen können Sie uns unter hello@eventcasino.ch kontaktieren."
+    }
+  },
+  "cookiePolicy": {
+    "title": "Cookie-Richtlinie",
+    "description": "Wir verwenden Cookies, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website erhalten.",
+    "link": "Mehr erfahren",
+    "decline": "Ablehnen",
+    "accept": "Akzeptieren"
   }
 }
