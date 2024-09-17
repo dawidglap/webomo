@@ -8,7 +8,7 @@ const Button = ({ styles }) => {
   return (
     <button
       type="button"
-      className={`min-w-[90vw] ss:min-w-[15vw]  my-6 py-4 px-4 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none`}
+      className={`min-w-[90vw] ss:min-w-[15vw]  mt-6 py-4 px-4 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none`}
     >
       {t("button.reserve")} {/* Use translation for the button text */}
     </button>

@@ -24,11 +24,13 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex justify-between items-center navbar">
-      <img
-        src={ecsLogo}
-        alt="ecs-logo"
-        className="w-[48px] xs:w-[60px] ss:w-[72px] sm:w-[84px] md:w-[96px] mt-2 md:pt-3 pt-3"
-      />
+      <Link to="/">
+        <img
+          src={ecsLogo}
+          alt="ecs-logo"
+          className="w-[76px] xs:w-[60px] ss:w-[72px] sm:w-[84px] md:w-[96px] mt-2 md:pt-3 pt-3"
+        />
+      </Link>
 
       {/* Desktop Menu */}
       <ul className="list-none md:flex hidden justify-end items-center flex-1">

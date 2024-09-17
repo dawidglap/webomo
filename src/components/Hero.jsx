@@ -32,7 +32,7 @@ const Hero = () => {
   const { t } = useTranslation(); // Use useTranslation hook
 
   return (
-    <section id="home" className={`flex md:flex-row flex-col py-10 md:py-1`}>
+    <section id="home" className={`flex md:flex-row flex-col py-1 md:py-1`}>
       <motion.div
         variants={heroVariants}
         initial="hidden"
@@ -41,10 +41,10 @@ const Hero = () => {
       >
         <motion.div
           variants={textVariants}
-          className="flex flex-row mx-auto sm:mx-0 items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2"
+          className="flex flex-row mx-auto sm:mx-0 items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-4"
         >
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-          <p className={`${styles.paragraph} ml-2`}>
+          <p className={`${styles.paragraph} ml-2 text-[14px] md:text-[18px]`}>
             <span className="text-white">{t("hero.discountAmount")}</span>{" "}
             {t("hero.discountText")}
             {t(" ")}
