@@ -12,12 +12,12 @@ const PrivacyPolicy = () => {
   return (
     <div className="mx-auto my-4 min-h-screen max-w-6xl  px-6 py-12 text-dimWhite">
       <motion.div
-        className="mx-auto max-w-xl rounded-2xl bg-gray-900 border-b border-r border-yellow-500 px-6 py-10 shadow-lg"
+        className="mx-auto max-w-xl rounded-2xl bg-gray-900 border-b border-r border-yellow-400 px-6 py-10 shadow-lg"
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
       >
-        <h1 className="text-4xl font-bold text-yellow-500">
+        <h1 className="text-3xl md:text-4xl font-bold text-gradient">
           {t("privacyPolicy.title")}
         </h1>
 
