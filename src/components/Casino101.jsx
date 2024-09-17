@@ -3,8 +3,8 @@ import { Carousel, Card } from "./ui/apple-card-carousel";
 import wheel from "../assets/wheel.png";
 import texas from "../assets/texas.png";
 import bj from "../assets/bj.png";
-import wedding from "../assets/wedding.png";
-import bday from "../assets/bday.png";
+import gruppe from "../assets/gruppe.png";
+import alone from "../assets/alone.png";
 import partyprivate from "../assets/private.png";
 import { motion } from "framer-motion";
 import { LampContainer } from "./ui/lamp";
@@ -25,36 +25,36 @@ export default function Casino101() {
 
   const data = [
     {
-      category: "roulette",
+      category: "American Roulette",
       title: t("casino101.events.roulette.title"),
       src: wheel,
       content: <ContentComponent category="roulette" />,
     },
     {
-      category: "blackjack",
+      category: "Blackjack",
       title: t("casino101.events.blackjack.title"),
       src: bj,
       content: <ContentComponent category="blackjack" />,
     },
     {
-      category: "texas_holdem",
+      category: "Poker Texas Hold'em",
       title: t("casino101.events.texas_holdem.title", "Poker Texas Hold'em"),
       src: texas,
       content: <ContentComponent category="texas_holdem" />,
     },
     {
-      category: "ultimate_texas",
+      category: "Gruppenevents",
       title: t(
         "casino101.events.ultimate_texas.title",
         "Ultimate Texas Hold'em"
       ),
-      src: wedding,
+      src: gruppe,
       content: <ContentComponent category="ultimate_texas" />,
     },
     {
-      category: "three_card_poker",
+      category: "Individuelle Schulungen",
       title: t("casino101.events.three_card_poker.title", "3 Card Poker"),
-      src: bday,
+      src: alone,
       content: <ContentComponent category="three_card_poker" />,
     },
     // {
