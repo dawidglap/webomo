@@ -5,7 +5,7 @@ import Business from "./Business";
 import Packages from "./Packages";
 import PackageCard from "./PackageCard";
 import NotEnough from "./NotEnough";
-import Contacts from "./Contacts";
+import Contact from "./Contact";
 import CTA from "./CTA";
 import Events from "./Events";
 import Footer from "./Footer";
@@ -25,7 +25,7 @@ export {
   Packages,
   PackageCard,
   NotEnough,
-  Contacts,
+  Contact,
   CTA,
   Events,
   Footer,

@@ -16,6 +16,9 @@ import NotFound from "./components/NotFound";
 import { AppleCardsCarouselDemo } from "./components/AppleCardsCarouselDemo";
 import Training from "./components/Training";
 import Casino101 from "./components/Casino101";
+import Contact from "./components/Contact";
+import MessageSuccess from "./components/MessageSuccess";
+import MessageError from "./components/MessageError";
 
 const Home = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -60,6 +63,9 @@ const App = () => (
         <Route path="/events" element={<AppleCardsCarouselDemo />} />{" "}
         <Route path="/training" element={<Training />} /> {/* Team page */}
         <Route path="/casino101" element={<Casino101 />} /> {/* Team page */}
+        <Route path="/contact" element={<Contact />} /> {/* Team page */}
+        <Route path="/message-success" element={<MessageSuccess />} />
+        <Route path="/message-error" element={<MessageError />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 

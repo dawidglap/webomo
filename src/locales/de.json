@@ -4,7 +4,20 @@
     "events": "Veranstaltungen",
     "casino101": "Casino101",
     "training": "Ausbildung",
-    "team": "Team"
+    "team": "Team",
+    "contact": "Kontakt"
+  },
+  "form": {
+    "heading": "Kontaktieren Sie uns",
+    "nameLabel": "Ihr Name",
+    "namePlaceholder": "Geben Sie Ihren Namen ein",
+    "emailLabel": "Ihre E-Mail",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "messageLabel": "Ihre Nachricht",
+    "messagePlaceholder": "Geben Sie Ihre Nachricht ein",
+    "submitButton": "Absenden",
+    "successMessage": "Vielen Dank! Wir haben Ihre Nachricht erhalten und melden uns so schnell wie möglich.",
+    "errorMessage": "Es gab ein Problem beim Senden Ihrer Nachricht. Bitte versuchen Sie es später erneut."
   },
   "features": {
     "feature1": {

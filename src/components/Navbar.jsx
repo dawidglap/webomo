@@ -19,6 +19,7 @@ const Navbar = () => {
     { id: "casino101", title: "navLinks.casino101", path: "/casino101" },
     { id: "training", title: "navLinks.training", path: "/training" },
     { id: "team", title: "navLinks.team", path: "/team" },
+    { id: "contact", title: "navLinks.contact", path: "/contact" },
   ];
 
   return (
