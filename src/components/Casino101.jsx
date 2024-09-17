@@ -8,6 +8,7 @@ import alone from "../assets/alone.png";
 import partyprivate from "../assets/private.png";
 import { motion } from "framer-motion";
 import { LampContainer } from "./ui/lamp";
+import CTA from "./CTA";
 
 // Component for handling content inside each card dynamically
 const ContentComponent = ({ category }) => {
@@ -128,6 +129,7 @@ export default function Casino101() {
           <Card key={card.src} card={card} index={index} layout={true} />
         ))}
       />
+      <CTA />
     </div>
   );
 }

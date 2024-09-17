@@ -9,7 +9,6 @@ import {
   Hero,
   Business,
   Packages,
-  Events,
 } from "./components";
 import Team from "./components/Team"; // Import your Team component
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import React Router

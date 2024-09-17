@@ -292,5 +292,13 @@
         "description": "Für diejenigen, die lieber in Ruhe lernen, bieten wir individuelle Casinospiel-Schulungen an. Du kannst dich auf dein bevorzugtes Spiel konzentrieren und in deinem eigenen Tempo lernen."
       }
     }
+  },
+  "cta_croupier": {
+    "title": "Bist du bereit, deine Karriere als Croupier zu starten?",
+    "description": "Kontaktiere uns noch heute für weitere Informationen zu unserem Ausbildungskurs und erfahre, wie wir dir helfen können, in die exklusive Welt der Casinos einzutreten. Die Plätze sind begrenzt!"
+  },
+  "cta_team": {
+    "title": "Die Elite des Casinos: Unsere Spielmeister zu Ihren Diensten",
+    "description": "Beschreibung: Ob am Pokertisch oder beim rasanten Roulette – unsere professionellen Croupiers bringen Klasse und Spannung in jedes Spiel. Mit jahrzehntelanger Erfahrung in der Casinowelt garantieren wir Ihnen einen Abend voller Nervenkitzel und Stil. Erleben Sie die Perfektion einer exklusiven Nacht, bei der jedes Detail zählt."
   }
 }

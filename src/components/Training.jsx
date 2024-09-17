@@ -8,6 +8,7 @@ import Button from "./Button";
 import croupier from "../assets/croupierschool.png";
 import { FeaturesSectionDemo2 } from "./ui/why-ausbildung";
 import { IoMdCheckmark } from "react-icons/io";
+import CtaCroupier from "./CtaCroupier";
 
 const heroVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -192,7 +193,7 @@ const Training = () => {
           </div>
 
           {/* Call to Action */}
-          <motion.h3
+          {/* <motion.h3
             variants={textVariants}
             className="font-poppins font-bold text-white text-3xl md:text-4xl leading-tight mb-6 text-center mt-12"
           >
@@ -208,8 +209,9 @@ const Training = () => {
 
           <motion.div variants={textVariants} className="flex justify-center">
             <Button />
-          </motion.div>
+          </motion.div> */}
         </section>
+        <CtaCroupier />
       </div>
     </div>
   );

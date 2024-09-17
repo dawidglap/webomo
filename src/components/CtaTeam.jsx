@@ -19,7 +19,7 @@ const letterVariants = {
   visible: { opacity: 1 },
 };
 
-const CTA = () => {
+const CtaTeam = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.5 });
   const { t } = useTranslation(); // Use useTranslation hook
@@ -33,7 +33,7 @@ const CTA = () => {
     },
   };
 
-  const title = t("cta.title");
+  const title = t("cta_team.title");
 
   return (
     <motion.section
@@ -51,13 +51,13 @@ const CTA = () => {
           animate={isInView ? "visible" : "hidden"}
         >
           {title.split("").map((char, index) => (
-            <motion.span key={index} variants={letterVariants}>
+            <motion.span key={index} variants={letterVariants} className="">
               {char}
             </motion.span>
           ))}
         </motion.h2>
-        <p className={`${styles.paragraph} max-w-[768px] mt-5`}>
-          {t("cta.description")}
+        <p className={`${styles.paragraph} max-w-[1024px] mt-5`}>
+          {t("cta_team.description")}
         </p>
       </div>
 
@@ -68,4 +68,4 @@ const CTA = () => {
   );
 };
 
-export default CTA;
+export default CtaTeam;
