@@ -29,10 +29,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_8t5uzbc",
-        "template_i7r0gyp",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID, // Use import.meta.env for Vite
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formData,
-        "tsAqtmKh87A_Qu1Ug"
+        import.meta.env.VITE_EMAILJS_USER_ID
       )
       .then(
         (response) => {
