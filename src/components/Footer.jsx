@@ -122,7 +122,7 @@ const Footer = () => {
             </p>
             <a
               href="https://calendly.com/glapdawid/webbify"
-              className="mt-4 inline-block bg-blue-gradient text-black font-semibold py-2 px-4 rounded-2xl shadow-lg hover:bg-yellow-400 transition-transform duration-200 "
+              className="mt-4 inline-block bg-blue-gradient text-black font-semibold py-2 px-4 rounded-lg shadow-lg hover:bg-yellow-400 transition-transform duration-200 "
             >
               {t("footer.bookACall")}
             </a>

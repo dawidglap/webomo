@@ -41,7 +41,7 @@ const Hero = () => {
       >
         <motion.div
           variants={textVariants}
-          className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2"
+          className="flex flex-row mx-auto sm:mx-0 items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2"
         >
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
@@ -57,11 +57,11 @@ const Hero = () => {
           className="flex flex-row justify-between items-center w-full"
         >
           {/* Desktop Title - Restored */}
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold sm:text-left text-center ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[54px]">
             {t("hero.mainTextPart1")} <br className="sm:block hidden" />{" "}
             <span className="text-gradient">{t("hero.mainTextPart2")}</span>{" "}
           </h1>
-          <div className="ss:flex hidden md:mr-4 mr-0 ps-8">
+          <div className="md:flex hidden md:mr-4 mr-0 ps-8">
             <GetStarted />
           </div>
         </motion.div>
@@ -69,7 +69,7 @@ const Hero = () => {
         {/* Desktop Subtitle */}
         <motion.h1
           variants={textVariants}
-          className="font-poppins font-semibold ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[75px] w-full"
+          className="font-poppins font-semibold  sm:text-left text-center ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[54px] w-full"
         >
           {t("hero.mainTextPart3")}
         </motion.h1>
@@ -77,14 +77,14 @@ const Hero = () => {
         {/* Description */}
         <motion.p
           variants={textVariants}
-          className={`${styles.paragraph} text-gradient max-w-[470px] mt-5`}
+          className={`${styles.paragraph} text-center md:text-left text-gradient max-w-[1024px] mt-5`}
         >
           {t("hero.description")}
         </motion.p>
 
         <motion.div
           variants={textVariants}
-          className={`ss:hidden ${styles.flexCenter}`}
+          className={`md:hidden  ${styles.flexCenter}`}
         >
           <Button />
         </motion.div>
@@ -92,7 +92,7 @@ const Hero = () => {
 
       <motion.div
         variants={imageVariants}
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-1 relative`}
       >
         <img
           src={gaming}

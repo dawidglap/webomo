@@ -31,11 +31,11 @@ const Navbar = () => {
       />
 
       {/* Desktop Menu */}
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none md:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[18px] ${
+            className={`font-poppins font-light cursor-pointer text-[16px] ${
               active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
@@ -82,7 +82,7 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile Menu */}
-      <div className="sm:hidden flex flex-1 justify-end items-center z-[10000]">
+      <div className="md:hidden flex flex-1 justify-end items-center z-[10000]">
         {/* Language Switcher for Mobile */}
         <div className="flex space-x-4 mr-4">
           <button
