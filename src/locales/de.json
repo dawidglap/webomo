@@ -262,10 +262,18 @@
     "callToActionTitle": "Bist du bereit, deine Karriere als Croupier zu starten?",
     "callToActionText": "Kontaktiere uns noch heute für weitere Informationen zu unserem Ausbildungskurs und erfahre, wie wir dir helfen können, in die exklusive Welt der Casinos einzutreten. Die Plätze sind begrenzt!"
   },
-  "casino101": {
+  "casino101":
+  {
     "heading": "Casino101: Lerne die Kunst der Casinospiele",
     "subheading": "Nicht nur Casinopartys, sondern auch Schulungen für ein vollständiges Spielerlebnis",
     "description": "Neben aufregenden Casino-Events bieten wir Einführungskurse, die für alle geeignet sind, die mit Freunden oder bei Firmenevents Spaß haben möchten. Auch wenn du noch nie in einem Casino warst, kannst du die Regeln und Strategien der beliebtesten Spiele schnell erlernen und sicher und mit Vergnügen spielen.",
+    "categories": {
+    "roulette": "Roulette",
+    "blackjack": "Blackjack",
+    "texas_holdem": "Poker Texas Hold'em",
+    "ultimate_texas": "Gruppenevents",
+    "three_card_poker": "Privatunterricht"
+  },
     "events": {
       "roulette": {
         "title": "«Ihren Einsatz bitte!» Das Vergnügen am Roulette-Tisch",

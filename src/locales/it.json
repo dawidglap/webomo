@@ -1,160 +1,389 @@
 {
-    "navLinks": {
-      "home": "Home",
-      "events": "Eventi",
-      "casino101": "Casino101",
-      "training": "Formazione",
-      "team": "Team"
+  "navLinks": {
+    "home": "Home",
+    "events": "Eventi",
+    "casino101": "Casino101",
+    "training": "Scuola Croupier",
+    "team": "Il Team",
+    "contact": "Contattaci"
+  },
+  "form": {
+    "heading": "Contattaci",
+    "nameLabel": "Il tuo nome",
+    "namePlaceholder": "Inserisci il tuo nome",
+    "emailLabel": "La tua email",
+    "emailPlaceholder": "Inserisci il tuo indirizzo email",
+    "messageLabel": "Il tuo messaggio",
+    "messagePlaceholder": "Scrivi qui il tuo messaggio",
+    "submitButton": "Invia Messaggio",
+    "successMessage": "Grazie! Abbiamo ricevuto il tuo messaggio e ti risponderemo al più presto.",
+    "errorMessage": "Si è verificato un problema nell'invio del tuo messaggio. Per favore riprova più tardi."
+  },
+  "features": {
+    "feature1": {
+      "title": "Passo 1: Scegli il tuo formato preferito",
+      "content": "Clicca qui per scoprire una varietà di formati casino unici per il tuo evento."
     },
-    "features": {
-      "feature1": {
-        "title": "Passo 1: Scegli il tuo formato preferito",
-        "content": "Clicca qui e scopri una varietà di formati di casinò unici per il tuo evento."
+    "feature2": {
+      "title": "Passo 2: Prenota facilmente il tuo evento",
+      "content": "Seleziona la data e invia la tua richiesta di prenotazione per un'esperienza indimenticabile."
+    },
+    "feature3": {
+      "title": "Passo 3: Festeggia con stile",
+      "content": "Vivi l'evento casino definitivo: lascia che i dadi rotolino e le fiches volino."
+    }
+  },
+  "feedback": {
+    "feedback1": {
+      "bestDeal": "",
+      "name": "Essential Casino Chic",
+      "title": "Un Tocco di Classe",
+      "content": "1 x Blackjack, incluso croupier",
+      "content2": "3 ore di gioco",
+      "content3": "Logistica inclusa: consegna, montaggio e smontaggio del tavolo da gioco",
+      "content4": "Accoglienza VIP su richiesta*",
+      "content5": "Tavoli di alta qualità per un'esperienza autentica",
+      "price": "Da CHF 1.490 + IVA",
+      "additional": "Ora aggiuntiva: + CHF 290"
+    },
+    "feedback2": {
+      "bestDeal": "La Scelta Più Popolare",
+      "name": "Basic Casino Blitz",
+      "title": "Lusso per Principianti",
+      "content": "1 x Blackjack o Ultimate Texas Hold'em, incluso croupier",
+      "content2": "1 x American Roulette, incluso croupier",
+      "content3": "3 ore di gioco",
+      "content4": "Logistica inclusa: consegna, montaggio e smontaggio dei tavoli da gioco",
+      "content5": "Accoglienza VIP su richiesta*",
+      "content6": "Design elegante e croupier impeccabili",
+      "price": "Da CHF 2.190 + IVA",
+      "additional": "Ora aggiuntiva: + CHF 390"
+    },
+    "feedback3": {
+      "bestDeal": "",
+      "name": "Esperienza Premium",
+      "title": "Pacchetto Oro Indimenticabile",
+      "content": "1 x Blackjack, incluso croupier",
+      "content2": "1 x American Roulette, incluso croupier",
+      "content3": "1 x Ultimate Texas Hold'em, incluso croupier",
+      "content4": "3 ore di gioco",
+      "content5": "Accoglienza VIP inclusa: tappeto rosso, drink di benvenuto, musica elegante",
+      "content6": "Logistica inclusa: consegna, montaggio e smontaggio dei tavoli da gioco",
+      "content7": "Tavoli lussuosi con attenzione ai dettagli",
+      "price": "Da CHF 3.290 + IVA",
+      "additional": "Ora aggiuntiva: + CHF 490"
+    },
+    "feedback4": {
+      "bestDeal": "",
+      "name": "Royal Casino Extravaganza",
+      "title": "Pacchetto di Lusso Su Misura",
+      "content": "Scelta di tavoli: Blackjack, American Roulette, Ultimate Texas Hold'em, inclusi croupier",
+      "content2": "3 ore di gioco",
+      "content3": "Accoglienza VIP inclusa: stile James Bond",
+      "content4": "Opzioni aggiuntive: musica, decorazione, servizio fotografico, catering",
+      "content5": "Logistica inclusa",
+      "price": "Prezzo su richiesta",
+      "additional": "Ora aggiuntiva: prezzo in base alla configurazione"
+    }
+  },
+  "hero": {
+    "discountAmount": "20%",
+    "discountText": "Sconto fino a",
+    "discountDate": "Settembre 2024",
+    "mainTextPart1": "Creiamo",
+    "mainTextPart2": "Momenti Indimenticabili",
+    "mainTextPart3": "per il Tuo Evento.",
+    "description": "Intrattenimento di alto livello che supera ogni aspettativa."
+  },
+  "stats": {
+    "privateEvents": "Feste Private",
+    "corporateEvents": "Eventi Aziendali",
+    "themeWeddings": "Matrimoni a Tema"
+  },
+  "cta": {
+    "title": "Porta a Casa la Perfetta Serata al Casino Ora!",
+    "description": "Goditi lo sfarzo e il glamour del casino e vivi una notte piena di divertimento, emozione e momenti indimenticabili."
+  },
+  "getStarted": {
+    "reserve": "Prenota",
+    "now": "Ora"
+  },
+  "notEnough": {
+    "heading": "Vuoi di Più?",
+    "highlight": "Il Tuo Casino, La Tua Scelta!",
+    "description": "Con i nostri pacchetti personalizzati, puoi rendere il tuo evento davvero speciale. Esplora ora le nostre offerte e crea la tua esperienza casino unica!"
+  },
+  "quickContact": {
+    "buttonText": "RICHIEDI ORA!"
+  },
+  "business": {
+    "heading": "Come Funziona",
+    "subheading": "Event Casino Svizzera?",
+    "description": "Goditi intrattenimento casino di alto livello per la tua prossima festa in tutta la Svizzera."
+  },
+  "packages": {
+    "heading": "Impressiona",
+    "subheading": "i Tuoi Ospiti con un'Esperienza Casino Esclusiva",
+    "description": "Scegli tra una vasta selezione di tavoli da casino per il tuo evento. Trasforma qualsiasi luogo nel tuo casino personale.",
+    "importantNote": "*Nota Importante: Tutti i giochi si svolgono senza puntate in denaro o vincite. Questo non è consentito dalla legge!"
+  },
+  "button": {
+    "reserve": "Prenota Ora"
+  },
+  "footer": {
+    "navigation": "Navigazione",
+    "followUs": "Seguici",
+    "contactUs": "Contattaci",
+    "bookACall": "Prenota una Chiamata",
+    "termsConditions": "Termini e Condizioni",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "allRightsReserved": "Tutti i Diritti Riservati"
+  },
+  "notFound": {
+    "title": "Oops! 404",
+    "subtitle": "Sembra che tu abbia mancato il jackpot! È ora di cambiare gioco!",
+    "backHome": "Torna alla Home"
+  },
+  "team": {
+    "heading": "L'Élite del Casino",
+    "member1": {
+      "name": "Agente Sophia Ferrari",
+      "role": "Maestra del Blackjack",
+      "description": "Sophia, stratega dalla mano ferma, domina le carte come nessun altro. Uno sguardo al suo volto imperscrutabile è sufficiente per far sudare gli avversari. Il suo motto: 'Nel mio gioco non c'è spazio per errori.'"
+    },
+    "member2": {
+      "name": "Luca 'Il Re della Roulette' Verdi",
+      "role": "Il Mago della Ruota",
+      "description": "Luca incarna eleganza e precisione. Il suo talento al tavolo della roulette è leggendario. Conosce le leggi del caso, ma vince sempre. La sua arma segreta? Un sorriso che illumina la stanza."
+    },
+    "member3": {
+      "name": "Massimiliano Schmidt",
+      "role": "Lo Squalo del Poker",
+      "description": "Massimiliano appare calmo e riflessivo, ma sotto la superficie si nasconde un avversario formidabile. Le sue abilità nel Texas Hold'em sono rinomate in tutto il mondo, e non lascia mai dubbi sulla sua prossima mossa."
+    },
+    "member4": {
+      "name": "Marco 'La Spia' Rossi",
+      "role": "Maestro della Roulette e Agente Segreto",
+      "description": "Con fascino, stile e un tocco di mistero, Marco cattura l'attenzione di tutti. La sua passione per il gioco è superata solo dalla sua missione segreta: offrire l'esperienza casino perfetta."
+    }
+  },
+  "events": {
+    "heading": "Scopri i Nostri Eventi a Tema Casino",
+    "birthday": {
+      "title": "Casino Royale: Festeggia il Tuo Compleanno con Stile",
+      "description": "Vivi un compleanno indimenticabile in stile James Bond, dove emozione ed eleganza sono protagoniste. Croupier professionisti guideranno te e i tuoi ospiti attraverso una notte ricca di brividi e intrattenimento esclusivo. Con tavoli da casino eleganti, decorazioni glamour e sorprese speciali, ogni momento del tuo compleanno diventerà un highlight. Lascia che i dadi rotolino e celebra il tuo giorno speciale con un'esperienza casino che i tuoi ospiti ricorderanno per anni."
+    },
+    "corporate": {
+      "title": "Blackjack & Business: Eventi Aziendali Indimenticabili",
+      "description": "Aggiungi quel tocco in più al tuo evento aziendale e favorisci il team building con una serata casino unica. Lascia che i tuoi dipendenti e partner commerciali si immergano nel mondo del gioco d'azzardo mentre socializzano e si divertono in un'atmosfera elegante. Con croupier di alto livello e tavoli da gioco di qualità, il tuo evento aziendale diventerà un'esperienza che unisce professionalità a divertimento ed emozione. Fai del tuo evento un vero highlight!"
+    },
+    "gala": {
+      "title": "Serata di Gala: Elegante Notte al Casino",
+      "description": "Immergiti in una notte piena di lusso e glamour, dove il casino diventa il cuore della tua gala. I tuoi ospiti godranno di una serata di intrattenimento raffinato, tavoli da gioco di prima classe e un'atmosfera sofisticata. Che sia roulette, blackjack o poker, ogni giro e ogni carta portano un tocco di esclusività. Vivi la combinazione perfetta di eleganza ed emozione e crea un evento che impressiona sotto ogni aspetto. Un'esperienza casino per ospiti esigenti."
+    },
+    "wedding": {
+      "title": "Matrimonio al Casino: Per Ricordi Indimenticabili",
+      "description": "Rendi il tuo matrimonio un'esperienza unica con un allestimento casino su misura. Per un giorno in cui tutto deve essere perfetto, offriamo tavoli da casino eleganti e croupier professionisti che assicurano momenti indimenticabili. I tuoi ospiti saranno entusiasti dell'atmosfera mentre si divertono con stile e si immergono nel mondo del gioco d'azzardo. Dalle decorazioni ai tavoli da gioco, creiamo un matrimonio unico come il vostro amore."
+    },
+    "bachelor_party": {
+      "title": "L'Ultima Notte di Libertà: Stile Casino",
+      "description": "Saluta la vita da single con un addio al celibato indimenticabile in stile casino. Giochi emozionanti, intrattenimento elegante e un'atmosfera piena di lusso rendono questa notte un'esperienza speciale. Che sia poker, blackjack o roulette, tu e i tuoi amici vivrete una notte piena di adrenalina che ricorderete a lungo. Con croupier professionisti e allestimenti casino lussuosi, la tua ultima notte di libertà diventa un highlight prima del grande giorno."
+    },
+    "private_event": {
+      "title": "Eventi Privati Casino Esclusivi",
+      "description": "Trasforma il tuo evento privato in un'esperienza indimenticabile con il nostro servizio casino personalizzato. Che si tratti di una piccola riunione o di un grande evento, offriamo soluzioni individuali su misura per i tuoi desideri e le esigenze dei tuoi ospiti. Con tavoli da casino esclusivi, croupier professionisti e un'atmosfera che trasuda lusso ed eleganza, trasformiamo la tua occasione in qualcosa di speciale. Ogni dettaglio è attentamente pianificato per offrirti un evento che verrà ricordato."
+    }
+  },
+  "training": {
+    "heading": "Scuola di Formazione per Croupier",
+    "mainTitle": "Diventa Maestro dei Tavoli da Gioco",
+    "introText": "Il nostro corso di formazione per croupier ti offre l'opportunità di acquisire competenze pratiche e teoriche per lavorare nei casinò più rinomati in Svizzera e Liechtenstein. Con un programma flessibile e istruttori esperti, sarai ben preparato per gestire i tavoli più richiesti.",
+    "specialties": {
+      "roulette": {
+        "title": "Roulette",
+        "description": "Impara a gestire uno dei giochi da casino più iconici. Nel nostro corso acquisirai le competenze per far girare professionalmente la ruota della roulette, gestire le puntate e interagire con sicurezza con i giocatori."
       },
-      "feature2": {
-        "title": "Passo 2: Prenota facilmente il tuo evento",
-        "content": "Seleziona la data e invia la tua richiesta di prenotazione per un evento indimenticabile."
+      "blackjack": {
+        "title": "Blackjack",
+        "description": "Scopri tutti i segreti del blackjack, uno dei giochi da casino più popolari. Sarai formato per gestire le puntate, comunicare con i giocatori e mantenere il controllo sul tavolo per garantire un'esperienza di gioco impeccabile."
       },
-      "feature3": {
-        "title": "Passo 3: Festeggia con stile",
-        "content": "La festa di casinò definitiva: lascia che i dadi rotolino e le fiches volino."
+      "poker": {
+        "title": "Poker",
+        "description": "Diventa un esperto di poker gestendo tavoli per Texas Hold'em, Omaha e altre varianti. Imparerai le regole, le dinamiche delle puntate e come offrire un servizio professionale in ogni mano."
+      },
+      "serviceExcellence": {
+        "title": "Eccellenza del Servizio",
+        "description": "Un croupier non è solo un gestore di giochi, ma anche un ambasciatore del servizio al cliente. Il nostro corso ti insegna come garantire un'esperienza eccellente per ogni ospite, dall'accoglienza al tavolo fino all'ultima mano."
       }
     },
-    "feedback": {
-      "feedback1": {
-        "name": "Essential Casino Chic",
-        "title": "Un tocco di classe",
-        "content": "1 x Blackjack, incluso croupier",
-        "content2": "3 ore di gioco",
-        "content3": "Logistica inclusa: consegna, montaggio e smontaggio del tavolo da gioco",
-        "content4": "Accoglienza VIP su richiesta*",
-        "content5": "Tavoli di alta qualità per un'esperienza autentica",
-        "price": "A partire da CHF 1.490. - IVA esclusa",
-        "additional": "Ora aggiuntiva: + CHF 290"
+    "whyChooseUsTitle": "Perché Scegliere il Nostro Corso?",
+    "whyChooseUs": {
+      "point1": {
+        "title": "Formazione Completa",
+        "description": "Acquisisci tutte le competenze tecniche e pratiche di cui hai bisogno per lavorare nei casinò più rinomati in Svizzera e Liechtenstein."
       },
-      "feedback2": {
-        "bestDeal": "scelta più popolare",
-        "name": "Basic Casino Blitz",
-        "title": "Lusso per principianti",
-        "content": "1 x Blackjack o Ultimate Texas Hold'em, incluso croupier",
-        "content2": "1 x American Roulette, incluso croupier",
-        "content3": "3 ore di gioco",
-        "content4": "Logistica inclusa: consegna, montaggio e smontaggio dei tavoli da gioco",
-        "content5": "Accoglienza VIP su richiesta*",
-        "content6": "Design elegante e croupier impeccabili",
-        "price": "A partire da CHF 2.190. - IVA esclusa",
-        "additional": "Ora aggiuntiva: + CHF 390"
+      "point2": {
+        "title": "Flessibilità del Corso",
+        "description": "Il corso dura da 1 a 3 mesi con la possibilità di frequentare le lezioni due volte a settimana per adattarsi ai tuoi impegni."
       },
-      "feedback3": {
-        "name": "Esperienza Premium",
-        "title": "Pacchetto Oro indimenticabile",
-        "content": "1 x Blackjack, incluso croupier",
-        "content2": "1 x American Roulette, incluso croupier",
-        "content3": "1 x Ultimate Texas Hold'em, incluso croupier",
-        "content4": "3 ore di gioco",
-        "content5": "Accoglienza VIP inclusa: tappeto rosso, drink di benvenuto, musica elegante",
-        "content6": "Logistica inclusa: consegna, montaggio e smontaggio dei tavoli da gioco",
-        "content7": "Tavoli di lusso, massima attenzione ai dettagli",
-        "price": "A partire da CHF 3.290. - IVA esclusa",
-        "additional": "Ora aggiuntiva: + CHF 490"
+      "point3": {
+        "title": "Apprendimento Pratico e Teorico",
+        "description": "Impara a gestire tavoli di blackjack, roulette e poker con competenze tecniche e matematiche che puoi approfondire da casa."
       },
-      "feedback4": {
-        "name": "Royal Casino Extravaganza",
-        "title": "Pacchetto di lusso su misura",
-        "content": "Tavoli a scelta: Blackjack, American Roulette, Ultimate Texas Hold'em, incluso croupier",
-        "content2": "3 ore di gioco",
-        "content3": "Accoglienza VIP inclusa: stile James Bond",
-        "content4": "Opzioni aggiuntive: musica, decorazioni, servizio fotografico, catering",
-        "content5": "Logistica inclusa",
-        "price": "Prezzo su richiesta",
-        "additional": "Ora aggiuntiva: prezzo in base alla configurazione"
+      "point4": {
+        "title": "Connessioni Dirette con i Casinò",
+        "description": "Approfitta delle nostre connessioni dirette con i principali casinò in Svizzera e Liechtenstein per iniziare a lavorare immediatamente."
+      },
+      "point5": {
+        "title": "Ambiente di Apprendimento Esclusivo",
+        "description": "Entra a far parte di un piccolo gruppo di studenti per un'attenzione personalizzata e un'esperienza di apprendimento su misura."
+      },
+      "point6": {
+        "title": "Istruttori Esperti",
+        "description": "Impara dai migliori professionisti del settore con anni di esperienza nel mondo del gioco d'azzardo e nella gestione dei tavoli."
+      },
+      "point7": {
+        "title": "Opportunità di Carriera",
+        "description": "Dopo aver completato il corso, sarai pronto per iniziare la tua carriera come croupier, con opportunità di lavoro nei migliori casinò per eventi."
+      },
+      "point8": {
+        "title": "Supporto Continuo",
+        "description": "Offriamo supporto continuo anche dopo la fine del corso per aiutarti ad entrare nel mercato del lavoro e sviluppare la tua carriera."
       }
     },
-    "hero": {
-      "discountAmount": "20%",
-      "discountText": "Sconto fino a",
-      "discountDate": "Settembre 2024",
-      "mainTextPart1": "Creiamo",
-      "mainTextPart2": "momenti indimenticabili",
-      "mainTextPart3": "per il tuo evento.",
-      "description": "Intrattenimento di altissimo livello che supera ogni aspettativa."
+    "requirementsTitle": "Requisiti di Partecipazione",
+    "requirementsIntro": "Per partecipare al nostro corso di formazione per croupier, devi soddisfare i seguenti requisiti:",
+    "requirementsList": {
+      "item1": "Almeno 18 anni di età",
+      "item2": "Possedere un certificato penale pulito",
+      "item3": "Nessuna iscrizione nel registro dei debiti",
+      "item4": "Assenza di daltonismo (disturbo della percezione dei colori)"
     },
-    "stats": {
-      "privateEvents": "Feste private",
-      "corporateEvents": "Eventi aziendali",
-      "themeWeddings": "Matrimoni a tema"
+    "callToActionTitle": "Pronto per Iniziare la Tua Carriera come Croupier?",
+    "callToActionText": "Contattaci oggi stesso per maggiori informazioni sul nostro corso di formazione e scopri come possiamo aiutarti ad entrare nel mondo esclusivo dei casinò. I posti sono limitati!"
+  },
+  "casino101": {
+    "heading": "Casino101: Impara l'Arte dei Giochi da Casino",
+    "subheading": "Non Solo Feste Casino, ma Anche Formazione per un'Esperienza di Gioco Completa",
+    "description": "Oltre a eventi casino emozionanti, offriamo corsi introduttivi adatti a tutti coloro che vogliono divertirsi con amici o in eventi aziendali. Anche se non sei mai stato in un casino, puoi rapidamente imparare le regole e le strategie dei giochi più popolari e giocare con sicurezza e divertimento.",
+    "events": {
+      "roulette": {
+        "title": "«Fate il Vostro Gioco!» Il Divertimento al Tavolo della Roulette",
+        "description": "Scopri il mondo affascinante della roulette, uno dei giochi da casino più antichi ed emozionanti. Impara come piazzare le puntate, far girare la ruota e sfruttare al meglio le tue possibilità per vivere appieno il brivido del gioco."
+      },
+      "blackjack": {
+        "title": "«Fai 21!» Emozione al Tavolo del Blackjack",
+        "description": "Il blackjack è uno dei giochi da casino più popolari al mondo. In questa formazione, imparerai le basi del gioco, le strategie per battere il banco e come agire con successo come dealer o giocatore al tavolo."
+      },
+      "texas_holdem": {
+        "title": "Prendi il «Piatto!» Guida all'Emozione al Tavolo del Poker",
+        "description": "Il Texas Hold'em è la variante di poker più conosciuta. La nostra formazione ti guiderà attraverso le regole, le strategie di puntata e la psicologia dietro il gioco, così sarai ben preparato quando ti siederai al tavolo."
+      },
+      "ultimate_texas": {
+        "title": "Team Building o Semplicemente Divertimento con Amici",
+        "description": "Ultimate Texas Hold'em è una variante entusiasmante del poker. In questo corso imparerai come fare puntate intelligenti, leggere le carte e riconoscere le migliori mani per giocare contro il banco."
+      },
+      "three_card_poker": {
+        "title": "Per Chi Preferisce Imparare in Tranquillità",
+        "description": "Una delle varianti di poker più semplici che offre comunque molta emozione. Il 3 Card Poker è particolarmente popolare nei casinò britannici e sulle navi da crociera. Impara le strategie di base e le combinazioni di mani."
+      },
+      "group_events": {
+        "title": "Eventi di Gruppo: Imparare Insieme",
+        "description": "Team building o semplicemente divertimento con amici, le nostre formazioni di gruppo sono perfette per scoprire insieme i segreti dei giochi da casino. I nostri croupier esperti ti mostreranno i migliori trucchi e consigli."
+      },
+      "individual_events": {
+        "title": "Formazioni Individuali: Impara da Solo",
+        "description": "Per chi preferisce imparare in tranquillità, offriamo formazioni individuali sui giochi da casino. Puoi concentrarti sul tuo gioco preferito e imparare al tuo ritmo."
+      }
+    }
+  },
+  "cta_croupier": {
+    "title": "Pronto per Iniziare la Tua Carriera come Croupier?",
+    "description": "Contattaci oggi stesso per maggiori informazioni sul nostro corso di formazione e scopri come possiamo aiutarti ad entrare nel mondo esclusivo dei casinò. I posti sono limitati!"
+  },
+  "cta_team": {
+    "title": "L'Élite del Casino: I Nostri Maestri del Gioco al Tuo Servizio",
+    "description": "Che sia al tavolo del poker o alla frenetica roulette, i nostri croupier professionisti portano classe ed emozione in ogni gioco. Con decenni di esperienza nel mondo del casino, ti garantiamo una serata piena di brividi e stile. Vivi la perfezione di una notte esclusiva, dove ogni dettaglio conta."
+  },
+  "privacyPolicy": {
+    "title": "Informativa sulla Privacy",
+    "section1": {
+      "title": "Introduzione",
+      "content": "Questa Informativa sulla Privacy spiega come Event Casino Svizzera raccoglie, utilizza e protegge i tuoi dati personali. Ci impegniamo a salvaguardare la tua privacy e a garantire che le tue informazioni personali siano conservate in modo sicuro e utilizzate solo per gli scopi specificati."
     },
-    "cta": {
-      "title": "Porta a casa tua la perfetta notte da casinò!",
-      "description": "Goditi il fascino e il glamour del casinò e vivi una notte piena di divertimento, emozioni e ricordi indimenticabili."
+    "section2": {
+      "title": "Dati Raccolti",
+      "content": "Raccogliamo i seguenti dati personali quando utilizzi il nostro sito web o compili il modulo di contatto: nome, indirizzo email, messaggio e altre informazioni che fornisci volontariamente. Questi dati sono utilizzati solo in conformità con questa Informativa sulla Privacy."
     },
-    "getStarted": {
-      "reserve": "Prenota ora"
+    "section3": {
+      "title": "Utilizzo dei Dati",
+      "content": "I dati raccolti sono utilizzati per rispondere alle tue richieste, fornire informazioni sui nostri servizi, gestire le prenotazioni e facilitare la comunicazione riguardo ai tuoi eventi. Utilizziamo inoltre i dati per migliorare l'esperienza utente del nostro sito web."
     },
-    "notEnough": {
-      "heading": "Vuoi di più?",
-      "highlight": "Il tuo casinò, la tua scelta!",
-      "description": "Con i nostri pacchetti personalizzabili, puoi rendere il tuo evento davvero speciale. Scopri ora la varietà delle nostre offerte e crea il tuo casinò su misura!"
+    "section4": {
+      "title": "Conservazione dei Dati",
+      "content": "I tuoi dati sono conservati solo per il tempo necessario a soddisfare gli scopi per i quali sono stati raccolti o come richiesto dalla legge. Dopo questi periodi, i tuoi dati saranno eliminati in modo sicuro o resi anonimi."
     },
-    "quickContact": {
-      "buttonText": "CHIEDI ORA!"
+    "section5": {
+      "title": "Condivisione dei Dati",
+      "content": "Non condividiamo i tuoi dati personali con terze parti a meno che non sia necessario per fornire i nostri servizi o richiesto dalla legge. In tali casi, garantiamo che siano adottate misure appropriate per proteggere i tuoi dati."
     },
-    "business": {
-      "heading": "Come funziona",
-      "subheading": "Event Casino Svizzera?",
-      "description": "Goditi l'intrattenimento di casinò di alto livello per il tuo prossimo evento in tutta la Svizzera."
+    "section6": {
+      "title": "I Tuoi Diritti",
+      "content": "Hai il diritto di accedere ai tuoi dati e di correggerli, eliminarli o limitarne il trattamento. Se desideri esercitare uno di questi diritti, contattaci all'indirizzo hello@eventcasino.ch. Gestiremo la tua richiesta in conformità con le leggi sulla protezione dei dati applicabili."
     },
-    "packages": {
-      "heading": "Impressiona",
-      "subheading": "i tuoi ospiti con un'esperienza di casinò esclusiva",
-      "description": "Scegli da un'ampia selezione di tavoli da casinò per il tuo evento. Trasforma qualsiasi location nel tuo casinò personale.",
-      "importantNote": "*Nota importante: Il gioco si svolge senza denaro e senza vincite. Questo non è legalmente consentito!"
+    "section7": {
+      "title": "Sicurezza dei Dati",
+      "content": "Adottiamo misure tecniche e organizzative appropriate per garantire la sicurezza dei tuoi dati personali e proteggerli da accessi non autorizzati, perdita o uso improprio. Tuttavia, non possiamo garantire una sicurezza assoluta, poiché la trasmissione di dati su Internet comporta rischi intrinseci."
     },
-    "button": {
-      "reserve": "Prenota ora"
+    "section8": {
+      "title": "Modifiche all'Informativa sulla Privacy",
+      "content": "Ci riserviamo il diritto di modificare questa Informativa sulla Privacy in qualsiasi momento. Le modifiche saranno pubblicate su questa pagina. Ti consigliamo di consultare regolarmente questa pagina per assicurarti di essere a conoscenza delle politiche attuali."
     },
-    "footer": {
-      "usefulLinks": "Link utili",
-      "content": "Contenuto",
-      "howItWorks": "Come funziona",
-      "create": "Crea",
-      "explore": "Esplora",
-      "termsServices": "Termini e condizioni",
-      "community": "Comunità",
-      "helpCenter": "Centro assistenza",
-      "partners": "Partner",
-      "suggestions": "Suggerimenti",
-      "blog": "Blog",
-      "newsletters": "Newsletter",
-      "partner": "Partner",
-      "ourPartner": "I nostri partner",
-      "becomePartner": "Diventa partner",
-      "allRightsReserved": "Tutti i diritti riservati"
+    "section9": {
+      "title": "Informazioni di Contatto",
+      "content": "Se hai domande su questa Informativa sulla Privacy o su come gestiamo i tuoi dati, puoi contattarci all'indirizzo hello@eventcasino.ch."
+    }
+  },
+  "termsConditions": {
+    "title": "Termini e Condizioni",
+    "section1": {
+      "title": "Introduzione",
+      "content": "Benvenuto su Event Casino Svizzera! Questi Termini e Condizioni regolano l'uso del nostro sito web, accessibile all'indirizzo https://eventcasinoschweiz.netlify.app. Accedendo al nostro sito web o utilizzando i nostri servizi, accetti questi termini. Se non sei d'accordo con una parte di questi termini, ti preghiamo di non utilizzare il nostro sito web."
     },
-    
-        "team": {
-          "heading": "L'élite del Casinò",
-          "member1": {
-            "name": "Agente Sophia Ferrari",
-            "role": "Maestra del Black Jack",
-            "description": "Sophia, una stratega con la mano ferma, domina le carte come nessun'altra. Un solo sguardo al suo volto impenetrabile è sufficiente per far sudare gli avversari. La sua frase preferita: 'Nel mio gioco non c'è spazio per errori.'"
-          },
-          "member2": {
-            "name": "Luca 'Il Re della Roulette' Verdi",
-            "role": "Il mago della ruota",
-            "description": "Luca è l'incarnazione dell'eleganza e della precisione. Il suo talento alla roulette è leggendario. Conosce le leggi del caso, ma vince sempre. La sua arma segreta? Un sorriso che illumina la sala."
-          },
-          "member3": {
-            "name": "Maximilian Schmidt",
-            "role": "Lo squalo del poker",
-            "description": "Maximilian sembra calmo e riflessivo, ma sotto la superficie si nasconde un avversario formidabile. Le sue abilità nel Texas Hold'em sono famose in tutto il mondo e non lascia mai spazio ai dubbi sul suo prossimo passo."
-          },
-          "member4": {
-            "name": "Marco 'Lo Spione' Rossi",
-            "role": "Maestro della roulette e agente segreto",
-            "description": "Con fascino, stile e un tocco di mistero, Marco cattura l'attenzione di tutti. La sua passione per il gioco è superata solo dalla sua missione segreta: offrire l'esperienza di casinò perfetta."
-          }
-        }      
-      
+    "section2": {
+      "title": "Responsabilità dell'Utente",
+      "content": "Come utente del nostro sito web, accetti di utilizzare Event Casino Svizzera in modo responsabile. Ti impegni a non utilizzare il sito web per scopi illeciti, illegali, fraudolenti o dannosi, o in qualsiasi modo che possa compromettere la disponibilità o l'accessibilità del sito web."
+    },
+    "section3": {
+      "title": "Proprietà Intellettuale",
+      "content": "Salvo diversa indicazione, Event Casino Svizzera e i suoi licenziatari possiedono i diritti di proprietà intellettuale su tutti i contenuti del sito web. Puoi utilizzare questi materiali solo per uso personale, senza ripubblicarli, venderli, affittarli o concederli in sublicenza."
+    },
+    "section4": {
+      "title": "Limitazione di Responsabilità",
+      "content": "Event Casino Svizzera non sarà responsabile per danni indiretti, incidentali, speciali, consequenziali o punitivi, né per la perdita di profitti, entrate, dati o altre perdite immateriali derivanti dall'uso del nostro sito web o dei nostri servizi."
+    },
+    "section5": {
+      "title": "Legge Applicabile",
+      "content": "Questi Termini e Condizioni sono regolati dalle leggi della Svizzera. Qualsiasi controversia derivante da o correlata a questi termini sarà soggetta alla giurisdizione esclusiva dei tribunali in Svizzera."
+    },
+    "section6": {
+      "title": "Politica sui Cookie",
+      "content": "Event Casino Svizzera utilizza i cookie per migliorare l'esperienza dell'utente e fornire servizi personalizzati. Utilizzando il nostro sito web, accetti l'uso dei cookie in conformità con la nostra Politica sui Cookie."
+    },
+    "section7": {
+      "title": "Modifiche ai Termini e Condizioni",
+      "content": "Event Casino Svizzera si riserva il diritto di modificare questi Termini e Condizioni in qualsiasi momento. Le modifiche saranno pubblicate su questa pagina, e si consiglia di consultare regolarmente questa pagina per rimanere informati."
+    },
+    "section8": {
+      "title": "Informazioni di Contatto",
+      "content": "Per maggiori informazioni o domande su questi Termini e Condizioni, puoi contattarci all'indirizzo hello@eventcasino.ch."
+    }
+  },
+  "cookiePolicy": {
+    "title": "Politica sui Cookie",
+    "description": "Utilizziamo i cookie per garantire che tu possa avere la migliore esperienza sul nostro sito web.",
+    "link": "Scopri di più",
+    "decline": "Rifiuta",
+    "accept": "Accetta"
   }
-  
+}

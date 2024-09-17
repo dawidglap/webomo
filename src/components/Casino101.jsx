@@ -5,7 +5,6 @@ import texas from "../assets/texas.png";
 import bj from "../assets/bj.png";
 import gruppe from "../assets/gruppe.png";
 import alone from "../assets/alone.png";
-import partyprivate from "../assets/private.png";
 import { motion } from "framer-motion";
 import { LampContainer } from "./ui/lamp";
 import CTA from "./CTA";
@@ -26,53 +25,35 @@ export default function Casino101() {
 
   const data = [
     {
-      category: "American Roulette",
+      category: t("casino101.categories.roulette"), // Traduzione della categoria "roulette"
       title: t("casino101.events.roulette.title"),
       src: wheel,
       content: <ContentComponent category="roulette" />,
     },
     {
-      category: "Blackjack",
+      category: t("casino101.categories.blackjack"), // Traduzione della categoria "blackjack"
       title: t("casino101.events.blackjack.title"),
       src: bj,
       content: <ContentComponent category="blackjack" />,
     },
     {
-      category: "Poker Texas Hold'em",
-      title: t("casino101.events.texas_holdem.title", "Poker Texas Hold'em"),
+      category: t("casino101.categories.texas_holdem"), // Traduzione della categoria "texas_holdem"
+      title: t("casino101.events.texas_holdem.title"),
       src: texas,
       content: <ContentComponent category="texas_holdem" />,
     },
     {
-      category: "Gruppenevents",
-      title: t(
-        "casino101.events.ultimate_texas.title",
-        "Ultimate Texas Hold'em"
-      ),
+      category: t("casino101.categories.ultimate_texas"), // Traduzione della categoria "ultimate_texas"
+      title: t("casino101.events.ultimate_texas.title"),
       src: gruppe,
       content: <ContentComponent category="ultimate_texas" />,
     },
     {
-      category: "Individuelle Schulungen",
-      title: t("casino101.events.three_card_poker.title", "3 Card Poker"),
+      category: t("casino101.categories.three_card_poker"), // Traduzione della categoria "three_card_poker"
+      title: t("casino101.events.three_card_poker.title"),
       src: alone,
       content: <ContentComponent category="three_card_poker" />,
     },
-    // {
-    //   category: "group_events",
-    //   title: t(
-    //     "casino101.events.group_events.title",
-    //     "Eventi di Gruppo per Imparare"
-    //   ),
-    //   src: partyprivate,
-    //   content: <ContentComponent category="group_events" />,
-    // },
-    // {
-    //   category: "individual_events",
-    //   title: t("casino101.events.individual_events.title", "Impara da Solo"),
-    //   src: corporate,
-    //   content: <ContentComponent category="individual_events" />,
-    // },
   ];
 
   return (

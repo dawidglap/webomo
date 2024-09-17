@@ -56,6 +56,7 @@ const Hero = () => {
           variants={textVariants}
           className="flex flex-row justify-between items-center w-full"
         >
+          {/* Desktop Title - Restored */}
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[42px] text-white ss:leading-[100.8px] leading-[75px]">
             {t("hero.mainTextPart1")} <br className="sm:block hidden" />{" "}
             <span className="text-gradient">{t("hero.mainTextPart2")}</span>{" "}
@@ -65,18 +66,22 @@ const Hero = () => {
           </div>
         </motion.div>
 
+        {/* Desktop Subtitle */}
         <motion.h1
           variants={textVariants}
           className="font-poppins font-semibold ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[75px] w-full"
         >
           {t("hero.mainTextPart3")}
         </motion.h1>
+
+        {/* Description */}
         <motion.p
           variants={textVariants}
           className={`${styles.paragraph} text-gradient max-w-[470px] mt-5`}
         >
           {t("hero.description")}
         </motion.p>
+
         <motion.div
           variants={textVariants}
           className={`ss:hidden ${styles.flexCenter}`}
@@ -92,7 +97,7 @@ const Hero = () => {
         <img
           src={gaming}
           alt="billing"
-          className="-my-20 w-[100%] h-[100%] relative z-[5]"
+          className="w-[100%] h-[100%] relative z-[5]" // Restored to the original desktop size
           id="hero-img"
         />
 
