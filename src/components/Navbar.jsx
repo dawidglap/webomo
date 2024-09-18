@@ -15,7 +15,7 @@ const Navbar = () => {
 
   // Define the navLinks array directly in the component
   const navLinks = [
-    { id: "home", title: "navLinks.home", path: "/" },
+    // { id: "home", title: "navLinks.home", path: "/" },
     { id: "events", title: "navLinks.events", path: "/events" },
     { id: "casino101", title: "navLinks.casino101", path: "/casino101" },
     { id: "training", title: "navLinks.training", path: "/training" },
@@ -141,13 +141,13 @@ const Navbar = () => {
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 bg-black-gradient absolute top-20 mx-4 my-2 min-w-80 rounded-xl sidebar`}
         >
-          <ul className="list-none flex justify-end items-start flex-1 flex-col">
+          <ul className="list-none flex justify-end items-center flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                className={`font-poppins uppercase cursor-pointer text-[24px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => {
