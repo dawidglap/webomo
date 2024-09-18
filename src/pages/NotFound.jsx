@@ -8,7 +8,7 @@ const NotFound = () => {
 
   return (
     <section
-      className={`flex flex-col items-center justify-center  px-6 md:px-10`}
+      className={`flex flex-col items-center justify-center mt-40  px-6 md:px-10`}
     >
       {/* Animated Title */}
       <motion.h1

@@ -1,8 +1,8 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import styles from "../style";
-import Button from "./Button";
 import { useTranslation } from "react-i18next"; // Import useTranslation
+import ButtonCta from "./ButtonCta";
 
 const typewriterVariants = {
   hidden: { opacity: 1 },
@@ -65,7 +65,7 @@ const CtaCroupier = () => {
       <div
         className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10 relative z-10`}
       >
-        <Button />
+        <ButtonCta />
       </div>
     </motion.section>
   );
