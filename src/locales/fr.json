@@ -19,6 +19,16 @@
     "successMessage": "Merci ! Nous avons reçu votre message et vous répondrons sous peu.",
     "errorMessage": "Un problème est survenu lors de l'envoi de votre message. Veuillez réessayer plus tard."
   },
+  "messageSuccess": {
+    "title": "Merci pour votre message !",
+    "description": "Nous vous répondrons sous peu. En attendant, n'hésitez pas à explorer nos services de casino exclusifs.",
+    "buttonText": "Retour à l'accueil"
+  },
+  "messageError": {
+    "title": "Oups ! Quelque chose a mal tourné.",
+    "description": "Nous nous excusons pour le désagrément. Veuillez nous contacter directement.",
+    "contact": "Téléphone: +41 76 703 12 24 | Email: hello@eventcasino.ch"
+  },
   "features": {
     "feature1": {
       "title": "Étape 1 : Choisissez votre expérience casino préférée",

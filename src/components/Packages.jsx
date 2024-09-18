@@ -4,10 +4,14 @@ import styles, { layout } from "../style";
 import PackageCard from "./PackageCard";
 import { motion, useInView } from "framer-motion";
 import { useTranslation } from "react-i18next"; // Import useTranslation hook
+import useWindowSize from "../hooks/useWindowSize"; // Custom hook to detect screen size
 
 const Packages = () => {
   const [isHovering, setIsHovering] = useState(false);
   const { t } = useTranslation(); // Use useTranslation for translation
+
+  const { width } = useWindowSize(); // Get window width
+  const isMobile = width < 768; // Define mobile based on screen width (e.g., <768px)
 
   const handleMouseEnter = () => {
     setIsHovering(true);
@@ -152,7 +156,8 @@ const Packages = () => {
             key={card.id}
             index={index}
             {...card}
-            applyHoverEffect={!isHovering && index === 1}
+            // Apply hover effect by default if on mobile or index === 1 on desktop
+            applyHoverEffect={isMobile || (!isHovering && index === 1)}
           />
         ))}
       </motion.div>

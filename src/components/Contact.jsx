@@ -4,10 +4,12 @@ import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
 import { useNavigate } from "react-router-dom"; // For redirection
 import { LampContainer } from "./ui/lamp";
+import { FaSpinner } from "react-icons/fa"; // Import spinner icon
 
 const Contact = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -16,6 +18,7 @@ const Contact = () => {
   });
 
   const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false); // Loading state for button
 
   // Handle form field changes
   const handleChange = (e) => {
@@ -26,6 +29,7 @@ const Contact = () => {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true); // Start loading when form is submitted
 
     emailjs
       .send(
@@ -37,10 +41,12 @@ const Contact = () => {
       .then(
         (response) => {
           setStatus("success");
+          setLoading(false); // Stop loading when the submission is successful
           navigate("/message-success"); // Redirect to success page
         },
         (error) => {
           setStatus("error");
+          setLoading(false); // Stop loading when there is an error
           navigate("/message-error", { state: { errorMessage: error.text } }); // Redirect to error page with error message
         }
       );
@@ -105,8 +111,13 @@ const Contact = () => {
         <button
           type="submit"
           className="p-3 bg-blue-gradient text-black font-semibold rounded-lg hover:bg-yellow-600 transition duration-300"
+          disabled={loading} // Disable button when loading
         >
-          {t("form.submitButton")}
+          {loading ? (
+            <FaSpinner className="animate-spin mx-auto" /> // Show spinner when loading
+          ) : (
+            t("form.submitButton")
+          )}
         </button>
       </motion.form>
     </div>
