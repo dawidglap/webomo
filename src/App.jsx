@@ -1,5 +1,4 @@
 import styles from "./style";
-
 import {
   Navbar,
   Brand,
@@ -10,8 +9,13 @@ import {
   Business,
   Packages,
 } from "./components";
-import Team from "./components/Team"; // Import your Team component
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import React Router
+import Team from "./components/Team";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import NotFound from "./components/NotFound";
 import { AppleCardsCarouselDemo } from "./components/AppleCardsCarouselDemo";
 import Training from "./components/Training";
@@ -22,15 +26,41 @@ import MessageError from "./components/MessageError";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsAndConditions from "./components/TermsAndConditions";
 import CookiePolicy from "./components/CookiePolicy";
+import ScrollToTop from "./components/ScrollToTop";
+import { AnimatePresence, motion } from "framer-motion"; // Import Framer Motion
+
+// Motion transition settings
+const pageVariants = {
+  initial: {
+    opacity: 0,
+    y: 50,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: "easeOut",
+    },
+  },
+  exit: {
+    opacity: 0,
+    y: -50,
+    transition: {
+      duration: 0.4,
+      ease: "easeIn",
+    },
+  },
+};
 
 const Home = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div> */}
-
+  <motion.div
+    variants={pageVariants}
+    initial="initial"
+    animate="animate"
+    exit="exit"
+    className="bg-primary w-full overflow-hidden"
+  >
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
@@ -46,35 +76,46 @@ const Home = () => (
         <CTA />
       </div>
     </div>
-  </div>
+  </motion.div>
 );
 
-const App = () => (
-  <Router>
-    <div className="bg-primary w-full overflow-hidden">
-      {/* Navbar will be rendered on every page */}
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
-      </div>
+const AnimatedRoutes = () => {
+  const location = useLocation(); // Get the current location
 
-      {/* Define Routes for different pages */}
-      <Routes>
-        <Route path="/" element={<Home />} /> {/* Home page */}
-        <Route path="/team" element={<Team />} /> {/* Team page */}
-        <Route path="/events" element={<AppleCardsCarouselDemo />} />{" "}
-        <Route path="/training" element={<Training />} /> {/* Team page */}
-        <Route path="/casino101" element={<Casino101 />} /> {/* Team page */}
-        <Route path="/contact" element={<Contact />} /> {/* Team page */}
+  return (
+    <AnimatePresence>
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<Home />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/events" element={<AppleCardsCarouselDemo />} />
+        <Route path="/training" element={<Training />} />
+        <Route path="/casino101" element={<Casino101 />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/message-success" element={<MessageSuccess />} />
         <Route path="/message-error" element={<MessageError />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+    </AnimatePresence>
+  );
+};
 
-      {/* Footer will be rendered on every page */}
+const App = () => (
+  <Router>
+    <ScrollToTop />
+    <div className="bg-primary w-full overflow-hidden">
+      {/* Navbar */}
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
+
+      {/* Animated Routes */}
+      <AnimatedRoutes />
+
+      {/* Footer */}
       <div className={`${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />

@@ -1,12 +1,13 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { close, ecsLogo, menu } from "../assets";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link, useLocation } from "react-router-dom"; // Import Link and useLocation
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
+  const location = useLocation(); // Get the current location from React Router
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
-  const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -21,6 +22,15 @@ const Navbar = () => {
     { id: "team", title: "navLinks.team", path: "/team" },
     { id: "contact", title: "navLinks.contact", path: "/contact" },
   ];
+
+  // Update the active link based on the current location
+  useEffect(() => {
+    const currentPath = location.pathname;
+    const currentLink = navLinks.find((nav) => nav.path === currentPath);
+    if (currentLink) {
+      setActive(currentLink.title);
+    }
+  }, [location, navLinks]); // Runs whenever the location or navLinks change
 
   return (
     <nav className="w-full flex justify-between items-center navbar">
@@ -40,7 +50,7 @@ const Navbar = () => {
             className={`font-poppins font-light cursor-pointer text-[16px] ${
               active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(nav.title)}
+            onClick={() => setActive(nav.title)} // Keep this for manual setting in case of custom navigation
           >
             <Link to={nav.path}>{t(nav.title)}</Link>{" "}
           </li>
