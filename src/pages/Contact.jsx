@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
 import { useNavigate } from "react-router-dom"; // For redirection
-import { LampContainer } from "./ui/lamp";
+import { LampContainer } from "../components/ui/lamp";
 import { FaSpinner } from "react-icons/fa"; // Import spinner icon
 
 const Contact = () => {

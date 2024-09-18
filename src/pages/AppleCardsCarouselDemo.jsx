@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Carousel, Card } from "./ui/apple-card-carousel";
+import { Carousel, Card } from "../components/ui/apple-card-carousel";
 import gala from "../assets/gala.png";
 import party from "../assets/party.png";
 import corporate from "../assets/corporate.png";
@@ -7,8 +7,8 @@ import wedding from "../assets/wedding.png";
 import bday from "../assets/bday.png";
 import partyprivate from "../assets/private.png";
 import { motion } from "framer-motion";
-import { LampContainer } from "./ui/lamp";
-import CTA from "./CTA";
+import { LampContainer } from "../components/ui/lamp";
+import CTA from "../components/CTA";
 
 // Component for handling content inside each card dynamically
 const ContentComponent = ({ category, imageSrc }) => {
@@ -21,7 +21,7 @@ const ContentComponent = ({ category, imageSrc }) => {
   );
 };
 
-export function AppleCardsCarouselDemo() {
+export default function AppleCardsCarouselDemo() {
   const { t } = useTranslation();
 
   const data = [

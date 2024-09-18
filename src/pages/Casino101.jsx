@@ -1,13 +1,13 @@
 import { useTranslation } from "react-i18next";
-import { Carousel, Card } from "./ui/apple-card-carousel";
+import { Carousel, Card } from "../components/ui/apple-card-carousel";
 import wheel from "../assets/wheel.png";
 import texas from "../assets/texas.png";
 import bj from "../assets/bj.png";
 import gruppe from "../assets/gruppe.png";
 import alone from "../assets/alone.png";
 import { motion } from "framer-motion";
-import { LampContainer } from "./ui/lamp";
-import CTA from "./CTA";
+import { LampContainer } from "../components/ui/lamp";
+import CTA from "../components/CTA";
 
 // Component for handling content inside each card dynamically
 const ContentComponent = ({ category }) => {

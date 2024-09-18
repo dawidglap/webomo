@@ -2,13 +2,13 @@ import { LampContainer } from "../components/ui/lamp";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
-import { FeaturesSectionDemo } from "./ui/features-section-demo";
+import { FeaturesSectionDemo } from "../components/ui/features-section-demo";
 import styles from "../style";
-import Button from "./Button";
+import Button from "../components/Button";
 import croupier from "../assets/croupierschool.png";
-import { FeaturesSectionDemo2 } from "./ui/why-ausbildung";
+import { FeaturesSectionDemo2 } from "../components/ui/why-ausbildung";
 import { IoMdCheckmark } from "react-icons/io";
-import CtaCroupier from "./CtaCroupier";
+import CtaCroupier from "../components/CtaCroupier";
 
 const heroVariants = {
   hidden: { opacity: 0, y: 50 },

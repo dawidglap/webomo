@@ -6,7 +6,7 @@ import teamImage2 from "../assets/teamImage2.png";
 import teamImage3 from "../assets/teamImage3.png";
 import teamImage4 from "../assets/teamImage4.png";
 import { LampContainer } from "../components/ui/lamp";
-import CtaTeam from "./CtaTeam";
+import CtaTeam from "../components/CtaTeam";
 
 // Example data for team members
 const teamMembers = [

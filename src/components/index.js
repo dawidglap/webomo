@@ -5,16 +5,16 @@ import Business from "./Business";
 import Packages from "./Packages";
 import PackageCard from "./PackageCard";
 import NotEnough from "./NotEnough";
-import Contact from "./Contact";
+import Contact from "../pages/Contact";
 import CTA from "./CTA";
-import Events from "./Events";
+import Events from "../pages/Events";
 import Footer from "./Footer";
 import GetStarted from "./GetStarted";
 import Hero from "./Hero";
 import Stats from "./Stats";
 import QuickContact from "./QuickContact";
 import Brand from "./Brand";
-import Team from "./Team";
+import Team from "../pages/Team";
 
 export {
   Navbar,
