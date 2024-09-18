@@ -8,29 +8,28 @@ const GetStarted = () => {
   const { t } = useTranslation(); // Use useTranslation hook
 
   return (
-    <Link to="/contact" className="rounded-full bg-blue-gradient p-[2px]">
-      {" "}
-      {/* Wrap the entire div inside a Link */}
+    <Link
+      to="/contact"
+      className="rounded-full bg-blue-gradient p-[2px] transition-transform duration-300 ease-in-out transform hover:scale-105 hover:bg-yellow-500" // Add hover effect on the Link
+    >
       <div
-        className={`${styles.flexCenter} min-w-[140px] min-h-[140px] bg-primary rounded-full  p-[2px] cursor-pointer`}
+        className={`${styles.flexCenter} min-w-[140px] min-h-[140px] bg-primary rounded-full p-[2px] cursor-pointer transition-colors duration-300`}
       >
         <div
-          className={`${styles.flexCenter} flex-col  w-[100%] h-[100%] rounded-full`}
+          className={`${styles.flexCenter} flex-col w-[100%] h-[100%] rounded-full`}
         >
           <div className={`${styles.flexStart} flex-row`}>
             <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-              <span className="text-gradient">{t("getStarted.reserve")}</span>{" "}
+              <span className="text-gradient">{t("getStarted.reserve")}</span>
               <br />
-              <span className="text-gradient">{t("getStarted.now")}</span>{" "}
-              {/* Translate the "Reservieren" text */}
+              <span className="text-gradient">{t("getStarted.now")}</span>
             </p>
           </div>
 
-          <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-            {/* Optional arrow icon (commented out for now) */}
-            {/* <img src={arrowUp} alt="arrow-up" className="w-[23px] h-[23px] object-contain" /> */}
-            <span className="text-gradient"></span>
-          </p>
+          {/* Optional arrow icon */}
+          {/* <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
+            <img src={arrowUp} alt="arrow-up" className="w-[23px] h-[23px] object-contain" />
+          </p> */}
         </div>
       </div>
     </Link>

@@ -71,7 +71,7 @@ const Contact = () => {
 
       <motion.form
         onSubmit={handleSubmit}
-        className="flex flex-col max-w-[700px] mx-auto mt-8 p-8 bg-gray-800 rounded-lg shadow-lg"
+        className="flex flex-col max-w-[700px] border-b-2 border-r-2 border-yellow-400  mx-auto mt-1 p-8 bg-zinc-900 rounded-lg shadow-lg"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}

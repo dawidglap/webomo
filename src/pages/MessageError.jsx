@@ -32,7 +32,7 @@ const MessageError = ({ errorMessage }) => {
 
       {/* Main Content */}
       <motion.div
-        className="relative z-10 text-center"
+        className="relative z-10 text-center "
         variants={textVariants}
         initial="hidden"
         animate="visible"
