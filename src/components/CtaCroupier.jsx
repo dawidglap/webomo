@@ -46,7 +46,7 @@ const CtaCroupier = () => {
       <div className="absolute inset-0 bg-gray-gradient opacity-0 group-hover/feature:opacity-100 transition duration-200 pointer-events-none rounded-2xl" />
       <div className="flex-1 flex flex-col relative z-10">
         <motion.h2
-          className={styles.heading2}
+          className={`text-[24px] sm:text-5xl font-bold leading-tight sm:leading-[50px] ${styles.heading2}`}
           variants={typewriterVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -57,7 +57,9 @@ const CtaCroupier = () => {
             </motion.span>
           ))}
         </motion.h2>
-        <p className={`${styles.paragraph} max-w-[640px] mt-5`}>
+        <p
+          className={`text-sm sm:text-base mt-3 sm:mt-5 leading-relaxed ${styles.paragraph} max-w-[1024px]`}
+        >
           {t("cta_croupier.description")}
         </p>
       </div>

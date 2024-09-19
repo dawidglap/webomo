@@ -45,7 +45,7 @@ const CtaTeam = () => {
     >
       <div className="flex-1 flex flex-col">
         <motion.h2
-          className={styles.heading2}
+          className={`text-[24px] sm:text-5xl font-bold leading-tight sm:leading-[50px] ${styles.heading2}`}
           variants={typewriterVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -56,7 +56,9 @@ const CtaTeam = () => {
             </motion.span>
           ))}
         </motion.h2>
-        <p className={`${styles.paragraph} max-w-[1024px] mt-5`}>
+        <p
+          className={`text-sm sm:text-base mt-3 sm:mt-5 leading-relaxed ${styles.paragraph} max-w-[1024px]`}
+        >
           {t("cta_team.description")}
         </p>
       </div>

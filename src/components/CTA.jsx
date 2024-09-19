@@ -45,7 +45,7 @@ const CTA = () => {
     >
       <div className="flex-1 flex flex-col">
         <motion.h2
-          className={styles.heading2}
+          className={`text-[24px] sm:text-5xl font-bold leading-tight sm:leading-[50px] ${styles.heading2}`}
           variants={typewriterVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -56,12 +56,14 @@ const CTA = () => {
             </motion.span>
           ))}
         </motion.h2>
-        <p className={`${styles.paragraph} max-w-[768px] mt-5`}>
+        <p
+          className={`text-sm sm:text-base mt-3 sm:mt-5 leading-relaxed ${styles.paragraph} max-w-[1024px]`}
+        >
           {t("cta.description")}
         </p>
       </div>
 
-      <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+      <div className={`mt-5 sm:mt-0 flex justify-center sm:ml-10`}>
         <ButtonCta />
       </div>
     </motion.section>
