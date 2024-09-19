@@ -180,28 +180,52 @@
   "events": {
     "heading": "Entdecke unsere Casino-Themen-Events",
     "birthday": {
-      "title": "Casino Royale: Feiere stilvoll deinen Geburtstag",
-      "description": "Erlebe einen unvergesslichen Geburtstag im Stil von James Bond, bei dem Spannung und Eleganz im Mittelpunkt stehen. Professionelle Croupiers führen dich und deine Gäste durch eine Nacht voller Nervenkitzel und exklusiver Unterhaltung. Mit stilvollen Casinotischen, glamouröser Dekoration und besonderen Überraschungen wird jeder Moment deines Geburtstags zu einem Highlight. Lass die Würfel rollen und feiere deinen Ehrentag mit einem Casino-Erlebnis, das deinen Gästen lange in Erinnerung bleiben wird."
+      "title": "Casino Royale: Feiere deinen Geburtstag mit Stil",
+      "description": "Erlebe einen unvergesslichen Geburtstag im James-Bond-Stil, bei dem Spannung und Eleganz im Mittelpunkt stehen. Genieße eine glamouröse Casino-Nacht, die du und deine Gäste nie vergessen werden. ..."
     },
     "corporate": {
-      "title": "Blackjack & Business: Unvergessliche Firmenevents",
-      "description": "Verleihe deinem Firmenevent das gewisse Etwas und fördere das Teambuilding mit einer einzigartigen Casino-Nacht. Lass deine Mitarbeiter und Geschäftspartner in die Welt des Glücksspiels eintauchen, während sie in eleganter Atmosphäre Kontakte knüpfen und sich amüsieren. Mit erstklassigen Croupiers und hochwertigen Spieltischen wird deine Firmenveranstaltung zu einem Erlebnis, das Professionalität mit Spaß und Spannung vereint. Mache dein Event zu einem echten Highlight!"
+      "title": "Blackjack & Business: Das ultimative Firmenevent",
+      "description": "Gib deinem nächsten Firmenevent den besonderen Touch und fördere den Teamgeist mit einer exklusiven Casino-Nacht. Begeistere Mitarbeiter und Kunden mit Spannung und Unterhaltung. ..."
     },
     "gala": {
-      "title": "Gala-Abend: Elegante Casino-Nacht",
-      "description": "Tauche ein in eine Nacht voller Luxus und Glamour, bei der das Casino zum Herzstück deiner Gala wird. Deine Gäste erwartet ein Abend voller stilvoller Unterhaltung, erstklassiger Spieltische und raffiniertem Ambiente. Ob Roulette, Blackjack oder Poker – jede Drehung und jede Karte bringt einen Hauch von Exklusivität mit sich. Erlebe die perfekte Kombination aus Eleganz und Spannung und schaffe eine Veranstaltung, die in jeder Hinsicht beeindruckt. Ein Casino-Erlebnis für anspruchsvolle Gäste."
+      "title": "Gala-Abend: Eleganz und Glamour im Casino-Stil",
+      "description": "Erlebe eine Nacht voller Luxus und Stil, in der das Casino das Herzstück deiner Gala bildet. Verzaubere deine Gäste mit einer eleganten Casino-Nacht, die in Erinnerung bleibt. ..."
     },
     "wedding": {
-      "title": "Casino-Hochzeit: Für unvergessliche Erinnerungen",
-      "description": "Mache deine Hochzeit zu einem einmaligen Erlebnis mit einem maßgeschneiderten Casino-Setup. Für einen Tag, an dem alles perfekt sein soll, bieten wir elegante Casinotische und professionelle Croupiers, die für unvergessliche Momente sorgen. Deine Gäste werden von der Atmosphäre begeistert sein, während sie sich stilvoll unterhalten und in die Welt des Glücksspiels eintauchen. Von der Dekoration bis hin zu den Spieltischen – wir schaffen eine Hochzeit, die so einzigartig ist wie eure Liebe."
+      "title": "Casino-Hochzeit: Unvergessliche Erinnerungen schaffen",
+      "description": "Mache deine Hochzeit zu einem einzigartigen Erlebnis mit einem maßgeschneiderten Casino-Setup. Biete deinen Gästen Unterhaltung und Glamour, die euren besonderen Tag unvergesslich machen. ..."
     },
     "bachelor_party": {
-      "title": "Die letzte Nacht der Freiheit: Casino-Style",
-      "description": "Verabschiede dich vom Single-Leben mit einem unvergesslichen Junggesellenabschied im Casino-Stil. Spannende Spiele, stilvolle Unterhaltung und eine Atmosphäre voller Luxus machen diese Nacht zu einem besonderen Erlebnis. Ob Poker, Blackjack oder Roulette – du und deine Freunde werdet eine Nacht voller Adrenalin erleben, die euch noch lange in Erinnerung bleibt. Mit professionellen Croupiers und einer luxuriösen Casino-Einrichtung wird deine letzte Nacht in Freiheit ein Highlight, bevor der große Tag kommt."
+      "title": "Die letzte Nacht der Freiheit: Junggesellenabschied im Casino-Stil",
+      "description": "Feiere deinen Junggesellenabschied mit Stil und Spannung. Verbringe eine unvergessliche Nacht im Casino-Ambiente, bevor du in den Hafen der Ehe einläufst. ..."
     },
     "private_event": {
-      "title": "Exklusive private Casino-Events",
-      "description": "Gestalte dein privates Event zu einem unvergesslichen Erlebnis mit unserem maßgeschneiderten Casino-Service. Ob kleine Feier oder großes Event, wir bieten individuelle Lösungen, die auf deine Wünsche und die Bedürfnisse deiner Gäste abgestimmt sind. Mit exklusiven Casinotischen, professionellen Croupiers und einem Ambiente, das Luxus und Eleganz ausstrahlt, verwandeln wir deine Veranstaltung in einen besonderen Anlass. Jedes Detail wird sorgfältig geplant, um dir ein Event zu bieten, das in Erinnerung bleibt."
+      "title": "Exklusive private Casino-Events: Luxus und Unterhaltung",
+      "description": "Verwandle dein privates Event in ein unvergessliches Erlebnis mit unserem individuellen Casino-Service. Biete deinen Gästen Spannung und Eleganz in privater Atmosphäre. ..."
+    },
+    "home_casino": {
+      "title": "Home-Casino: Das Casino-Erlebnis für dein Zuhause",
+      "description": "Erlebe die Faszination eines echten Casinos direkt in deinem eigenen Heim. Wir bringen Spannung und Unterhaltung zu dir nach Hause. ..."
+    },
+    "firmen_casino": {
+      "title": "Firmen-Casino: Eleganz trifft auf Teambuilding",
+      "description": "Mache aus deinem Firmenevent etwas ganz Besonderes mit unserem exklusiven Firmen-Casino. Fördere den Teamgeist und beeindrucke deine Mitarbeiter und Kunden mit einem unvergesslichen Casino-Abend. ..."
+    },
+    "hochzeit_casino": {
+      "title": "Hochzeits-Casino: Eine exklusive Feier im Casino-Stil",
+      "description": "Verleihe deinem besonderen Tag einen Hauch von Glamour und Spannung mit einer Hochzeit im Casino-Stil. Schaffe unvergessliche Erinnerungen für dich und deine Gäste. ..."
+    },
+    "yacht_casino": {
+      "title": "Yacht-Casino: Exklusives Glücksspiel auf dem See",
+      "description": "Erlebe eine unvergessliche Nacht auf einer luxuriösen Yacht. Genieße Eleganz, Spiel und Unterhaltung, während du über den See gleitest. ..."
+    },
+    "air_casino": {
+      "title": "Air-Casino: Glücksspiel über den Wolken",
+      "description": "Erlebe das einzigartige Gefühl, zwischen den Sternen zu spielen. Unser exklusives Air-Casino bietet dir ein unvergessliches Erlebnis in luftiger Höhe. ..."
+    },
+    "mountain_casino": {
+      "title": "Berg-Casino: Adrenalin und Glücksspiel in den Alpen",
+      "description": "Erlebe die Faszination des Casinos umgeben von majestätischen Berggipfeln. Kombiniere Bergabenteuer mit luxuriösem Glücksspiel für ein unvergessliches Erlebnis. ..."
     }
   },
   "training": {

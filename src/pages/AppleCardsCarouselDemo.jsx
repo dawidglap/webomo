@@ -5,7 +5,10 @@ import party from "../assets/party.png";
 import corporate from "../assets/corporate.png";
 import wedding from "../assets/wedding.png";
 import bday from "../assets/bday.png";
-import partyprivate from "../assets/private.png";
+import air_casino from "../assets/air_casino.png";
+import home_casino from "../assets/home_casino.png";
+import yacht_casino from "../assets/yacht_casino.png";
+import private_party from "../assets/private.png";
 import { motion } from "framer-motion";
 import { LampContainer } from "../components/ui/lamp";
 import CTA from "../components/CTA";
@@ -28,15 +31,15 @@ export default function AppleCardsCarouselDemo() {
     {
       category: "Birthday Party",
       title: t("events.birthday.title"),
-      src: bday, // Pass the image directly
+      src: bday,
       content: <ContentComponent category="birthday" imageSrc={bday} />,
     },
-    {
-      category: "Corporate Events",
-      title: t("events.corporate.title"),
-      src: corporate,
-      content: <ContentComponent category="corporate" imageSrc={corporate} />,
-    },
+    // {
+    //   category: "Corporate Events",
+    //   title: t("events.corporate.title"),
+    //   src: corporate,
+    //   content: <ContentComponent category="corporate" imageSrc={corporate} />,
+    // },
     {
       category: "Gala Abend",
       title: t("events.gala.title"),
@@ -56,11 +59,47 @@ export default function AppleCardsCarouselDemo() {
       content: <ContentComponent category="bachelor_party" imageSrc={party} />,
     },
     {
-      category: "Private Casino Event",
-      title: t("events.private_event.title"),
-      src: partyprivate,
+      category: "Home-Casino",
+      title: t("events.home_casino.title"),
+      src: home_casino,
       content: (
-        <ContentComponent category="private_event" imageSrc={partyprivate} />
+        <ContentComponent category="home_casino" imageSrc={home_casino} />
+      ),
+    },
+    {
+      category: "Firmen-Casino",
+      title: t("events.firmen_casino.title"),
+      src: corporate,
+      content: (
+        <ContentComponent category="firmen_casino" imageSrc={corporate} />
+      ),
+    },
+    // {
+    //   category: "Hochzeit-Casino",
+    //   title: t("events.hochzeit_casino.title"),
+    //   src: gala,
+    //   content: <ContentComponent category="hochzeit_casino" imageSrc={gala} />,
+    // },
+    {
+      category: "Yacht-Casino",
+      title: t("events.yacht_casino.title"),
+      src: yacht_casino,
+      content: (
+        <ContentComponent category="yacht_casino" imageSrc={yacht_casino} />
+      ),
+    },
+    {
+      category: "Air-Casino",
+      title: t("events.air_casino.title"),
+      src: air_casino,
+      content: <ContentComponent category="air_casino" imageSrc={air_casino} />,
+    },
+    {
+      category: "Mountain-Casino",
+      title: t("events.mountain_casino.title"),
+      src: private_party,
+      content: (
+        <ContentComponent category="mountain_casino" imageSrc={private_party} />
       ),
     },
   ];
