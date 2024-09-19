@@ -3,12 +3,13 @@ import Confetti from "react-confetti";
 import { motion } from "framer-motion";
 import useWindowSize from "../hooks/useWindowSize";
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate, useLocation } from "react-router-dom"; // Import useLocation
 
 const MessageSuccess = () => {
   const { t } = useTranslation();
   const { width, height } = useWindowSize();
   const navigate = useNavigate(); // Hook for redirecting
+  const location = useLocation(); // Hook to check state
 
   // Animation variants
   const textVariants = {
@@ -38,6 +39,13 @@ const MessageSuccess = () => {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 1.5, delay: 0.5 } },
   };
+
+  // Check if the user has been redirected from the form
+  useEffect(() => {
+    if (!location.state?.fromForm) {
+      navigate("/404"); // Redirect to 404 if accessed directly
+    }
+  }, [location, navigate]);
 
   // Automatically redirect after the confetti animation ends (7 seconds)
   useEffect(() => {

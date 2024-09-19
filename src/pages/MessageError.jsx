@@ -1,8 +1,12 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { useLocation, useNavigate } from "react-router-dom"; // Import for state check and navigation
+import { useEffect } from "react";
 
-const MessageError = ({ errorMessage }) => {
+const MessageError = () => {
   const { t } = useTranslation();
+  const location = useLocation(); // Hook to get the location state
+  const navigate = useNavigate(); // Hook to navigate to 404
 
   // Animation variants for text
   const textVariants = {
@@ -19,6 +23,13 @@ const MessageError = ({ errorMessage }) => {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 1.5, delay: 0.5 } },
   };
+
+  // Check if the user has been redirected from the form
+  useEffect(() => {
+    if (!location.state?.fromForm) {
+      navigate("/404"); // Redirect to 404 if accessed directly
+    }
+  }, [location, navigate]);
 
   return (
     <div className="relative max-w-[1440px] mx-auto px-4 flex flex-col items-center justify-center h-screen bg-gradient-to-br from-black to-gray-900">
@@ -59,9 +70,9 @@ const MessageError = ({ errorMessage }) => {
         </p>
 
         {/* Display error message if any */}
-        {errorMessage && (
+        {location.state?.errorMessage && (
           <p className="font-poppins text-sm sm:text-base text-red-300 mt-2">
-            {errorMessage}
+            {location.state.errorMessage}
           </p>
         )}
       </motion.div>

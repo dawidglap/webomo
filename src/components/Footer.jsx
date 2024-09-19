@@ -67,6 +67,14 @@ const Footer = () => {
               </li>
               <li>
                 <Link
+                  to="/team"
+                  className="transition-colors duration-200 hover:text-yellow-500 hover:underline"
+                >
+                  {t("navLinks.team")}
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/contact"
                   className="transition-colors duration-200 hover:text-yellow-500 hover:underline"
                 >

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { close, ecsLogo, menu } from "../assets";
 import { Link, useLocation } from "react-router-dom"; // Import Link and useLocation
@@ -6,31 +6,37 @@ import { Link, useLocation } from "react-router-dom"; // Import Link and useLoca
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const location = useLocation(); // Get the current location from React Router
-  const [active, setActive] = useState("Home");
+  const [active, setActive] = useState("navLinks.home"); // Default active to home
   const [toggle, setToggle] = useState(false);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
 
-  // Define the navLinks array directly in the component
-  const navLinks = [
-    // { id: "home", title: "navLinks.home", path: "/" },
-    { id: "events", title: "navLinks.events", path: "/events" },
-    { id: "casino101", title: "navLinks.casino101", path: "/casino101" },
-    { id: "training", title: "navLinks.training", path: "/training" },
-    { id: "team", title: "navLinks.team", path: "/team" },
-    { id: "contact", title: "navLinks.contact", path: "/contact" },
-  ];
+  // Wrap the navLinks array inside useMemo to prevent it from being recreated on every render
+  const navLinks = useMemo(
+    () => [
+      { id: "home", title: "navLinks.home", path: "/" },
+      { id: "events", title: "navLinks.events", path: "/events" },
+      { id: "casino101", title: "navLinks.casino101", path: "/casino101" },
+      { id: "training", title: "navLinks.training", path: "/training" },
+      { id: "team", title: "navLinks.team", path: "/team" },
+      { id: "contact", title: "navLinks.contact", path: "/contact" },
+    ],
+    []
+  );
 
   // Update the active link based on the current location
   useEffect(() => {
     const currentPath = location.pathname;
     const currentLink = navLinks.find((nav) => nav.path === currentPath);
-    if (currentLink) {
+
+    if (currentPath === "/") {
+      setActive("navLinks.home"); // Attiva la homepage
+    } else if (currentLink) {
       setActive(currentLink.title);
     }
-  }, [location, navLinks]); // Runs whenever the location or navLinks change
+  }, [location, navLinks]); // Updated dependency array
 
   return (
     <nav className="w-full flex justify-between items-center navbar">
@@ -52,7 +58,7 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)} // Keep this for manual setting in case of custom navigation
           >
-            <Link to={nav.path}>{t(nav.title)}</Link>{" "}
+            <Link to={nav.path}>{t(nav.title)}</Link>
           </li>
         ))}
 
@@ -155,7 +161,7 @@ const Navbar = () => {
                   setToggle(false); // Close the menu after clicking a link
                 }}
               >
-                <Link to={nav.path}>{t(nav.title)}</Link>{" "}
+                <Link to={nav.path}>{t(nav.title)}</Link>
               </li>
             ))}
           </ul>

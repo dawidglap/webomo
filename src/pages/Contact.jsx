@@ -42,12 +42,14 @@ const Contact = () => {
         (response) => {
           setStatus("success");
           setLoading(false); // Stop loading when the submission is successful
-          navigate("/message-success"); // Redirect to success page
+          navigate("/message-success", { state: { fromForm: true } }); // Redirect to success page with state
         },
         (error) => {
           setStatus("error");
           setLoading(false); // Stop loading when there is an error
-          navigate("/message-error", { state: { errorMessage: error.text } }); // Redirect to error page with error message
+          navigate("/message-error", {
+            state: { fromForm: true, errorMessage: error.text },
+          }); // Redirect to error page with error message
         }
       );
   };
