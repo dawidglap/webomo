@@ -29,12 +29,12 @@ const clients = [
 const Brand = () => {
   const marqueeVariants = {
     animate: {
-      x: [0, -1000], // Adjust this value based on the total width of your content
+      x: [0, -500], // Adjust this value based on the total width of your content
       transition: {
         x: {
           repeat: Infinity,
           repeatType: "loop",
-          duration: 20,
+          duration: 30,
           ease: "linear",
         },
       },

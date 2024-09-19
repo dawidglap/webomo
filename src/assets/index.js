@@ -31,7 +31,7 @@ import vid from "./vid.mp4";
 import canon from "./canon.svg";
 import versace from "./versace.svg";
 import yamaha from "./yamaha.svg";
-import loreal from "./loreal3.svg";
+import loreal from "./LorealG.svg";
 import mercedes from "./mercedes.svg";
 import video2 from "./video2.mp4";
 
