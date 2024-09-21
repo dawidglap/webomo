@@ -32,7 +32,7 @@ const Navbar = () => {
     const currentLink = navLinks.find((nav) => nav.path === currentPath);
 
     if (currentPath === "/") {
-      setActive("navLinks.home"); // Attiva la homepage
+      setActive("navLinks.home");
     } else if (currentLink) {
       setActive(currentLink.title);
     }
