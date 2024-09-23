@@ -36,7 +36,7 @@ const Navbar = () => {
     } else if (currentLink) {
       setActive(currentLink.title);
     }
-  }, [location, navLinks]); // Updated dependency array
+  }, [location, navLinks]);
 
   return (
     <nav className="w-full flex justify-between items-center navbar">
