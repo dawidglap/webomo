@@ -26,7 +26,7 @@ const Navbar = () => {
     []
   );
 
-  // Update the active link based on the current location
+  // Update the active link based on the current location.
   useEffect(() => {
     const currentPath = location.pathname;
     const currentLink = navLinks.find((nav) => nav.path === currentPath);
