@@ -46,7 +46,7 @@ const TeamCard = ({ image, name, role, description }) => {
 
   return (
     <motion.div
-      className="feature-card group-hover:blur-[2px] hover:!blur-none z-[51] team-card p-6 rounded-[20px] flex flex-col items-center"
+      className="feature-card team-card p-6 rounded-[20px] z-[51] flex flex-col items-center"
       variants={{
         hidden: { opacity: 0, y: 50 },
         show: {
@@ -98,42 +98,51 @@ const Team = () => {
   const whileInViewY = isMobile ? 100 : 160;
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4">
-      <LampContainer>
-        <motion.h2
-          initial={{ opacity: 0.5, y: initialY }}
-          whileInView={{ opacity: 1, y: whileInViewY }}
-          transition={{
-            delay: 0.3,
-            duration: 0.8,
-            ease: "easeInOut",
+    <div className="relative max-w-[1440px] mx-auto px-4">
+      {/* Overlay for "Coming Soon..." */}
+      <div className="absolute inset-0 flex items-start justify-center z-50 bg-black bg-opacity-70">
+        <h1 className="text-white text-4xl md:text-6xl font-bold z-[100] mt-80 p-4 text-gradient">
+          Coming Soon...
+        </h1>
+      </div>
+
+      {/* Blurred content */}
+      <div className="blur-[6px]">
+        <LampContainer>
+          <motion.h2
+            initial={{ opacity: 0.5, y: initialY }}
+            whileInView={{ opacity: 1, y: whileInViewY }}
+            transition={{
+              delay: 0.3,
+              duration: 0.8,
+              ease: "easeInOut",
+            }}
+            className="font-poppins font-semibold bg-gradient-to-r from-gray-500 via-white to-gray-500 py-4 bg-clip-text text-center text-4xl tracking-tight text-transparent md:text-7xl"
+          >
+            {t("team.heading")}
+          </motion.h2>
+        </LampContainer>
+        <motion.div
+          className="mt-[-60px] mb-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+          variants={{
+            hidden: { opacity: 0 },
+            show: { opacity: 1, transition: { staggerChildren: 0.3 } },
           }}
-          className="font-poppins font-semibold bg-gradient-to-r from-gray-500 via-white to-gray-500 py-4 bg-clip-text text-center text-4xl tracking-tight text-transparent md:text-7xl"
+          initial="hidden"
+          animate="show"
         >
-          {t("team.heading")}
-        </motion.h2>
-      </LampContainer>
-      <motion.div
-        className=" group mt-[-60px] mb-40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
-        /* Use group for hover blur */
-        variants={{
-          hidden: { opacity: 0 },
-          show: { opacity: 1, transition: { staggerChildren: 0.3 } },
-        }}
-        initial="hidden"
-        animate="show"
-      >
-        {teamMembers.map((member) => (
-          <TeamCard
-            key={member.id}
-            image={member.image}
-            name={member.name}
-            role={member.role}
-            description={member.description}
-          />
-        ))}
-      </motion.div>
-      <CtaTeam />
+          {teamMembers.map((member) => (
+            <TeamCard
+              key={member.id}
+              image={member.image}
+              name={member.name}
+              role={member.role}
+              description={member.description}
+            />
+          ))}
+        </motion.div>
+        <CtaTeam />
+      </div>
     </div>
   );
 };
