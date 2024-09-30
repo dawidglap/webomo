@@ -14,13 +14,13 @@ const Footer = () => {
   return (
     <footer className="bg-black py-10 text-dimWhite">
       {/* Logo in the Middle */}
-      <div className="mb-8 flex justify-center">
+      <div className="mb-1 flex justify-center">
         <Link to="/">
           <div className="flex cursor-pointer flex-row items-center">
-            <div className="mb-2 mt-2 h-16 w-32 md:h-32 md:w-64">
+            <div className="mb-2 mt-2 h-32 w-64 md:h-64 md:w-128">
               <img src={fullLogo} alt="Event Casino Schweiz" />
             </div>
-            <strong className="mx-1 select-none text-4xl md:text-6xl text-white"></strong>
+            <strong className=" select-none text-4xl md:text-6xl text-white"></strong>
           </div>
         </Link>
       </div>
