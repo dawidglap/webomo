@@ -4,7 +4,7 @@ import styles from "../style";
 import CookiePolicy from "./CookiePolicy";
 
 const Layout = ({ children }) => (
-  <div className="bg-primary w-full overflow-hidden">
+  <div className="w-full overflow-hidden bg-gradient-to-b from-[#0E134A] to-[#F8F9FB]">
     {/* Navbar */}
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
@@ -14,6 +14,7 @@ const Layout = ({ children }) => (
 
     {/* Main Content */}
     <div className="min-h-screen">{children}</div>
+    <div className="min-h-screen"></div>
 
     {/* Footer */}
     <div className={`${styles.paddingX} ${styles.flexStart}`}>

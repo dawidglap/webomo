@@ -69,7 +69,7 @@ const Hero = () => {
         {/* Desktop Subtitle */}
         <motion.h1
           variants={textVariants}
-          className="font-poppins font-semibold  sm:text-left text-center ss:text-[68px] text-[42px] text-white ss:leading-[100.8px] leading-[54px] w-full"
+          className="min-h-28 bg-gradient-to-b from-slate-400 to-neutral-600 bg-clip-text text-5xl font-bold text-transparent md:min-h-16"
         >
           {t("hero.mainTextPart3")}
         </motion.h1>

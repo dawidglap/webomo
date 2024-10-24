@@ -41,11 +41,17 @@ const Navbar = () => {
   return (
     <nav className="w-full flex justify-between items-center navbar">
       <Link to="/">
-        <img
+        {/* <img
           src={ecsLogo}
           alt="ecs-logo"
           className="w-[140px] xs:w-[60px] ss:w-[72px] sm:w-[84px] md:w-[188px] mb-4 mt-2 md:pt-3 pt-3"
-        />
+        /> */}
+        <p className="text-white font-bold text-4xl">
+          web
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-700">
+            omo
+          </span>
+        </p>
       </Link>
 
       {/* Desktop Menu */}
@@ -53,9 +59,10 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-light cursor-pointer text-[16px] ${
-              active === nav.title ? "text-white" : "text-dimWhite"
-            } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
+            className={`font-poppins font-light cursor-pointer text-[16px] hover:text-blue-300
+               ${active === nav.title ? "text-blue-500" : "text-blue-200"} ${
+              index === navLinks.length - 1 ? "mr-0" : "mr-10"
+            }`}
             onClick={() => setActive(nav.title)} // Keep this for manual setting in case of custom navigation
           >
             <Link to={nav.path}>{t(nav.title)}</Link>
